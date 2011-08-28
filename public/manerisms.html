@@ -1,0 +1,296 @@
+<html>
+<head>
+	<title>Prayer Requests</title>
+	  <%= stylesheet_link_tag :all %>
+	  <%= javascript_include_tag :defaults %>
+	  <%= csrf_meta_tag %>
+	
+<!-- Save for Web Styles (G4M_Interior_Pages_Prayers_SMC.psd) -->
+<style type="text/css">
+<!--
+#login {
+	position:absolute;
+	left:220px;
+	top:250px;
+	width:200px;
+	z-index:10;
+}
+#Table_01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:1581px;
+	height:2946px;
+}
+
+#interior-01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:97px;
+	height:2946px;
+}
+
+#left-shadow {
+	position:absolute;
+	left:97px;
+	top:0px;
+	width:52px;
+	height:1415px;
+}
+
+#MDN-Logo {
+	position:absolute;
+	left:149px;
+	top:0px;
+	width:304px;
+	height:120px;
+}
+
+#mast-middle {
+	position:absolute;
+	left:453px;
+	top:0px;
+	width:604px;
+	height:120px;
+}
+
+#mast-login {
+	position:absolute;
+	left:1057px;
+	top:0px;
+	width:378px;
+	height:120px;
+}
+
+#right-shadow {
+	position:absolute;
+	left:1435px;
+	top:0px;
+	width:58px;
+	height:1415px;
+}
+
+#interior-07 {
+	position:absolute;
+	left:1493px;
+	top:0px;
+	width:88px;
+	height:2946px;
+}
+
+#left-shadow008 {
+	position:absolute;
+	left:149px;
+	top:120px;
+	width:1px;
+	height:1295px;
+}
+
+#id1-about {
+	position:absolute;
+	left:150px;
+	top:120px;
+	width:283px;
+	height:43px;
+}
+
+#id2-events {
+	position:absolute;
+	left:433px;
+	top:120px;
+	width:120px;
+	height:43px;
+}
+
+#id3-contact {
+	position:absolute;
+	left:553px;
+	top:120px;
+	width:120px;
+	height:43px;
+}
+
+#interior-12 {
+	position:absolute;
+	left:673px;
+	top:120px;
+	width:1px;
+	height:43px;
+}
+
+#id4-resources {
+	position:absolute;
+	left:674px;
+	top:120px;
+	width:118px;
+	height:43px;
+}
+
+#id5-media {
+	position:absolute;
+	left:792px;
+	top:120px;
+	width:82px;
+	height:43px;
+}
+
+#id6-blog {
+	position:absolute;
+	left:874px;
+	top:120px;
+	width:82px;
+	height:43px;
+}
+
+#blank-nav {
+	position:absolute;
+	left:956px;
+	top:120px;
+	width:479px;
+	height:43px;
+}
+
+#blank-nav017 {
+	position:absolute;
+	left:150px;
+	top:163px;
+	width:1285px;
+	height:11px;
+}
+
+#interior-18 {
+	position:absolute;
+	left:150px;
+	top:174px;
+	width:1285px;
+	height:24px;
+}
+
+#interior-19 {
+	position:absolute;
+	left:150px;
+	top:198px;
+	width:353px;
+	height:2748px;
+}
+
+#featured-area {
+	position:absolute;
+	left:503px;
+	top:198px;
+	width:932px;
+	height:375px;
+}
+
+#interior-21 {
+	position:absolute;
+	left:503px;
+	top:573px;
+	width:932px;
+	height:2373px;
+}
+
+#interior-22 {
+	position:absolute;
+	left:97px;
+	top:1415px;
+	width:53px;
+	height:1531px;
+}
+
+#interior-23 {
+	position:absolute;
+	left:1435px;
+	top:1415px;
+	width:58px;
+	height:1531px;
+}
+
+-->
+</style>
+<!-- End Save for Web Styles -->
+</head>
+<body style="background-color:#FFFFFF; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;">
+<!-- Save for Web Slices (G4M_Interior_Pages_Prayers_SMC.psd) -->
+<div id="Table_01">
+	<div id="interior-content">
+		<%= yield %>
+	</div>
+	<div id=login>
+		<%= render 'devise/menu/login_items' %> </br>
+		<%= render 'devise/menu/registration_items' %>
+	</div>
+	<div id="interior-01">
+		<img src="/images/interior/interior_01.png" width="97" height="2946" alt="">
+	</div>
+	<div id="left-shadow">
+		<img src="/images/interior/left_shadow.png" width="52" height="1415" alt="">
+	</div>
+	<div id="MDN-Logo">
+		<img src="/images/interior/MDN_Logo.jpg" width="304" height="120" alt="">
+	</div>
+	<div id="mast-middle">
+		<img src="/images/interior/mast_middle.jpg" width="604" height="120" alt="">
+	</div>
+	<div id="mast-login">
+		<img src="/images/interior/mast_login.jpg" width="378" height="120" alt="">
+	</div>
+	<div id="right-shadow">
+		<img src="/images/interior/right_shadow.png" width="58" height="1415" alt="">
+	</div>
+	<div id="interior-07">
+		<img src="/images/interior/interior_07.png" width="88" height="2946" alt="">
+	</div>
+	<div id="left-shadow008">
+		<img src="/images/interior/left_shadow-08.png" width="1" height="1295" alt="">
+	</div>
+	<div id="id1-about">
+		<img src="/images/interior/1-about.jpg" width="283" height="43" alt="">
+	</div>
+	<div id="id2-events">
+		<img src="/images/interior/2-events.jpg" width="120" height="43" alt="">
+	</div>
+	<div id="id3-contact">
+		<img src="/images/interior/3-contact.jpg" width="120" height="43" alt="">
+	</div>
+	<div id="interior-12">
+		<img src="/images/interior/interior_12.png" width="1" height="43" alt="">
+	</div>
+	<div id="id4-resources">
+		<img src="/images/interior/4-resources.jpg" width="118" height="43" alt="">
+	</div>
+	<div id="id5-media">
+		<img src="/images/interior/5-media.jpg" width="82" height="43" alt="">
+	</div>
+	<div id="id6-blog">
+		<img src="/images/interior/6-blog.jpg" width="82" height="43" alt="">
+	</div>
+	<div id="blank-nav">
+		<img src="/images/interior/blank_nav.jpg" width="479" height="43" alt="">
+	</div>
+	<div id="blank-nav017">
+		<img src="/images/interior/blank_nav-17.jpg" width="1285" height="11" alt="">
+	</div>
+	<div id="interior-18">
+		<img src="/images/interior/interior_18.jpg" width="1285" height="24" alt="">
+	</div>
+	<div id="interior-19">
+		<img src="/images/interior/interior_19.png" width="353" height="2748" alt="">
+	</div>
+	<div id="featured-area">
+		<img src="/images/interior/featured_area.jpg" width="932" height="375" alt="">
+	</div>
+	<div id="interior-21">
+		<img src="/images/interior/interior_21.png" width="932" height="2373" alt="">
+	</div>
+	<div id="interior-22">
+		<img src="/images/interior/interior_22.png" width="53" height="1531" alt="">
+	</div>
+	<div id="interior-23">
+		<img src="/images/interior/interior_23.png" width="58" height="1531" alt="">
+	</div>
+</div>
+<!-- End Save for Web Slices -->
+</body>
+</html>

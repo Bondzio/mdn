@@ -1,0 +1,6 @@
+<!-- this is the cell display html for the article_placement_cell.rb controller -->
+
+<div class="article_block">
+	<h1>Discipleship Boot Camp<span style="font-size:12pt">&#174;</span></h1>
+			<p><%= truncate(@article2, :length => 180, :separator => ' ', :omission => '...') %><%= link_to "more", :controller => "articles", :action => "show", :id => "2" %></p>
+</div>

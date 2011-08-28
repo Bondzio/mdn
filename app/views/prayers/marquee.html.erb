@@ -1,0 +1,13 @@
+
+<!-- this view will be rendered in the main page to provide content to the marquee.js -->
+
+<% @prayers.each do |prayer| %>
+	<ul id="marquee" class="marquee">
+	  <li>
+	   <%= prayer.first_name %> from <%= prayer.city %>,<%= prayer.state %> - <%= prayer.request %> </li>
+	  <li>
+	</ul>
+<% end %>
+
+
+<br />

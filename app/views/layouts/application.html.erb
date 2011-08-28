@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Men's Discipleship Network</title>
+
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+
+<!---// load jQuery and the jQuery Marquee Plug-in //-->
+<!-- don't screw around with this by using javascript_include_tag. For some reason it doesn't work. -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="./javascripts/jquery.marquee.js"></script>
+
+<!---// load the Marquee CSS stylesheet //-->
+<link type="text/css" href="./stylesheets/jquery.marquee.css" rel="stylesheet" media="all" />
+
+
+
+</head>
+<body>
+ 
+
+<%= yield %>
+
+
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+Sun, 28 Aug 2011 13:59:41 -0400
+ext/mysql2/client.h	Sun, 28 Aug 2011 13:59:40 -0400
+lib/mysql2/em_fiber.rb	Sun, 28 Aug 2011 13:59:40 -0400
+lib/active_record/connection_adapters/em_mysql2_adapter.rb	Sun, 28 Aug 2011 13:59:40 -0400
+ext/mysql2/extconf.rb	Sun, 28 Aug 2011 13:59:40 -0400
+lib/mysql2/client.rb	Sun, 28 Aug 2011 13:59:40 -0400
+lib/active_record/fiber_patches.rb	Sun, 28 Aug 2011 13:59:40 -0400
+ext/mysql2/mysql2_ext.c	Sun, 28 Aug 2011 13:59:40 -0400
+lib/mysql2/error.rb	Sun, 28 Aug 2011 13:59:40 -0400
+lib/mysql2/em.rb	Sun, 28 Aug 2011 13:59:40 -0400
+ext/mysql2/result.c	Sun, 28 Aug 2011 13:59:40 -0400
+lib/mysql2/result.rb	Sun, 28 Aug 2011 13:59:40 -0400
+ext/mysql2/client.c	Sun, 28 Aug 2011 13:59:40 -0400
+lib/mysql2.rb	Sun, 28 Aug 2011 13:59:40 -0400
+ext/mysql2/mysql2_ext.h	Sun, 28 Aug 2011 13:59:40 -0400
+ext/mysql2/Makefile	Sun, 28 Aug 2011 13:59:40 -0400
+lib/mysql2/version.rb	Sun, 28 Aug 2011 13:59:40 -0400
+ext/mysql2/result.h	Sun, 28 Aug 2011 13:59:40 -0400

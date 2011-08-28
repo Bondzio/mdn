@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+</br>
+<p>
+  <b>First name:</b>
+  <%= @prayer.first_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%= @prayer.last_name %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @prayer.city %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @prayer.state %>
+</p>
+
+<p>
+  <b>Request:</b>
+  <%= @prayer.request %>
+</p>
+
+<p>
+  <b>Type of Prayer:</b>
+  <%= @prayer.prayer_type %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @prayer.email %>
+</p>
+
+<p>
+  <b>Age:</b>
+  <%= @prayer.age %>
+</p>
+<p>
+  <b>Sex:</b>
+  <%= @prayer.sex %>
+</p>
+</br>
+</br>
+
+<%= link_to "Home", root_path %> |
+<%= link_to 'New Prayer Request', new_prayer_path %> 

@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  title: MyText
+  author: MyText
+  content: MyText
+  moderated: false
+  space_id: 1
+
+two:
+  title: MyText
+  author: MyText
+  content: MyText
+  moderated: false
+  space_id: 1

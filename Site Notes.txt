@@ -1,0 +1,5 @@
+Backup on 5/13/2011
+	- Just after cells gem was installed
+	
+Using Cells gem to enable the ability to take actions from multiple controllers and view them in the home page.
+See: https://github.com/apotonick/cells/blob/master/README.rdoc

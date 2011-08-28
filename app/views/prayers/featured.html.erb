@@ -1,0 +1,47 @@
+<div id="top-image">
+	<img src="/images/parable/parable_top_image.jpg" width="933" height="377" alt="">
+</div>	
+<h1>Listing prayers</h1>
+
+<table width="1200" height="108">
+  <tr>
+    <th width="128" height="38">First name</th>
+    <th width="131">Last name</th>
+    <th width="110">Email</th>
+    <th width="76">City</th>
+    <th width="42">State</th>
+    <th width="33">Age</th>
+	<th width="35">M/F</th>
+    <th width="72">Prayer Type</th>
+    <th width="252">Prayer Request</th>
+    <th width="90">Moderated</th>
+    <th width="94" nowrap="nowrap"> Date Submitted</th>
+   
+    <th width="21"></th>
+    <th width="21"></th>
+    <th width="35"></th>
+  </tr>
+
+<% @prayers.each do |prayer| %>
+  <tr class="data">
+    <td><%= prayer.first_name %></td>
+    <td><%= prayer.last_name %></td>
+    <td><%= prayer.email %></td>
+    <td><%= prayer.city %></td>
+    <td><%= prayer.state %></td>
+    <td><%= prayer.age %></td>
+    <td><%= prayer.sex %></td>
+    <td><%= prayer.prayer_type %></td>
+    <td><%= prayer.request %></td>
+	<td><%= prayer.moderated %></td>
+	<td nowrap="nowrap"><%= prayer.created_at %></td>
+
+
+    <td><%= link_to 'Show', prayer %></td>
+    <td><%= link_to 'Moderate', edit_prayer_path(prayer) %></td>
+    <td><%= link_to 'Delete', prayer, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />

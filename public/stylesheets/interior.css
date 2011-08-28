@@ -1,0 +1,391 @@
+@charset "UTF-8";
+/* CSS Document */
+/* static.html.erb CSS goes here */
+#gray_sidebar {
+	position:absolute;
+	left:150px;
+	top:196px;
+	width:353px;
+	height:2750px;
+	background-color:#cccccc;
+}
+
+#top-image {
+	position:absolute;
+	left:-150px;
+	top: -394px;
+	width:655px;
+	z-index:50;
+}
+
+#interior-content {
+	position:relative;
+	left:0px;
+	top:-200px;
+	width:auto;
+	height:auto;
+	z-index:30;
+}
+
+#interior_body {
+	position:absolute;
+	left:503px;
+	top:594px;
+	width:700;
+	background-color:#ffffff;
+}
+
+#interior-content p {
+	line-height: 140%;
+}
+
+#interior-content a {
+	display: inline;
+	color:black;
+	text-decoration: underline;
+}
+
+#promos {
+	text-align: center;
+}
+
+#promo1 {
+	position:relative;
+	top: 100;
+	margin: 30px 30px 30px 30px;	
+}
+#promo2 {
+	position: relative;
+	margin: 30px 30px 30px 30px;
+}
+/* static.html.erb CSS END*/
+/* about.html.erb CSS STARTS Here*/
+#mdn_desc {
+
+}
+#about_mdn {
+	display:block;
+	position: relative;	
+}
+#about_mission {
+	display:none;
+	position: relative;	
+}
+#about_founder {
+	display:none;
+	position: relative;	
+}
+#about_network {
+	display:none;
+	position: relative;	
+}
+#about_system {
+	display:none;
+	position: relative;	
+}
+#about_beliefs {
+	display:none;
+	position: relative;	
+}
+.about {
+	position: relative;
+	margin: 0px 0px 20px 0px;
+	line-height: 140%;
+}
+/* about.html.erb CSS ENDS Here*/
+/* curriculum.html.erb CSS STARTS Here*/
+#curriculum_body {
+	clear:none;
+}
+#curriculum_body h1 {
+	font-size: 22pt;
+	font-color: black;
+	font-family: Arial;
+
+}
+
+#curriculum_body h2 {
+	font-size: 18pt;
+	font-color: #000000;
+	font-family: Arial;
+	line-height: 150%;
+}
+
+#curriculum_body ul {
+	font-size: 14pt;
+	font-color: #000000;
+	font-family: Arial;
+	line-height: 160%;
+	list-style-type: square;
+	list-style-position: inside;
+}
+/* curriculum.html.erb CSS ENDS Here*/
+
+.nav a {
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+.nav a:link {
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+.nav a:visited {
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	display: block;
+	color: #F3F781;
+	text-decoration: none;
+}
+
+.nav a:active {
+	display: block;
+	color: #F3F781;
+	text-decoration: none;
+}
+
+
+
+#top-nav {
+	position:absolute;
+	left:150px;
+	top:120px;
+	width:1285px;
+	height:43px;
+}
+
+#nav_links {
+	position:absolute;
+	left: 200px;
+	top: 130px;
+	width:1300px;
+	color: #ffffff;
+	z-index: 20;
+	font-size: 12px;
+}
+
+#logo {
+	position:absolute;
+	left: 40px;
+	top: 10px;
+	z-index: 30;
+}
+
+body { background-color: #fff; color: #333; }
+
+body, p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:   16px;
+  line-height: 18px;
+}
+
+.white_data table, tr, td, th{
+	border:1px solid #660000;
+	text-align:center;
+	padding:7px;
+	font-size: 14px;
+	
+}
+
+.white_data th {
+	background-color:#660000;
+	color:white;
+}
+
+.table-content {
+	position:absolute;
+	left:500px;
+	top:625px;
+	width:600px;
+	height:700px;
+	z-index:10;
+}
+
+.data {
+	background-color: #FAF2EF;
+	background-repeat: repeat;
+}
+
+
+
+h1 {
+	color: #000000;
+	font-size: larger;
+	font-weight: bold;
+	size: 18px;
+}
+
+h2 {
+	color: #660033;
+	size: 14px;
+	font-weight: bold;
+	
+}
+/*--bootcamp.html.erb-- start*/
+.video {
+	text-align: center;
+}
+/*--bootcamp.html.erb-- end*/
+/*--coaches.html.erb-- start*/
+#coaches {
+	top:35px;
+	width:350px;
+	height: auto;
+	float:left;
+	margin: 0px 30px 0px 0px;
+}
+
+#coaches a {
+	color: #660000;
+	font-size: larger;
+	font-weight: bold;
+	size: 12px;
+}
+
+#coaches a:link {
+	display: block;
+	color: #660000;
+	text-decoration: none;
+}
+
+#coaches a:visited {
+	display: block;
+	color: #660000;
+	text-decoration: none;
+}
+
+#coaches a:hover {
+	display: block;
+	color: #7E7717;
+	text-decoration: none;
+}
+
+#coaches a:active {
+	display: block;
+	color: #660000;
+	text-decoration: none;
+}
+
+#coaches li {
+	line-height: 200%;
+}
+
+#bios {
+	height: auto;
+	width: auto;
+	float: left;
+	margin: 0px 0px 10px 0px;
+}
+
+#bio_photo {
+	height: auto;
+	width: 300px;
+	float: right;
+	margin: 0px 0px 10px 10px;
+}
+.bio_photo span{
+	text-align:left;
+	font-weight:bold;
+}
+
+#top {
+	clear: both;
+	top: 900px;
+}
+
+#what_is {
+	clear:both;
+	margin: 40px 0px 0px 0px;
+}
+/*--coaches.html.erb-- end*/
+/*--static.html.erb-- start*/
+#covenanteyes {
+	position:absolute;
+	left:205px;
+	top:400px;
+	z-index:50;
+}
+/*--static.html.erb-- end*/
+/*--mannerisms.html.erb-- start*/
+#mannerisms li {
+	line-height: 120%;
+}
+
+#mannerisms ul {
+	list-style-type: circle;
+	font-family: "lucida calligraphy";
+}
+.definition p {
+	line-height: 130%;
+	font-family: Courier;
+}
+.definition {
+	font-family: Courier;
+}
+
+.citation {
+	font-size: 9pt;
+}
+
+#notes {
+	font-size: 8pt;
+	font-family: verdana, arial, helvetica, sans-serif;
+	line-height:120%;
+}
+#notes ul{
+	font-size: 8pt;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+#notes p{
+	font-size: 10pt;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+/*--mannerisms.html.erb-- end*/
+/*--donate.html.erb-- start*/
+#donate {
+	text-align: center;
+}
+/*--donate.html.erb-- end*/
+/*--radio.html.erb-- start*/
+
+#radio_desc {
+	float:left;
+	clear:right;
+	width: 320px;
+	margin: 20px 5px 10px 0px;
+}
+#radio2 {
+	float:right;
+	margin: 5px 5px 0px 5px;
+}
+#radio1 {
+	float:right;
+	margin: 5px 5px 0px 5px;
+}
+#radio2-caption {
+
+	float: right;
+	width: 300px;
+	margin:0px 0px 30px 0px;
+}
+#radio1-caption {
+
+	float: right;
+	width: 300px;
+}
+#radio_coverage {
+	float: center;
+	clear: both;
+	text-align: center;
+	border: 2px solid #000000;
+	height: auto;
+	padding-bottom: 20px;
+}
+/*--radio.html.erb-- end*/

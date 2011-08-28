@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>Class: ActiveRecord::ConnectionAdapters::ConnectionPool</title>
+
+  <link rel="stylesheet" href="../../rdoc.css" type="text/css" media="screen" />
+
+  <script src="../../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../../js/darkfish.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body id="top" class="class">
+
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="../../index.html">Home</a>
+          <a href="../../index.html#classes">Classes</a>
+          <a href="../../index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="file-metadata">
+      <div id="file-list-section" class="section">
+        <h3 class="section-header">In Files</h3>
+        <div class="section-body">
+          <ul>
+          
+            <li><a href="../../lib/active_record/fiber_patches_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/active_record/fiber_patches.rb">lib/active_record/fiber_patches.rb</a></li>
+          
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div id="class-metadata">
+      
+      <!-- Parent Class -->
+      <div id="parent-class-section" class="section">
+        <h3 class="section-header">Parent</h3>
+        
+        <p class="link"><a href="../../Object.html">Object</a></p>
+        
+      </div>
+      
+
+      
+
+      
+
+      
+      <!-- Method Quickref -->
+      <div id="method-list-section" class="section">
+        <h3 class="section-header">Methods</h3>
+        <ul class="link-list">
+          
+          <li><a href="#method-c-new">::new</a></li>
+          
+          <li><a href="#method-i-clear_stale_cached_connections-21">#clear_stale_cached_connections!</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="../../ext/mysql2/Makefile.html">Makefile</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class/Module Index
+          <span class="search-toggle"><img src="../../images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="../../Mysql2.html">Mysql2</a></li>
+        
+          <li><a href="../../Mysql2/Client.html">Mysql2::Client</a></li>
+        
+          <li><a href="../../Mysql2/EM.html">Mysql2::EM</a></li>
+        
+          <li><a href="../../Mysql2/EM/Client.html">Mysql2::EM::Client</a></li>
+        
+          <li><a href="../../Mysql2/EM/Client/Watcher.html">Mysql2::EM::Client::Watcher</a></li>
+        
+          <li><a href="../../Mysql2/EM/Fiber.html">Mysql2::EM::Fiber</a></li>
+        
+          <li><a href="../../Mysql2/EM/Fiber/Client.html">Mysql2::EM::Fiber::Client</a></li>
+        
+          <li><a href="../../Mysql2/Error.html">Mysql2::Error</a></li>
+        
+          <li><a href="../../Mysql2/Fibered.html">Mysql2::Fibered</a></li>
+        
+          <li><a href="../../Mysql2/Fibered/Client.html">Mysql2::Fibered::Client</a></li>
+        
+          <li><a href="../../Mysql2/Fibered/Client/Watcher.html">Mysql2::Fibered::Client::Watcher</a></li>
+        
+          <li><a href="../../Mysql2/Result.html">Mysql2::Result</a></li>
+        
+          <li><a href="../../ActiveRecord.html">ActiveRecord</a></li>
+        
+          <li><a href="../../ActiveRecord/Base.html">ActiveRecord::Base</a></li>
+        
+          <li><a href="../../ActiveRecord/ConnectionAdapters.html">ActiveRecord::ConnectionAdapters</a></li>
+        
+          <li><a href="../../ActiveRecord/ConnectionAdapters/ConnectionPool.html">ActiveRecord::ConnectionAdapters::ConnectionPool</a></li>
+        
+          <li><a href="../../ActiveRecord/ConnectionAdapters/FiberedMonitor.html">ActiveRecord::ConnectionAdapters::FiberedMonitor</a></li>
+        
+          <li><a href="../../ActiveRecord/ConnectionAdapters/FiberedMonitor/Queue.html">ActiveRecord::ConnectionAdapters::FiberedMonitor::Queue</a></li>
+        
+          <li><a href="../../Object.html">Object</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    <h1 class="class">ActiveRecord::ConnectionAdapters::ConnectionPool</h1>
+
+    <div id="description" class="description">
+      
+<p>ActiveRecord’s connection pool is based on threads.  Since we are working
+with EM and a single thread, multiple fiber design, we need to provide our
+own connection pool that keys off of Fiber.current so that different fibers
+running in the same thread don’t try to use the same connection.</p>
+
+    </div><!-- description -->
+
+    
+    
+    
+    <div id="5Buntitled-5D" class="documentation-section">
+      
+
+      
+
+      
+
+      
+
+      <!-- Methods -->
+      
+      <div id="public-class-method-details" class="method-section section">
+        <h3 class="section-header">Public Class Methods</h3>
+
+      
+        <div id="new-method" class="method-detail ">
+          <a name="method-c-new"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">new</span><span
+              class="method-args">(spec)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="new-source">
+<pre>
+<span class="ruby-comment"># File lib/active_record/fiber_patches.rb, line 52</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">spec</span>)
+  <span class="ruby-ivar">@spec</span> = <span class="ruby-identifier">spec</span>
+
+  <span class="ruby-comment"># The cache of reserved connections mapped to threads</span>
+  <span class="ruby-ivar">@reserved_connections</span> = {}
+
+  <span class="ruby-comment"># The mutex used to synchronize pool access</span>
+  <span class="ruby-ivar">@connection_mutex</span> = <span class="ruby-constant">FiberedMonitor</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-ivar">@queue</span> = <span class="ruby-ivar">@connection_mutex</span>.<span class="ruby-identifier">new_cond</span>
+
+  <span class="ruby-comment"># default 5 second timeout unless on ruby 1.9</span>
+  <span class="ruby-ivar">@timeout</span> = <span class="ruby-identifier">spec</span>.<span class="ruby-identifier">config</span>[<span class="ruby-value">:wait_timeout</span>] <span class="ruby-operator">||</span> <span class="ruby-value">5</span>
+
+  <span class="ruby-comment"># default max pool size to 5</span>
+  <span class="ruby-ivar">@size</span> = (<span class="ruby-identifier">spec</span>.<span class="ruby-identifier">config</span>[<span class="ruby-value">:pool</span>] <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">spec</span>.<span class="ruby-identifier">config</span>[<span class="ruby-value">:pool</span>].<span class="ruby-identifier">to_i</span>) <span class="ruby-operator">||</span> <span class="ruby-value">5</span>
+
+  <span class="ruby-ivar">@connections</span> = []
+  <span class="ruby-ivar">@checked_out</span> = []
+  <span class="ruby-ivar">@automatic_reconnect</span> = <span class="ruby-keyword">true</span>
+  <span class="ruby-ivar">@tables</span> = {}
+
+  <span class="ruby-ivar">@columns</span>     = <span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">h</span>, <span class="ruby-identifier">table_name</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">h</span>[<span class="ruby-identifier">table_name</span>] = <span class="ruby-identifier">with_connection</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">conn</span><span class="ruby-operator">|</span>
+
+      <span class="ruby-comment"># Fetch a list of columns</span>
+      <span class="ruby-identifier">conn</span>.<span class="ruby-identifier">columns</span>(<span class="ruby-identifier">table_name</span>, <span class="ruby-node">&quot;#{table_name} Columns&quot;</span>).<span class="ruby-identifier">tap</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">columns</span><span class="ruby-operator">|</span>
+
+        <span class="ruby-comment"># set primary key information</span>
+        <span class="ruby-identifier">columns</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">column</span><span class="ruby-operator">|</span>
+          <span class="ruby-identifier">column</span>.<span class="ruby-identifier">primary</span> = <span class="ruby-identifier">column</span>.<span class="ruby-identifier">name</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">primary_keys</span>[<span class="ruby-identifier">table_name</span>]
+        <span class="ruby-keyword">end</span>
+      <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-ivar">@columns_hash</span> = <span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">h</span>, <span class="ruby-identifier">table_name</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">h</span>[<span class="ruby-identifier">table_name</span>] = <span class="ruby-constant">Hash</span>[<span class="ruby-identifier">columns</span>[<span class="ruby-identifier">table_name</span>].<span class="ruby-identifier">map</span> { <span class="ruby-operator">|</span><span class="ruby-identifier">col</span><span class="ruby-operator">|</span>
+      [<span class="ruby-identifier">col</span>.<span class="ruby-identifier">name</span>, <span class="ruby-identifier">col</span>]
+    }]
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-ivar">@primary_keys</span> = <span class="ruby-constant">Hash</span>.<span class="ruby-identifier">new</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">h</span>, <span class="ruby-identifier">table_name</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">h</span>[<span class="ruby-identifier">table_name</span>] = <span class="ruby-identifier">with_connection</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">conn</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">table_exists?</span>(<span class="ruby-identifier">table_name</span>) <span class="ruby-operator">?</span> <span class="ruby-identifier">conn</span>.<span class="ruby-identifier">primary_key</span>(<span class="ruby-identifier">table_name</span>) <span class="ruby-operator">:</span> <span class="ruby-string">'id'</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- new-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- new-method -->
+
+      
+      </div><!-- public-class-method-details -->
+    
+      <div id="public-instance-method-details" class="method-section section">
+        <h3 class="section-header">Public Instance Methods</h3>
+
+      
+        <div id="clear_stale_cached_connections-21-method" class="method-detail ">
+          <a name="method-i-clear_stale_cached_connections-21"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">clear_stale_cached_connections!</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="clear_stale_cached_connections-21-source">
+<pre>
+<span class="ruby-comment"># File lib/active_record/fiber_patches.rb, line 100</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">clear_stale_cached_connections!</span>
+  <span class="ruby-identifier">cache</span> = <span class="ruby-ivar">@reserved_connections</span>
+  <span class="ruby-identifier">keys</span> = <span class="ruby-constant">Set</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">cache</span>.<span class="ruby-identifier">keys</span>)
+
+  <span class="ruby-constant">ActiveRecord</span><span class="ruby-operator">::</span><span class="ruby-constant">ConnectionAdapters</span>.<span class="ruby-identifier">fiber_pools</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">pool</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">pool</span>.<span class="ruby-identifier">busy_fibers</span>.<span class="ruby-identifier">each_pair</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">object_id</span>, <span class="ruby-identifier">fiber</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">keys</span>.<span class="ruby-identifier">delete</span>(<span class="ruby-identifier">object_id</span>)
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">end</span>
+
+  <span class="ruby-identifier">keys</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">key</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">next</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">cache</span>.<span class="ruby-identifier">has_key?</span>(<span class="ruby-identifier">key</span>)
+    <span class="ruby-identifier">checkin</span> <span class="ruby-identifier">cache</span>[<span class="ruby-identifier">key</span>]
+    <span class="ruby-identifier">cache</span>.<span class="ruby-identifier">delete</span>(<span class="ruby-identifier">key</span>)
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- clear_stale_cached_connections-21-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- clear_stale_cached_connections-21-method -->
+
+      
+      </div><!-- public-instance-method-details -->
+    
+    </div><!-- 5Buntitled-5D -->
+  
+
+  </div><!-- documentation -->
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+
+</body>
+</html>
+

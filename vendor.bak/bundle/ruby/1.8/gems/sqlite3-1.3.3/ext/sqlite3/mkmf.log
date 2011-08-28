@@ -1,0 +1,302 @@
+find_header: checking for sqlite3.h... -------------------- yes
+
+"gcc -E -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE     -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common    conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include <sqlite3.h>
+/* end */
+
+--------------------
+
+find_library: checking for sqlite3_libversion_number() in -lsqlite3... -------------------- yes
+
+"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L/usr/local/lib -L/opt/local/lib -L/sw/local/lib -L/usr/lib -L. -arch i386 -arch x86_64      -lruby -lsqlite3  -lpthread -ldl  "
+conftest.c: In function ‘t’:
+conftest.c:3: error: ‘sqlite3_libversion_number’ undeclared (first use in this function)
+conftest.c:3: error: (Each undeclared identifier is reported only once
+conftest.c:3: error: for each function it appears in.)
+conftest.c: In function ‘t’:
+conftest.c:3: error: ‘sqlite3_libversion_number’ undeclared (first use in this function)
+conftest.c:3: error: (Each undeclared identifier is reported only once
+conftest.c:3: error: for each function it appears in.)
+lipo: can't figure out the architecture type of: /var/folders/q3/2hty7by48xjb_j0059bk7m600000gp/T//ccSlJb6i.out
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))sqlite3_libversion_number; return 0; }
+/* end */
+
+"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L/usr/local/lib -L/opt/local/lib -L/sw/local/lib -L/usr/lib -L. -arch i386 -arch x86_64      -lruby -lsqlite3  -lpthread -ldl  "
+ld: warning: directory not found for option '-L/sw/local/lib'
+ld: warning: directory not found for option '-L/sw/local/lib'
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { sqlite3_libversion_number(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_proc_arity()... -------------------- no
+
+"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L/usr/local/lib -L/opt/local/lib -L/sw/local/lib -L/usr/lib -L. -arch i386 -arch x86_64     -lsqlite3  -lruby -lsqlite3  -lpthread -ldl  "
+conftest.c: In function ‘t’:
+conftest.c:3: error: ‘rb_proc_arity’ undeclared (first use in this function)
+conftest.c:3: error: (Each undeclared identifier is reported only once
+conftest.c:3: error: for each function it appears in.)
+conftest.c: In function ‘t’:
+conftest.c:3: error: ‘rb_proc_arity’ undeclared (first use in this function)
+conftest.c:3: error: (Each undeclared identifier is reported only once
+conftest.c:3: error: for each function it appears in.)
+lipo: can't figure out the architecture type of: /var/folders/q3/2hty7by48xjb_j0059bk7m600000gp/T//ccNStCN0.out
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))rb_proc_arity; return 0; }
+/* end */
+
+"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L/usr/local/lib -L/opt/local/lib -L/sw/local/lib -L/usr/lib -L. -arch i386 -arch x86_64     -lsqlite3  -lruby -lsqlite3  -lpthread -ldl  "
+ld: warning: directory not found for option '-L/sw/local/lib'
+Undefined symbols for architecture i386:
+  "_rb_proc_arity", referenced from:
+      _t in ccHCcXVL.o
+ld: symbol(s) not found for architecture i386
+collect2: ld returned 1 exit status
+ld: warning: directory not found for option '-L/sw/local/lib'
+Undefined symbols for architecture x86_64:
+  "_rb_proc_arity", referenced from:
+      _t in ccQqFK0i.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+lipo: can't open input file: /var/folders/q3/2hty7by48xjb_j0059bk7m600000gp/T//ccAsRfqL.out (No such file or directory)
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { rb_proc_arity(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for sqlite3_initialize()... -------------------- yes
+
+"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L/usr/local/lib -L/opt/local/lib -L/sw/local/lib -L/usr/lib -L. -arch i386 -arch x86_64     -lsqlite3  -lruby -lsqlite3  -lpthread -ldl  "
+conftest.c: In function ‘t’:
+conftest.c:3: error: ‘sqlite3_initialize’ undeclared (first use in this function)
+conftest.c:3: error: (Each undeclared identifier is reported only once
+conftest.c:3: error: for each function it appears in.)
+conftest.c: In function ‘t’:
+conftest.c:3: error: ‘sqlite3_initialize’ undeclared (first use in this function)
+conftest.c:3: error: (Each undeclared identifier is reported only once
+conftest.c:3: error: for each function it appears in.)
+lipo: can't figure out the architecture type of: /var/folders/q3/2hty7by48xjb_j0059bk7m600000gp/T//cccRzM6n.out
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))sqlite3_initialize; return 0; }
+/* end */
+
+"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L/usr/local/lib -L/opt/local/lib -L/sw/local/lib -L/usr/lib -L. -arch i386 -arch x86_64     -lsqlite3  -lruby -lsqlite3  -lpthread -ldl  "
+ld: warning: directory not found for option '-L/sw/local/lib'
+ld: warning: directory not found for option '-L/sw/local/lib'
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { sqlite3_initialize(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for sqlite3_next_stmt()... -------------------- yes
+
+"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L/usr/local/lib -L/opt/local/lib -L/sw/local/lib -L/usr/lib -L. -arch i386 -arch x86_64     -lsqlite3  -lruby -lsqlite3  -lpthread -ldl  "
+conftest.c: In function ‘t’:
+conftest.c:3: error: ‘sqlite3_next_stmt’ undeclared (first use in this function)
+conftest.c:3: error: (Each undeclared identifier is reported only once
+conftest.c:3: error: for each function it appears in.)
+conftest.c: In function ‘t’:
+conftest.c:3: error: ‘sqlite3_next_stmt’ undeclared (first use in this function)
+conftest.c:3: error: (Each undeclared identifier is reported only once
+conftest.c:3: error: for each function it appears in.)
+lipo: can't figure out the architecture type of: /var/folders/q3/2hty7by48xjb_j0059bk7m600000gp/T//cce6VfcQ.out
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))sqlite3_next_stmt; return 0; }
+/* end */
+
+"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L/usr/local/lib -L/opt/local/lib -L/sw/local/lib -L/usr/lib -L. -arch i386 -arch x86_64     -lsqlite3  -lruby -lsqlite3  -lpthread -ldl  "
+ld: warning: directory not found for option '-L/sw/local/lib'
+ld: warning: directory not found for option '-L/sw/local/lib'
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { sqlite3_next_stmt(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for sqlite3_backup_init()... -------------------- yes
+
+"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L/usr/local/lib -L/opt/local/lib -L/sw/local/lib -L/usr/lib -L. -arch i386 -arch x86_64     -lsqlite3  -lruby -lsqlite3  -lpthread -ldl  "
+conftest.c: In function ‘t’:
+conftest.c:3: error: ‘sqlite3_backup_init’ undeclared (first use in this function)
+conftest.c:3: error: (Each undeclared identifier is reported only once
+conftest.c:3: error: for each function it appears in.)
+conftest.c: In function ‘t’:
+conftest.c:3: error: ‘sqlite3_backup_init’ undeclared (first use in this function)
+conftest.c:3: error: (Each undeclared identifier is reported only once
+conftest.c:3: error: for each function it appears in.)
+lipo: can't figure out the architecture type of: /var/folders/q3/2hty7by48xjb_j0059bk7m600000gp/T//ccWUG3UP.out
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))sqlite3_backup_init; return 0; }
+/* end */
+
+"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L/usr/local/lib -L/opt/local/lib -L/sw/local/lib -L/usr/lib -L. -arch i386 -arch x86_64     -lsqlite3  -lruby -lsqlite3  -lpthread -ldl  "
+ld: warning: directory not found for option '-L/sw/local/lib'
+ld: warning: directory not found for option '-L/sw/local/lib'
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { sqlite3_backup_init(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for sqlite3_column_database_name()... -------------------- no
+
+"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L/usr/local/lib -L/opt/local/lib -L/sw/local/lib -L/usr/lib -L. -arch i386 -arch x86_64     -lsqlite3  -lruby -lsqlite3  -lpthread -ldl  "
+conftest.c: In function ‘t’:
+conftest.c:3: error: ‘sqlite3_column_database_name’ undeclared (first use in this function)
+conftest.c:3: error: (Each undeclared identifier is reported only once
+conftest.c:3: error: for each function it appears in.)
+conftest.c: In function ‘t’:
+conftest.c:3: error: ‘sqlite3_column_database_name’ undeclared (first use in this function)
+conftest.c:3: error: (Each undeclared identifier is reported only once
+conftest.c:3: error: for each function it appears in.)
+lipo: can't figure out the architecture type of: /var/folders/q3/2hty7by48xjb_j0059bk7m600000gp/T//ccqj2YQJ.out
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))sqlite3_column_database_name; return 0; }
+/* end */
+
+"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L/usr/local/lib -L/opt/local/lib -L/sw/local/lib -L/usr/lib -L. -arch i386 -arch x86_64     -lsqlite3  -lruby -lsqlite3  -lpthread -ldl  "
+ld: warning: directory not found for option '-L/sw/local/lib'
+Undefined symbols for architecture i386:
+  "_sqlite3_column_database_name", referenced from:
+      _t in ccOIDgSE.o
+ld: symbol(s) not found for architecture i386
+collect2: ld returned 1 exit status
+ld: warning: directory not found for option '-L/sw/local/lib'
+Undefined symbols for architecture x86_64:
+  "_sqlite3_column_database_name", referenced from:
+      _t in cc3moLx7.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+lipo: can't open input file: /var/folders/q3/2hty7by48xjb_j0059bk7m600000gp/T//ccTYFZAM.out (No such file or directory)
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { sqlite3_column_database_name(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for sqlite3_enable_load_extension()... -------------------- no
+
+"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L/usr/local/lib -L/opt/local/lib -L/sw/local/lib -L/usr/lib -L. -arch i386 -arch x86_64     -lsqlite3  -lruby -lsqlite3  -lpthread -ldl  "
+conftest.c: In function ‘t’:
+conftest.c:3: error: ‘sqlite3_enable_load_extension’ undeclared (first use in this function)
+conftest.c:3: error: (Each undeclared identifier is reported only once
+conftest.c:3: error: for each function it appears in.)
+conftest.c: In function ‘t’:
+conftest.c:3: error: ‘sqlite3_enable_load_extension’ undeclared (first use in this function)
+conftest.c:3: error: (Each undeclared identifier is reported only once
+conftest.c:3: error: for each function it appears in.)
+lipo: can't figure out the architecture type of: /var/folders/q3/2hty7by48xjb_j0059bk7m600000gp/T//ccppjP9w.out
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))sqlite3_enable_load_extension; return 0; }
+/* end */
+
+"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L/usr/local/lib -L/opt/local/lib -L/sw/local/lib -L/usr/lib -L. -arch i386 -arch x86_64     -lsqlite3  -lruby -lsqlite3  -lpthread -ldl  "
+ld: warning: directory not found for option '-L/sw/local/lib'
+Undefined symbols for architecture i386:
+  "_sqlite3_enable_load_extension", referenced from:
+      _t in ccRq2OWM.o
+ld: symbol(s) not found for architecture i386
+collect2: ld returned 1 exit status
+ld: warning: directory not found for option '-L/sw/local/lib'
+Undefined symbols for architecture x86_64:
+  "_sqlite3_enable_load_extension", referenced from:
+      _t in ccXNerKs.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+lipo: can't open input file: /var/folders/q3/2hty7by48xjb_j0059bk7m600000gp/T//ccNXrq71.out (No such file or directory)
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { sqlite3_enable_load_extension(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for sqlite3_load_extension()... -------------------- no
+
+"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L/usr/local/lib -L/opt/local/lib -L/sw/local/lib -L/usr/lib -L. -arch i386 -arch x86_64     -lsqlite3  -lruby -lsqlite3  -lpthread -ldl  "
+conftest.c: In function ‘t’:
+conftest.c:3: error: ‘sqlite3_load_extension’ undeclared (first use in this function)
+conftest.c:3: error: (Each undeclared identifier is reported only once
+conftest.c:3: error: for each function it appears in.)
+conftest.c: In function ‘t’:
+conftest.c:3: error: ‘sqlite3_load_extension’ undeclared (first use in this function)
+conftest.c:3: error: (Each undeclared identifier is reported only once
+conftest.c:3: error: for each function it appears in.)
+lipo: can't figure out the architecture type of: /var/folders/q3/2hty7by48xjb_j0059bk7m600000gp/T//cc9w21Ub.out
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))sqlite3_load_extension; return 0; }
+/* end */
+
+"gcc -o conftest -I. -I/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/universal-darwin11.0 -I. -I/usr/local/include -I/opt/local/include -I/sw/local/include -I/usr/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -arch i386 -arch x86_64 -g -Os -pipe -fno-common -DENABLE_DTRACE  -fno-common  -pipe -fno-common   conftest.c  -L. -L/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib -L/usr/local/lib -L/opt/local/lib -L/sw/local/lib -L/usr/lib -L. -arch i386 -arch x86_64     -lsqlite3  -lruby -lsqlite3  -lpthread -ldl  "
+ld: warning: directory not found for option '-L/sw/local/lib'
+Undefined symbols for architecture i386:
+  "_sqlite3_load_extension", referenced from:
+      _t in ccHAjVCb.o
+ld: symbol(s) not found for architecture i386
+collect2: ld returned 1 exit status
+ld: warning: directory not found for option '-L/sw/local/lib'
+Undefined symbols for architecture x86_64:
+  "_sqlite3_load_extension", referenced from:
+      _t in ccbHzfGs.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+lipo: can't open input file: /var/folders/q3/2hty7by48xjb_j0059bk7m600000gp/T//ccRRfzur.out (No such file or directory)
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { sqlite3_load_extension(); return 0; }
+/* end */
+
+--------------------
+
