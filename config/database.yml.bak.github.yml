@@ -19,8 +19,8 @@ production:
     adapter: mysql2
     encoding: utf8
     reconnect: false
-    database: coach_mdndata
-    username: coach_access
+    database: turn2god_mdndata
+    username: turn2god_access
     password: 0708SMClfq!
     socket: /tmp/mysql.sock
     pool: 5
