@@ -9,7 +9,7 @@ conftest.c: In function ‘t’:
 conftest.c:3: error: ‘fdatasync’ undeclared (first use in this function)
 conftest.c:3: error: (Each undeclared identifier is reported only once
 conftest.c:3: error: for each function it appears in.)
-lipo: can't figure out the architecture type of: /var/folders/q3/2hty7by48xjb_j0059bk7m600000gp/T//ccrlt8YI.out
+lipo: can't figure out the architecture type of: /var/tmp//ccoBcDI9.out
 checked program was:
 /* begin */
 1: /*top*/
@@ -22,7 +22,7 @@ ld: library not found for -lrt
 collect2: ld returned 1 exit status
 ld: library not found for -lrt
 collect2: ld returned 1 exit status
-lipo: can't open input file: /var/folders/q3/2hty7by48xjb_j0059bk7m600000gp/T//cc3RTH2E.out (No such file or directory)
+lipo: can't open input file: /var/tmp//ccivFd8E.out (No such file or directory)
 checked program was:
 /* begin */
 1: /*top*/
@@ -53,7 +53,7 @@ conftest.c: In function ‘t’:
 conftest.c:3: error: ‘sqlite3_open’ undeclared (first use in this function)
 conftest.c:3: error: (Each undeclared identifier is reported only once
 conftest.c:3: error: for each function it appears in.)
-lipo: can't figure out the architecture type of: /var/folders/q3/2hty7by48xjb_j0059bk7m600000gp/T//ccmvW0Uh.out
+lipo: can't figure out the architecture type of: /var/tmp//cc26Wx2d.out
 checked program was:
 /* begin */
 1: /*top*/

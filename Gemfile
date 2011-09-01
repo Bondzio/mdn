@@ -10,7 +10,7 @@ gem 'rake', '0.8.7'
 gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 
 # Use unicorn as the web server
-gem 'unicorn'
+# gem 'unicorn'
 
 # Deploy with Capistrano
 gem 'capistrano'
@@ -29,7 +29,7 @@ gem 'devise'
 gem 'cells'
 gem 'rack', '1.2.1'
 
-
+#gem "bcrypt-ruby", :require => "bcrypt"
 #Deploy Mongrel
 # gem 'mongrel'
 
