@@ -20,9 +20,9 @@ ssh_options[:forward_agent] = true
 set :scm_command, "/usr/bin/git"
 # set :local_scm_command, 
 
-role :web, "174.120.146.122"                          # Your HTTP server, Apache/etc
-role :app, "174.120.146.122"                          # This may be the same as your `Web` server
-role :db,  "174.120.146.122", :primary => true # This is where Rails migrations will run
+role :web, "mensdiscipleshipnetwork.com"                          # Your HTTP server, Apache/etc
+role :app, "mensdiscipleshipnetwork.com"                          # This may be the same as your `Web` server
+role :db,  "mensdiscipleshipnetwork.com", :primary => true # This is where Rails migrations will run
 # role :db,  "your slave db-server here"
 
 #SMC You need to tell cap the branch to checkout during deployment:

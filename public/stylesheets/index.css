@@ -438,13 +438,19 @@ a:active {
 #facebook {
 	position: absolute;
 	top: 27px;
-	left: 300px;
+	left: 330px;
 	z-index: 20;
 }
 #youtube {
 	position: absolute;
 	top: 110px;
-	left: 305px;
+	left: 335px;
+	z-index: 20;
+}
+#donate {
+	position: absolute;
+	left:650px;
+	top: 35px;
 	z-index: 20;
 }
 #copyright-bar {
