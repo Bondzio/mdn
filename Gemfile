@@ -28,6 +28,7 @@ gem 'haml'
 gem 'devise'
 gem 'cells'
 gem 'rack', '1.2.1'
+gem 'will_paginate'
 
 #gem "bcrypt-ruby", :require => "bcrypt"
 #Deploy Mongrel

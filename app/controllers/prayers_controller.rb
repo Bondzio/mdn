@@ -13,7 +13,7 @@ class PrayersController < ApplicationController
   # GET /prayers.xml
   def index
     @prayers = Prayer.order("created_at DESC")
-
+    # @prayers = Prayer.page(params[:page]).order('created_at DESC')
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @prayers }

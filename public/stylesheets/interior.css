@@ -236,6 +236,12 @@ h2 {
 .video {
 	text-align: center;
 }
+#dbc ul{
+	line-height: 160%;
+	list-style-type: square;
+	list-style-position: outside;
+	padding: 1em;
+}
 /*--bootcamp.html.erb-- end*/
 /*--coaches.html.erb-- start*/
 #coaches {
@@ -345,7 +351,7 @@ h2 {
 
 #mannerisms ul {
 	list-style-type: circle;
-	font-family: "lucida calligraphy";
+	font-family: verdana, arial, helvetica, sans-serif;
 }
 .definition p {
 	line-height: 130%;
