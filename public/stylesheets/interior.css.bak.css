@@ -268,7 +268,7 @@ h2 {
 #coaches a:hover {
 	display: block;
 	color: #7E7717;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 #coaches a:active {
@@ -291,9 +291,6 @@ h2 {
 	
 }
 .bio_photo {
-	position: absolute;
-	top: 960px;
-	left: 330px;
 	height: auto;
 	width: 320px;
 	float: right;

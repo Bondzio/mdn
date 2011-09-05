@@ -5,10 +5,10 @@
 function showonlyone(thechosenone) {
      $('div[name|="coachbox"]').each(function(index) {
           if ($(this).attr("id") == thechosenone) {
-               $(this).fadeIn("slow");
+               $(this).show(200);
           }
           else {
-               $(this).fadeOut("slow");
+               $(this).hide(600);
           }
      });
 }
@@ -53,7 +53,8 @@ function showonlyone(thechosenone) {
 			<li><a id="labriola" href="javascript:showonlyone('labriola');" >Dennis Labriola</a></li>
 			<li><a id="eng" href="javascript:showonlyone('eng');" >Sunny Eng</a></li>
 			<li><a id="modica" href="javascript:showonlyone('modica');" >Mike Modica</a></li>
-			<li><a id="caesar" href="javascript:showonlyone('caesar');" >Scott Caesar</a></li>			
+			<li><a id="caesar" href="javascript:showonlyone('caesar');" >Scott Caesar</a></li>
+			<p>Click on each name</p>			
 	</ul>
 	</br>
 	</br>	

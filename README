@@ -1,1 +1,8 @@
 This is the Men's Discipleship Network website.
+
+
+When switching back and forth to the turn2god.net staging server need to do the following:
+
+1) Change the .htaccess file to point to the appropriate home folder.
+2) Make sure that there is a restart.txt file in ~/mdn/current/tmp
+3) Make sure you use the deploy.rb script for the correct server
