@@ -13,7 +13,7 @@ ul.marquee {
 	left:0px;
 	top:8px;
 	width: 900px;
-	height: 18px; /* height should be included to reserve visual space for the marquee */
+	height: 19px; /* height should be included to reserve visual space for the marquee */
 
 	background-color: rgba(52,52,52,0);
 	border: none
