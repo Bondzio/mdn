@@ -319,15 +319,15 @@ h2 {
 /*--coaches.html.erb-- end*/
 /*--contact.html.erb-- start*/
 #contact p {
-	line-height: 120%;
+	line-height: 130%;
 }
 #contact h1 {
 	line-height: 150%;
-	font-size: 30px;
+	font-size: 24px;
 }
 #contact h2 {
-	line-height: 150%;
-	font-size: 24px;
+	line-height: 130%;
+	font-size: 18px;
 }
 /*--contact.html.erb-- end*/
 /*--static.html.erb-- start*/
