@@ -60,7 +60,7 @@
 #promo1 {
 	position:relative;
 	margin: 30px 30px 30px 57px;
-	height: 170px;
+	height: auto;
 	width: 205px;
 	font-family: 'brush script', Georgia, Times;
 	color: #4C4731;
