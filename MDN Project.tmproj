@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>config/environment.rb</string>
+	<string>app/views/pages/bootcamp.html.erb</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,6 +21,20 @@
 	<integer>320</integer>
 	<key>metaData</key>
 	<dict>
+		<key>Gemfile</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>19</integer>
+				<key>line</key>
+				<integer>30</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>app/cells/quote/display.html.erb</key>
 		<dict>
 			<key>caret</key>
@@ -119,20 +133,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>app/views/home/index.html.erb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>28</integer>
-				<key>line</key>
-				<integer>143</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>app/views/layouts/application.html.erb</key>
 		<dict>
 			<key>caret</key>
@@ -146,36 +146,6 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-		</dict>
-		<key>app/views/layouts/static.html.erb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>97</integer>
-				<key>line</key>
-				<integer>166</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>139</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>3</integer>
-				<key>line</key>
-				<integer>166</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>97</integer>
-				<key>line</key>
-				<integer>166</integer>
-			</dict>
 		</dict>
 		<key>app/views/movies/browser.html.erb</key>
 		<dict>
@@ -219,35 +189,19 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>app/views/pages/coaches.html.erb</key>
+		<key>app/views/pages/bootcamp.html.erb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>75</integer>
+				<integer>116</integer>
 				<key>line</key>
-				<integer>34</integer>
+				<integer>26</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>55</integer>
-				<key>line</key>
-				<integer>34</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>75</integer>
-				<key>line</key>
-				<integer>34</integer>
-			</dict>
 		</dict>
 		<key>app/views/pages/curriculum.html.erb</key>
 		<dict>
@@ -257,20 +211,6 @@
 				<integer>42</integer>
 				<key>line</key>
 				<integer>1</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>app/views/pages/donate.html.erb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>17</integer>
-				<key>line</key>
-				<integer>3</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -307,6 +247,20 @@
 				<integer>2</integer>
 			</dict>
 		</dict>
+		<key>app/views/prayers/index.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>16</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>config/application.rb</key>
 		<dict>
 			<key>caret</key>
@@ -335,20 +289,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>config/deploy.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>39</integer>
-				<key>line</key>
-				<integer>24</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>config/deploy.rb.turn2god</key>
 		<dict>
 			<key>caret</key>
@@ -357,20 +297,6 @@
 				<integer>68</integer>
 				<key>line</key>
 				<integer>4</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>config/environment.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -417,21 +343,21 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>439</integer>
+			<integer>447</integer>
 		</dict>
 		<key>public/stylesheets/interior.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>7</integer>
+				<integer>13</integer>
 				<key>line</key>
-				<integer>60</integer>
+				<integer>242</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>38</integer>
+			<integer>220</integer>
 		</dict>
 		<key>public/test.html</key>
 		<dict>
@@ -450,15 +376,11 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>app/views/layouts/static.html.erb</string>
-		<string>public/stylesheets/interior.css</string>
-		<string>config/deploy.rb</string>
-		<string>config/environment.rb</string>
-		<string>app/views/home/index.html.erb</string>
-		<string>app/views/layouts/application.html.erb</string>
-		<string>config/deploy.rb.turn2god</string>
 		<string>public/stylesheets/index.css</string>
-		<string>config/application.rb</string>
+		<string>Gemfile</string>
+		<string>app/views/prayers/index.html.erb</string>
+		<string>app/views/pages/bootcamp.html.erb</string>
+		<string>public/stylesheets/interior.css</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>

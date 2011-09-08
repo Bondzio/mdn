@@ -234,7 +234,7 @@ h2 {
 }
 /*--bootcamp.html.erb-- start*/
 .video {
-	text-align: center;
+	text-align: left;
 }
 #dbc ul{
 	line-height: 160%;
@@ -350,8 +350,11 @@ h2 {
 }
 
 #mannerisms ul {
-	list-style-type: circle;
+	list-style-type: square;
+	list-style-position: outside;
+	padding: 1em;
 	font-family: verdana, arial, helvetica, sans-serif;
+	font-style: italic;
 }
 .definition p {
 	line-height: 130%;
