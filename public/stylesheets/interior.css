@@ -136,6 +136,18 @@
 	line-height: 140%;
 }
 /* about.html.erb CSS ENDS Here*/
+/* announcements.html.erb CSS STARTS Here*/
+#announce-1 {
+	float: left;
+}
+
+#announce-1-photo {
+	margin-right: 4px;
+	text-align: center;
+}
+
+
+/* announcements.html.erb CSS ENDS Here*/
 /* curriculum.html.erb CSS STARTS Here*/
 #curriculum_body {
 	clear:none;

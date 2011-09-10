@@ -37,4 +37,13 @@ class PagesController < ApplicationController
   
   def radio
   end
+  
+  def leadership
+  end
+  
+  def manstat
+  end
+  
+  def announcements
+  end
 end
