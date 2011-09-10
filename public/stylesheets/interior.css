@@ -370,14 +370,16 @@ h2 {
 	font-weight:bold;
 }
 
-#top {
-	clear: both;
-	top: 900px;
-}
-
 #what_is {
 	clear:both;
 	margin: 40px 0px 0px 0px;
+}
+#top-coach {
+	position:absolute;
+	left:-150px;
+	top: -434px;
+	width:655px;
+	z-index:50;
 }
 /*--coaches.html.erb-- end*/
 /*--contact.html.erb-- start*/
