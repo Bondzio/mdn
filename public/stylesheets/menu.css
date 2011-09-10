@@ -1,0 +1,73 @@
+.container {width:1200px; height:395px; padding-top:5px;}
+
+.menu {width:1190px; height:200px; margin:0 auto;position: absolute; top: 120px; left:190px;}
+
+/* set up defaults */
+.nav,
+.nav ul {margin:0; padding:0;list-style:none;}
+.nav a {text-decoration:none;}
+.nav {width:120px; float:left; margin-right:-1px;}
+
+/* set up the heights SMC */
+.nav a {height: 44px;}
+
+/* set up the widths */
+.nav {width:100px;margin: 0px 10px 0px 10px;}
+.nav .drop {width:120px;}
+.nav a {width:115px; margin-right:-99px; margin-bottom:-1px;} /* margin is 1px less than the width */
+.nav ul li {max-width:120px;}
+.sub-link {width:auto;}
+.nav b.top {width:90px;}
+
+/* style the links using the b elements */
+.nav b {display:block; font:normal 11px verdana, sans-serif; padding:6px 8px; cursor:pointer;}
+.nav b.top {height:26px; line-height:16px;text-align: left;}
+.nav a.sub-link b {background:url(arrow.gif) no-repeat right bottom;}
+
+/* style the list colors */
+
+.nav a {color:#000; background:none;}
+.nav ul a {background:#272424;border:1px solid #fff;}
+.nav ul ul a {background:#494545;}
+.nav ul ul ul a {background:#9299ac;}
+
+/* style the hover, active and focus colors */
+.nav a:hover,
+.nav a:focus,
+.nav a:active {background:#848080; color:#fff;border:1px solid #fff;}
+
+/* style the path on hover in all browsers except IE5.5 and 6 */
+.nav li:hover > a {background:#666666; color:#fff;}
+
+/* style the positions of the ul and also when the text spans two and three lines */
+.nav {height:200px;}
+.nav .drop {height:200px;}
+
+.nav ul {position:relative; left:0; top:0; z-index:100;} /* the dropdown */
+.nav ul ul {left:95px; top:-26px;} /* the right flyouts */
+.nav ul ul.two {top:-39px;}
+.nav ul ul.three {top:-52px;}
+.nav li.left ul ul {left:auto; right:95px;} /* and the left flyouts */
+
+/* do not change anything below this line */
+/* ------------------------------------------------------------ */
+.nav li,
+.nav ul {float:left;}
+.nav ul li {clear:left;}
+.nav a {position:relative; display:block; z-index:10;}
+.nav a.sub-link {float:left; margin-top:10000px;}
+.nav .drop,
+.nav .fly {margin-top:-10000px;}
+.nav ul {margin-bottom:-5000px;}
+
+/* the bit that does all the work */
+.nav a:hover,
+.nav a:focus,
+.nav a:active {margin-right:0;}
+
+/*IE5-7 fixes*/
+.nav .fly {width:100%;}
+a:active {}
+
+/*OPERA fix*/
+.nav ul:hover {clear:left;}

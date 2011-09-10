@@ -1,6 +1,17 @@
 @charset "UTF-8";
 /* CSS Document */
 /* static.html.erb CSS goes here */
+#about_menu {
+	background:#000000;
+	display: inline;
+	z-index: 50;
+	
+}
+
+.drop_menu {
+
+}
+
 #gray_sidebar {
 	position:absolute;
 	left:150px;
@@ -100,23 +111,23 @@
 	position: relative;	
 }
 #about_mission {
-	display:none;
+	display:block;
 	position: relative;	
 }
 #about_founder {
-	display:none;
+	display:block;
 	position: relative;	
 }
 #about_network {
-	display:none;
+	display:block;
 	position: relative;	
 }
 #about_system {
-	display:none;
+	display:block;
 	position: relative;	
 }
 #about_beliefs {
-	display:none;
+	display:block;
 	position: relative;	
 }
 .about {
