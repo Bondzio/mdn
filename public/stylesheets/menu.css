@@ -17,11 +17,11 @@
 .nav a {width:115px; margin-right:-99px; margin-bottom:-1px;} /* margin is 1px less than the width */
 .nav ul li {max-width:120px;}
 .sub-link {width:auto;}
-.nav b.top {width:90px;}
+.nav b.top {width:85px;}
 
 /* style the links using the b elements */
 .nav b {display:block; font:normal 11px verdana, sans-serif; padding:6px 8px; cursor:pointer;}
-.nav b.top {height:26px; line-height:16px;text-align: left;vertical-align: middle;}
+.nav b.top {height:26px; line-height:16px;text-align: left;}
 .nav a.sub-link b {background:url(arrow.gif) no-repeat right bottom;}
 
 /* style the list colors */

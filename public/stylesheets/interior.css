@@ -101,6 +101,85 @@
 	background-color: #ffffff;	
 	text-align: center;
 }
+
+#Table_01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:1581px;
+}
+
+#Interior-01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:97px;
+	height:2946px;
+}
+
+#left-shadow {
+	position:absolute;
+	left:97px;
+	top:0px;
+	width:52px;
+	height:2946px;
+}
+
+#MDN-Logo {
+	position:absolute;
+	left:149px;
+	top:0px;
+	width:1286px;
+	height:120px;
+}
+
+#right-shadow {
+	position:absolute;
+	left:1435px;
+	top:0px;
+	width:58px;
+	height:2946px;
+}
+
+#Interior-05 {
+	position:absolute;
+	left:1493px;
+	top:0px;
+	width:88px;
+	height:2946px;
+}
+
+#left-shadow006 {
+	position:absolute;
+	left:149px;
+	top:120px;
+	width:1px;
+	height:2826px;
+}
+
+#top_nav {
+	position:absolute;
+	left:150px;
+	top:120px;
+	width:1285px;
+	height:43px;
+}
+
+#blank-nav {
+	position:absolute;
+	left:150px;
+	top:163px;
+	width:1285px;
+	height:33px;
+}
+
+#login {
+	position:absolute;
+	left:220px;
+	top:250px;
+	width:200px;
+	z-index:20;
+}
 /* static.html.erb CSS END*/
 /* about.html.erb CSS STARTS Here*/
 #mdn_desc {
@@ -446,6 +525,18 @@ h2 {
 	text-align: center;
 }
 /*--donate.html.erb-- end*/
+/*--parable.html.erb-- start*/
+#parables ul {
+	line-height:140%;
+	list-style-type: square;
+	list-style-position: inside;
+	padding: 1em;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-style: italic;
+	}
+
+
+/*--parable.html.erb-- start*/
 /*--radio.html.erb-- start*/
 
 #radio_desc {

@@ -46,4 +46,7 @@ class PagesController < ApplicationController
   
   def announcements
   end
+  
+  def system
+  end
 end
