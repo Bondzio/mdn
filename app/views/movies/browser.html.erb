@@ -1,3 +1,4 @@
+<div class="on_white">
 <h1>Video Clip Browser</h1>
 
 <table>
@@ -23,8 +24,8 @@
     <td><%= movie.description %></td>
     <td><%= movie.url %></td>
     <td><%= movie.filename %></td>
-    <td><%= movie.featured %></td>
 	<td><%= movie.duration %></td>
+    <td><%= movie.featured %></td>
     <td><%= link_to 'Show', movie %></td>
     <td><%= link_to 'Edit', edit_movie_path(movie) %></td>
     <td><%= link_to 'Destroy', movie, :confirm => 'Are you sure?', :method => :delete %></td>
@@ -35,3 +36,4 @@
 <br />
 
 <%= link_to 'New Movie', new_movie_path %>
+</div>

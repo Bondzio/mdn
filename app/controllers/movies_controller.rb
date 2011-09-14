@@ -1,5 +1,5 @@
 class MoviesController < ApplicationController
-  before_filter :authenticate_admin!, :only => [:edit, :update, :moderate, :destroy]
+  before_filter :authenticate_admin!, :only => [:edit, :update, :moderate, :destroy, :index]
   # GET /movies
   # GET /movies.xml
   def index

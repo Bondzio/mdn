@@ -56,6 +56,36 @@
 	text-decoration: underline;
 }
 
+.on_white a {
+	display: block;
+	color: #660000;
+	text-decoration: none;
+}
+
+.on_white a:link {
+	display: block;
+	color: #660000;
+	text-decoration: none;
+}
+
+.on_white a:visited {
+	display: block;
+	color: #660000;
+	text-decoration: none;
+}
+
+.on_white a:hover {
+	display: block;
+	color: #F3F781;
+	text-decoration: none;
+}
+
+.on_white:active {
+	display: block;
+	color: #F3F781;
+	text-decoration: none;
+}
+
 .promo_block {
 	width: 240px;
 	height: auto;
@@ -520,6 +550,9 @@ h2 {
 	font-family: verdana, arial, helvetica, sans-serif;
 }
 /*--mannerisms.html.erb-- end*/
+/*--movies.html.erb-- end*/
+
+/*--movies.html.erb-- end*/
 /*--donate.html.erb-- start*/
 #donate {
 	text-align: center;
