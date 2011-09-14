@@ -23,7 +23,7 @@
 
 #top-image {
 	position:absolute;
-	left:-150px;
+	left:-100px;
 	top: -394px;
 	width:655px;
 	z-index:50;
@@ -40,9 +40,9 @@
 
 #interior_body {
 	position:absolute;
-	left:503px;
+	left:453px;
 	top:594px;
-	width:700;
+	width:750px;
 	background-color:#ffffff;
 }
 
@@ -485,7 +485,7 @@ h2 {
 }
 #top-coach {
 	position:absolute;
-	left:-150px;
+	left:-100px;
 	top: -434px;
 	width:655px;
 	z-index:50;
@@ -550,6 +550,50 @@ h2 {
 	font-family: verdana, arial, helvetica, sans-serif;
 }
 /*--mannerisms.html.erb-- end*/
+/*--manstats.html.erb-- start*/
+#manhood-top-image {
+	position:absolute;
+	left:-100px;
+	top: -404px;
+	width:655px;
+	z-index:50;
+}
+#manhood-stats {
+
+}
+.stats {
+	background: #F5EEDB;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	box-shadow:rgb(150,150,150); 5px 5px 10px;
+}
+
+.stats f {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-style: italic;
+	font-size: 10px;
+}
+.stats h1 {
+	font-family: verdana, arial, helvetica, sans-serif;
+	line-height: 140%;
+
+}
+.stats h3 {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.stats ul {
+	list-style-type: square;
+	list-style-position: outside;
+	padding: 1em;
+}
+
+/*--manstats.html.erb-- end*/
 /*--movies.html.erb-- end*/
 
 /*--movies.html.erb-- end*/
