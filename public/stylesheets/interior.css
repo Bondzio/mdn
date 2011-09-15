@@ -556,6 +556,7 @@ h2 {
 }
 /*--mannerisms.html.erb-- end*/
 /*--manstats.html.erb-- start*/
+
 #manhood-top-image {
 	position:absolute;
 	left:-100px;
@@ -574,6 +575,10 @@ h2 {
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	box-shadow:rgb(150,150,150); 5px 5px 10px;
+}
+.stats n {
+	font-size: 10px;
+	vertical-align: super;
 }
 
 .stats f {
@@ -596,6 +601,7 @@ h2 {
 	list-style-type: square;
 	list-style-position: outside;
 	padding: 1em;
+	line-height: 120%;
 }
 
 /*--manstats.html.erb-- end*/
