@@ -564,9 +564,7 @@ h2 {
 	width:655px;
 	z-index:50;
 }
-#manhood-stats {
 
-}
 .stats {
 	background: #F5EEDB;
 	margin: 10px;
@@ -603,7 +601,11 @@ h2 {
 	padding: 1em;
 	line-height: 120%;
 }
-
+.footnote li {
+	list-style-type: none;
+	list-style-position: outside;
+	line-height: 90%;
+}
 /*--manstats.html.erb-- end*/
 /*--movies.html.erb-- end*/
 
