@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110629201921) do
+ActiveRecord::Schema.define(:version => 20110915192810) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                                 :default => "", :null => false
@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(:version => 20110629201921) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "newfield"
   end
 
   add_index "admins", ["email"], :name => "index_admins_on_email", :unique => true
@@ -75,6 +76,18 @@ ActiveRecord::Schema.define(:version => 20110629201921) do
     t.boolean  "enabled"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "stats", :force => true do |t|
+    t.text     "title"
+    t.text     "stat"
+    t.text     "content"
+    t.string   "topic"
+    t.text     "source"
+    t.boolean  "visible"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.text     "mannerism"
   end
 
   create_table "users", :force => true do |t|

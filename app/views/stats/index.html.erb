@@ -1,0 +1,19 @@
+<div id="manhood-top-image">
+	<a href="/pages/donate"><img src="/images/manstat/manstat_top_image.jpg" width="933" height="377" alt=""></a>
+</div>
+
+<% @stats.each do |stat| %>
+
+<div class="stats">
+<h1><%= stat.topic %></h1>
+<h2><%= stat.title %></h2>
+<h3>Statistic:<%= stat.stat %></h3>
+<p><%= stat.content %></p>
+<f>Source:<%= stat.source %></f>
+<h3>Man-nerism: <%= stat.mannerism %></h3>
+
+<% end %>
+</div>
+
+
+<br />

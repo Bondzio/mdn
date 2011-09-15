@@ -1,4 +1,6 @@
 DBC::Application.routes.draw do
+  resources :stats
+
   get "pages/parable"
 
   get "pages/donate"
