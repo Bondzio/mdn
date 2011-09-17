@@ -474,7 +474,7 @@ h2 {
 	height: auto;
 	width: 320px;
 	float: right;
-	margin: 0px 0px 10px 10px;
+	margin: 10px 0px 10px 10px;
 	-moz-box-shadow: 5px 5px 10px #888;
 	-webkit-box-shadow: 5px 5px 10px #888;
 	box-shadow: 5px 5px 10px #888;
