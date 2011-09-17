@@ -462,14 +462,14 @@ h2 {
 	height: auto;
 	width: auto;
 	float: left;
-	margin: 0px 0px 10px 0px;
+	margin: 10px 0px 10px 0px;
 }
 .photos {
 	
 }
 .bio_photo {
 	position: absolute;
-	top: 890px;
+	top: 910px;
 	left: 330px;
 	height: auto;
 	width: 320px;
