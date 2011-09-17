@@ -1,6 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
 /* static.html.erb CSS goes here */
+#about_menu {
+	background:#000000;
+	display: inline;
+	z-index: 50;
+	
+}
+
+.caption {
+	font-family: arial;
+	font-style: italic;
+	font-size: 14px;
+}
+.drop_menu {
+
+}
+
 #gray_sidebar {
 	position:absolute;
 	left:150px;
@@ -12,7 +28,7 @@
 
 #top-image {
 	position:absolute;
-	left:-150px;
+	left:-100px;
 	top: -394px;
 	width:655px;
 	z-index:50;
@@ -29,9 +45,9 @@
 
 #interior_body {
 	position:absolute;
-	left:503px;
+	left:453px;
 	top:594px;
-	width:700;
+	width:750px;
 	background-color:#ffffff;
 }
 
@@ -45,22 +61,159 @@
 	text-decoration: underline;
 }
 
+.on_white a {
+	display: block;
+	color: #660000;
+	text-decoration: none;
+}
+
+.on_white a:link {
+	display: block;
+	color: #660000;
+	text-decoration: none;
+}
+
+.on_white a:visited {
+	display: block;
+	color: #660000;
+	text-decoration: none;
+}
+
+.on_white a:hover {
+	display: block;
+	color: #F3F781;
+	text-decoration: none;
+}
+
+.on_white:active {
+	display: block;
+	color: #F3F781;
+	text-decoration: none;
+}
+
+.promo_block {
+	width: 240px;
+	height: auto;
+	-moz-box-shadow: 5px 5px 10px #888;
+	-webkit-box-shadow: 5px 5px 10px #888;
+	box-shadow: 5px 5px 10px #888;
+	
+}
 #promos {
 	text-align: center;
 }
 
 #promo1 {
 	position:relative;
-	top: 100;
-	margin: 30px 30px 30px 30px;	
+	margin: 30px 30px 30px 57px;
+	height: auto;
+	width: 205px;
+	font-family: 'brush script', Georgia, Times;
+	color: #4C4731;
+	font-size: 18px;
+	font-style: italic;
+	line-height: 1.1;
+	text-align: center;
+	background-color: #ADA272;
+	padding: 1em;
 }
 #promo2 {
 	position: relative;
-	margin: 30px 30px 30px 30px;
+	margin: 30px 30px 30px 57px;
+	background-color: #ffffff;
+	text-align: center;
 }
 #promo3 {
 	position: relative;
-	margin: 30px 30px 30px 30px;
+	margin: 30px 30px 30px 57px;
+	height: 160px;
+	background-color: #ffffff;
+	text-align: center;
+}
+#promo4 {
+	position:relative;
+	margin: 30px 30px 30px 0px;
+	background-color: #ffffff;	
+	text-align: center;
+}
+
+#Table_01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:1581px;
+}
+
+#Interior-01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:97px;
+	height:2946px;
+}
+
+#left-shadow {
+	position:absolute;
+	left:97px;
+	top:0px;
+	width:52px;
+	height:2946px;
+}
+
+#MDN-Logo {
+	position:absolute;
+	left:149px;
+	top:0px;
+	width:1286px;
+	height:120px;
+}
+
+#right-shadow {
+	position:absolute;
+	left:1435px;
+	top:0px;
+	width:58px;
+	height:2946px;
+}
+
+#Interior-05 {
+	position:absolute;
+	left:1493px;
+	top:0px;
+	width:88px;
+	height:2946px;
+}
+
+#left-shadow006 {
+	position:absolute;
+	left:149px;
+	top:120px;
+	width:1px;
+	height:2826px;
+}
+
+#top_nav {
+	position:absolute;
+	left:150px;
+	top:120px;
+	width:1285px;
+	height:43px;
+}
+
+#blank-nav {
+	position:absolute;
+	left:150px;
+	top:163px;
+	width:1285px;
+	height:33px;
+}
+
+#login {
+	position:absolute;
+	left:220px;
+	top:250px;
+	width:200px;
+	z-index:20;
 }
 /* static.html.erb CSS END*/
 /* about.html.erb CSS STARTS Here*/
@@ -72,23 +225,23 @@
 	position: relative;	
 }
 #about_mission {
-	display:none;
+	display:block;
 	position: relative;	
 }
 #about_founder {
-	display:none;
+	display:block;
 	position: relative;	
 }
 #about_network {
-	display:none;
+	display:block;
 	position: relative;	
 }
 #about_system {
-	display:none;
+	display:block;
 	position: relative;	
 }
 #about_beliefs {
-	display:none;
+	display:block;
 	position: relative;	
 }
 .about {
@@ -97,6 +250,18 @@
 	line-height: 140%;
 }
 /* about.html.erb CSS ENDS Here*/
+/* announcements.html.erb CSS STARTS Here*/
+#announce-1 {
+	float: left;
+}
+
+#announce-1-photo {
+	margin-right: 4px;
+	text-align: center;
+}
+
+
+/* announcements.html.erb CSS ENDS Here*/
 /* curriculum.html.erb CSS STARTS Here*/
 #curriculum_body {
 	clear:none;
@@ -122,6 +287,12 @@
 	line-height: 160%;
 	list-style-type: square;
 	list-style-position: inside;
+}
+#curriculum_logo {
+	-moz-box-shadow: 5px 5px 10px #888;
+	-webkit-box-shadow: 5px 5px 10px #888;
+	box-shadow: 5px 5px 10px #888;
+	width: 400px;
 }
 /* curriculum.html.erb CSS ENDS Here*/
 
@@ -234,7 +405,13 @@ h2 {
 }
 /*--bootcamp.html.erb-- start*/
 .video {
-	text-align: center;
+	text-align: left;
+}
+#dbc ul{
+	line-height: 160%;
+	list-style-type: square;
+	list-style-position: outside;
+	padding: 1em;
 }
 /*--bootcamp.html.erb-- end*/
 /*--coaches.html.erb-- start*/
@@ -243,7 +420,7 @@ h2 {
 	width:340px;
 	height: auto;
 	float:left;
-	margin: 0px 30px 0px 0px;
+	margin: 10px 0px 0px 0px;
 }
 
 #coaches a {
@@ -268,7 +445,7 @@ h2 {
 #coaches a:hover {
 	display: block;
 	color: #7E7717;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 #coaches a:active {
@@ -285,16 +462,20 @@ h2 {
 	height: auto;
 	width: auto;
 	float: left;
-	margin: 0px 0px 10px 0px;
+	margin: 10px 0px 10px 0px;
 }
-.photos {
-	
+#photos {
+	width:320;
+	height:300;
 }
 .bio_photo {
+	position: absolute;
+	top: 910px;
+	left: 330px;
 	height: auto;
 	width: 320px;
 	float: right;
-	margin: 0px 0px 10px 10px;
+	margin: 10px 0px 10px 10px;
 	-moz-box-shadow: 5px 5px 10px #888;
 	-webkit-box-shadow: 5px 5px 10px #888;
 	box-shadow: 5px 5px 10px #888;
@@ -304,27 +485,29 @@ h2 {
 	font-weight:bold;
 }
 
-#top {
-	clear: both;
-	top: 900px;
-}
-
 #what_is {
 	clear:both;
-	margin: 40px 0px 0px 0px;
+	margin: 40px 0px 20px 0px;
+}
+#top-coach {
+	position:absolute;
+	left:-100px;
+	top: -434px;
+	width:655px;
+	z-index:50;
 }
 /*--coaches.html.erb-- end*/
 /*--contact.html.erb-- start*/
 #contact p {
-	line-height: 120%;
+	line-height: 130%;
 }
 #contact h1 {
 	line-height: 150%;
-	font-size: 30px;
+	font-size: 24px;
 }
 #contact h2 {
-	line-height: 150%;
-	font-size: 24px;
+	line-height: 130%;
+	font-size: 18px;
 }
 /*--contact.html.erb-- end*/
 /*--static.html.erb-- start*/
@@ -341,8 +524,11 @@ h2 {
 }
 
 #mannerisms ul {
-	list-style-type: circle;
-	font-family: "lucida calligraphy";
+	list-style-type: square;
+	list-style-position: outside;
+	padding: 1em;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-style: italic;
 }
 .definition p {
 	line-height: 130%;
@@ -370,11 +556,78 @@ h2 {
 	font-family: verdana, arial, helvetica, sans-serif;
 }
 /*--mannerisms.html.erb-- end*/
+/*--manstats.html.erb-- start*/
+
+#manhood-top-image {
+	position:absolute;
+	left:-100px;
+	top: -404px;
+	width:655px;
+	z-index:50;
+}
+
+.stats {
+	background: #F5EEDB;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	box-shadow:rgb(150,150,150); 5px 5px 10px;
+}
+.stats n {
+	font-size: 10px;
+	vertical-align: super;
+}
+
+.stats f {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-style: italic;
+	font-size: 10px;
+}
+.stats h1 {
+	font-family: verdana, arial, helvetica, sans-serif;
+	line-height: 140%;
+
+}
+.stats h3 {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.stats ul {
+	list-style-type: square;
+	list-style-position: outside;
+	padding: 1em;
+	line-height: 120%;
+}
+.footnote li {
+	list-style-type: none;
+	list-style-position: outside;
+	line-height: 90%;
+}
+/*--manstats.html.erb-- end*/
+/*--movies.html.erb-- end*/
+
+/*--movies.html.erb-- end*/
 /*--donate.html.erb-- start*/
 #donate {
 	text-align: center;
 }
 /*--donate.html.erb-- end*/
+/*--parable.html.erb-- start*/
+#parables ul {
+	line-height:140%;
+	list-style-type: square;
+	list-style-position: inside;
+	padding: 1em;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-style: italic;
+	}
+
+
+/*--parable.html.erb-- start*/
 /*--radio.html.erb-- start*/
 
 #radio_desc {
