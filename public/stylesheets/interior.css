@@ -465,15 +465,15 @@ h2 {
 	margin: 10px 0px 10px 0px;
 }
 #photos {
-	width:320;
-	height:300;
+	width:320px;
+	height:280px;
 	float: left;
+	margin: 0px 0px 0px 0px;
 }
 .bio_photo {
 	position: absolute;
 	height: auto;
 	width: 320px;
-	margin: 0px 0px 0px 0px;
 	-moz-box-shadow: 5px 5px 10px #888;
 	-webkit-box-shadow: 5px 5px 10px #888;
 	box-shadow: 5px 5px 10px #888;
