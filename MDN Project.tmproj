@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>app/views/pages/bootcamp.html.erb</string>
+	<string>app/views/home/index.html.erb</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,20 +21,6 @@
 	<integer>320</integer>
 	<key>metaData</key>
 	<dict>
-		<key>Gemfile</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>19</integer>
-				<key>line</key>
-				<integer>30</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>app/cells/quote/display.html.erb</key>
 		<dict>
 			<key>caret</key>
@@ -133,6 +119,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>app/views/home/index.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>app/views/layouts/application.html.erb</key>
 		<dict>
 			<key>caret</key>
@@ -141,6 +141,20 @@
 				<integer>0</integer>
 				<key>line</key>
 				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>app/views/layouts/static.html.erb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>10</integer>
+				<key>line</key>
+				<integer>68</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -183,20 +197,6 @@
 				<integer>0</integer>
 				<key>line</key>
 				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>app/views/pages/bootcamp.html.erb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>116</integer>
-				<key>line</key>
-				<integer>26</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -246,20 +246,6 @@
 				<key>line</key>
 				<integer>2</integer>
 			</dict>
-		</dict>
-		<key>app/views/prayers/index.html.erb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>16</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
 		</dict>
 		<key>config/application.rb</key>
 		<dict>
@@ -336,14 +322,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>9</integer>
+				<integer>11</integer>
 				<key>line</key>
-				<integer>446</integer>
+				<integer>99</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>447</integer>
+			<integer>0</integer>
 		</dict>
 		<key>public/stylesheets/interior.css</key>
 		<dict>
@@ -377,14 +363,13 @@
 	<key>openDocuments</key>
 	<array>
 		<string>public/stylesheets/index.css</string>
-		<string>Gemfile</string>
-		<string>app/views/prayers/index.html.erb</string>
-		<string>app/views/pages/bootcamp.html.erb</string>
-		<string>public/stylesheets/interior.css</string>
+		<string>app/views/home/index.html.erb</string>
+		<string>app/views/layouts/application.html.erb</string>
+		<string>app/views/layouts/static.html.erb</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{342, 63}, {1055, 815}}</string>
+	<string>{{342, 100}, {1055, 778}}</string>
 </dict>
 </plist>
