@@ -1,3 +1,4 @@
+
 ul.marquee {
 	/* required styles */
 	display: block;
@@ -15,7 +16,7 @@ ul.marquee {
 	width: 900px;
 	height: 19px; /* height should be included to reserve visual space for the marquee */
 
-	background-color: rgba(52,52,52,0);
+	background-color: #660000;
 	border: none
 }
 
@@ -30,6 +31,8 @@ ul.marquee li {
 	/* optional styles for appearance */
 	font: 14px Arial, Helvetica, sans-serif;
 	font-style: italic;
-	color: #aaaaaa;
+	color: #fff;
 	padding: 3px 5px;
+
+
 }

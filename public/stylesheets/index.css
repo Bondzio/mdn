@@ -184,14 +184,16 @@ a:active {
 	width:1285px;
 	height:11px;
 }
-
+#featured-video iframe {
+	z-index: -10;
+}
 #video-area {
 	position:absolute;
 	left:150px;
 	top:174px;
 	width:738px;
 	height:450px;
-	z-index: 10;
+	z-index: -10;
 }
 
 #featured-area {
