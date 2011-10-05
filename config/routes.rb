@@ -26,6 +26,8 @@ DBC::Application.routes.draw do
   get "pages/biblestudy"
 
   get "pages/bootcamp"
+  
+  get "pages/browserupdate"
 
   resources :quotes
 
