@@ -222,6 +222,8 @@ a:active {
 	height:43px;
 }
 
+#prayerstream {z-index: 2000;}
+
 #weapons-pic {
 	position:absolute;
 	left:150px;
