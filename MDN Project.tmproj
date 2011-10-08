@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>app/views/layouts/static.html.erb</string>
+	<string>app/views/home/index.html.erb</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -152,37 +152,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>27</integer>
-				<key>line</key>
-				<integer>130</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>115</integer>
-		</dict>
-		<key>app/views/layouts/index.html.erb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>7</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>app/views/layouts/static.html.erb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>6</integer>
-				<key>line</key>
-				<integer>1</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -364,14 +336,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>13</integer>
+				<integer>25</integer>
 				<key>line</key>
-				<integer>187</integer>
+				<integer>224</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>173</integer>
+			<integer>205</integer>
 		</dict>
 		<key>public/stylesheets/interior.css</key>
 		<dict>
@@ -386,20 +358,6 @@
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>220</integer>
-		</dict>
-		<key>public/stylesheets/menu.css</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>56</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
 		</dict>
 		<key>public/test.html</key>
 		<dict>
@@ -419,9 +377,6 @@
 	<key>openDocuments</key>
 	<array>
 		<string>public/stylesheets/index.css</string>
-		<string>public/stylesheets/menu.css</string>
-		<string>app/views/layouts/index.html.erb</string>
-		<string>app/views/layouts/static.html.erb</string>
 		<string>app/views/pages/mannerisms.html.erb</string>
 		<string>app/views/home/index.html.erb</string>
 		<string>app/cells/video_feature/display.html.erb</string>
