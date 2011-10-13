@@ -31,6 +31,8 @@ a:active {
 	text-decoration: none;
 }
 
+#nav ul {z-index:1000;}
+
 #top-nav {
 	position:absolute;
 	left:150px;
