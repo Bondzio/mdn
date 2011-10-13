@@ -49,4 +49,8 @@ class PagesController < ApplicationController
   
   def system
   end
+  
+  def browserupdate
+  end
+
 end

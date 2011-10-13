@@ -1,12 +1,10 @@
 .bundle
-.DS_Store*
 db/*.sqlite3
 log/*.log
 tmp/**/*
 .bundle\n
 <<<<<<< HEAD
 MDN Project.tmproj
-.gitignore
 =======
 MDN\ Project.tmproj
 >>>>>>> IE_compatibility
