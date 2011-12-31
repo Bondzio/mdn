@@ -29,6 +29,7 @@ gem 'devise'
 gem 'cells'
 gem 'rack', '1.2.1'
 gem 'will_paginate'
+gem 'paperclip', :git => "git://github.com/thoughtbot/paperclip.git"
 
 #gem "bcrypt-ruby", :require => "bcrypt"
 #Deploy Mongrel

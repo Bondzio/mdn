@@ -43,10 +43,19 @@
 	z-index:30;
 }
 
+
 #interior_body {
 	position:absolute;
 	left:453px;
 	top:594px;
+	width:750px;
+	background-color:#ffffff;
+}
+
+#interior_body_nohead {
+	position:absolute;
+	left:453px;
+	top:230px;
 	width:750px;
 	background-color:#ffffff;
 }
@@ -662,3 +671,37 @@ h2 {
 	padding-bottom: 20px;
 }
 /*--radio.html.erb-- end*/
+/*--gallery.html.erb-- start*/
+#gallery_wrap {
+	background: rgba(30,100,10,.5);
+	float: left;
+	clear: both;
+	width: 100%;
+	border: 1px solid #000000;
+	margin: 5px 0px 5px 0px;
+	padding: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	box-shadow:rgb(150,150,150); 5px 5px 10px;
+}
+#gallery_left {
+	float: left;
+	clear: right;
+	width: 45%;
+	
+}
+
+#gallery_rt {
+	float: right;
+	clear: left;
+	background: rgba(20,100,10,.5);
+	width: 45%;
+	
+}
+
+#gallery_photos {
+	display: none;
+}
+/*--gallery.html.erb-- end*/
+

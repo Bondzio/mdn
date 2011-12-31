@@ -1,4 +1,10 @@
 DBC::Application.routes.draw do
+  
+  resources :galleries
+  
+  resources :assets
+  
+
   resources :stats
 
   get "pages/parable"

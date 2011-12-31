@@ -1,102 +1,13 @@
 <html>
-<head>
+<head> 
 	<title>Prayer Requests</title>
-	  <%= stylesheet_link_tag "1reset.css", "scaffold.css", "interior.css", "menu.css" %>
-	  <%= javascript_include_tag :defaults %>
+	  <%= stylesheet_link_tag "1reset.css", "scaffold.css", "interior.css", "menu.css", "pushup.css" %>
+	  <%= javascript_include_tag :all %>
 	  <%= csrf_meta_tag %>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-<!-- Save for Web Styles (G4M_Interior_Pages_Template_SC_07042011.psd) -->
-
-<style type="text/css">
-/* CUSTOM CSS HERE */
-
-#login {
-	position:absolute;
-	left:220px;
-	top:250px;
-	width:200px;
-	z-index:20;
-}
-
-/* CUSTOM CSS ENDS HERE */
-
-
-
-#Table_01 {
-	position:absolute;
-	left:0px;
-	top:0px;
-	width:1581px;
-}
-
-#Interior-01 {
-	position:absolute;
-	left:0px;
-	top:0px;
-	width:97px;
-	height:2946px;
-}
-
-#left-shadow {
-	position:absolute;
-	left:97px;
-	top:0px;
-	width:52px;
-	height:2946px;
-}
-
-#MDN-Logo {
-	position:absolute;
-	left:149px;
-	top:0px;
-	width:1286px;
-	height:120px;
-}
-
-#right-shadow {
-	position:absolute;
-	left:1435px;
-	top:0px;
-	width:58px;
-	height:2946px;
-}
-
-#Interior-05 {
-	position:absolute;
-	left:1493px;
-	top:0px;
-	width:88px;
-	height:2946px;
-}
-
-#left-shadow006 {
-	position:absolute;
-	left:149px;
-	top:120px;
-	width:1px;
-	height:2826px;
-}
-
-#top_nav {
-	position:absolute;
-	left:150px;
-	top:120px;
-	width:1285px;
-	height:43px;
-}
-
-#blank-nav {
-	position:absolute;
-	left:150px;
-	top:163px;
-	width:1285px;
-	height:33px;
-}
-
-
-
-</style>
-<!-- End Save for Web Styles -->
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 </head>
 <body style="background-color:#FFFFFF; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;">
 <!-- Save for Web Slices (G4M_Interior_Pages_Template_SC_07042011.psd) -->
@@ -109,37 +20,21 @@
 	</div>
 	<!-- CUSTOM DIVS END HERE -->
 	<!-- NAVIGATION LINKS GO HERE -->
-	<!-- <div id="nav_links">
-			<div class="nav"><a style="float: left"; href="../">Home</a></div>
-			<div style="float: left";>&nbsp;&nbsp; | &nbsp;&nbsp; </div>
-			<div class="nav"><a style="float: left"; href="../pages/about">About Men's Discipleship Network</a> </div>
-			<div style="float: left";>&nbsp;&nbsp; | &nbsp;&nbsp; </div>
-			<div class="nav"><a style="float: left"; href="../pages/coaches">Meet the Coaches</a> </div>
-			<div style="float: left";>&nbsp;&nbsp; | &nbsp;&nbsp; </div>
-			<div class="nav"><a style="float: left"; href="../pages/events">Events  </a></div>
-			<div style="float: left";>&nbsp;&nbsp; | &nbsp;&nbsp; </div>
-			<div class="nav"><a style="float: left"; href="../pages/mannerisms">Man-nerisms  </a></div>
-			<div style="float: left";>&nbsp;&nbsp; | &nbsp;&nbsp; </div>
-			<div class="nav"><a style="float: left"; href="../pages/curriculum">Curriculum</a></div>
-			<div style="float: left";>&nbsp;&nbsp; | &nbsp;&nbsp; </div>
-			<div class="nav"><a style="float: left"; href="../pages/contact">Contact Us</a></div>
-			<div style="float: left";>&nbsp;&nbsp; | &nbsp;&nbsp; </div>
-			<div class="nav"><a style="float: left"; href="../pages/donate">Donate</a></div>
-			<div style="float: left";>&nbsp;&nbsp; | &nbsp;&nbsp; </div>
-			<div class="nav"><a style="float: left"; href="../pages/bootcamp">Discipleship Boot Camp<sup>&#153;</sup></a></div>
-			<div style="float: left";>&nbsp;&nbsp; | &nbsp;&nbsp; </div>
-			<div class="nav"><a style="float: left"; href="../pages/radio">Radio</a></div>
-		</div>
-	-->	
 		<div class="container">
 		    <div class="menu">
+				<ul class="nav">
+					<li class="drop"><a class="sub-link" href="#url"><b class="top">Support MDN</b></a>
+		                <ul>
+		                    <li><a href="/pages/donate"><b>Donate Here</b></a></li>
+		      			</ul>
+					</li>
+				 </ul>
 		        <ul class="nav">
 		            <li class="drop"><a class="sub-link" href="#url"><b class="top">About Us</b></a>
 		                <ul>
-		                    <li><a href="/pages/about#mdn_desc"><b>History</b></a></li>
+		                    <li><a href="/pages/about"><b>History</b></a></li>
 							<li><a href="/pages/about#founder_desc"><b>Our Founder</b></a></li>
 							<li><a href="/pages/about#mission_desc"><b>Mission Statement</b></a></li>
-							<li><a href="/pages/about#system_desc"><b>MDN Discipleship System</b></a></li>
 		                    <li><a href="/pages/about#belief_desc"><b>Beliefs</b></a></li>
 							<li><a href="/pages/about#network_desc"><b>MDN Network</b></a></li>
 		                    <li><a href="/pages/contact"><b>Contact Us</b></a></li>
@@ -158,18 +53,23 @@
 				<ul class="nav">
 		            <li class="drop"><a class="sub-link" href="#url"><b class="top">MDN Ministries</b></a>
 		                <ul>
-		                    <li><a href="/pages/bootcamp"><b>Discipleship Boot Camps<sup>&#153;</sup></b></a></li>
+		                    <li><a href="/pages/system"><b>MDN Discipleship System<sup>&#153;</sup></b></a></li>
+							<li><a href="/pages/bootcamp"><b>Discipleship Boot Camps<sup>&#153;</sup></b></a></li>
 		                    <li><a href="/pages/curriculum"><b>W.E.A.P.O.N.S. Curriculum<sup>&#174;</sup></b></a></li>
 							<li><a href="/pages/radio"><b>Radio</b></a></li>
 							<li><a href="/pages/leadership"><b>Leadership Study</b></a></li>
 		                </ul>
 		            </li>
 		        </ul>
-				
-		        
 				<ul class="nav">
-			            <li class="drop"><a class="sub-link" href="/pages/coaches"><b class="top">The Coaches</b></a></li>
-			     </ul>
+					<li class="drop"><a class="sub-link" href="#url"><b class="top">The Coaches</b></a>
+		                <ul>
+		                    <li><a href="/pages/coaches#what_is"><b>What is a Coach?</b></a></li>
+							<li><a href="/pages/coaches#coaches"><b>Meet the Coaches</b></a></li>
+		      			</ul>
+					</li>
+				 </ul>
+				
 				<ul class="nav">
 		            <li class="drop"><a class="sub-link" href="#url"><b class="top">News</b></a>
 		                <ul>
@@ -178,9 +78,18 @@
 		                </ul>
 		            </li>
 		        </ul>
+				<ul class="nav">
+		            <li class="drop"><a class="sub-link" href="#url"><b class="top">Multimedia</b></a>
+		                <ul>
+		                   	<li><a href="/galleries"><b>Photo Gallery</b></a></li>
+
+		                </ul>
+		            </li>
+		        </ul>
 				 <ul class="nav">
 			            <li><a href="../"><b class="top">Home</b></a></li>
-			     </ul>
+			    </ul>
+				
 		    </div>
 	
 	<!-- END NAVIGATION LINKS -->
@@ -224,7 +133,7 @@
 	</div>
 	
 	<!-- Enter items to be placed in main body -->
-	<div id="interior_body">
+	<div id="interior_body_nohead">
 		<div id="interior-content">
 			<%= yield %>
 		</div>

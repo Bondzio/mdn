@@ -1,0 +1,38 @@
+	<div id="gallery">
+		<div><h1>MDN Photo Gallery</h1></div>
+
+		<% @galleries.each do |gallery| %>
+
+		<div id="gallery_wrap">
+			<div id="gallery_left">
+				<div id="gallery_head"><%= gallery.gallery_name %></div>
+				<div id="gallery_desc"><%= gallery.description %></div>
+			</div>
+			<div id="gallery_rt">
+				<% for asset in gallery.assets %>
+				  <div id="gallery_photos">		
+					 <%= link_to( image_tag(asset.image.url(:thumb)), asset.image.url(:original)) %>
+				  </div>
+				<% end %>
+
+				<% if gallery.find_only_featured.exists? %>
+				  <div id="featured_image">
+				    <%= image_tag(asset.image.url(:thumb)) %>
+				  </div>
+				<% end %>
+	
+				
+			</div>
+			<td><%= link_to 'Show', gallery %></td>
+		    <td><%= link_to 'Edit', edit_gallery_path(gallery) %></td>
+		    <td><%= link_to 'Destroy', gallery, :confirm => 'Are you sure?', :method => :delete %></td>
+		</div>
+		</br>
+		<% end %>
+
+
+		<br />
+
+		<%= link_to 'New Gallery', new_gallery_path %>
+
+	</div>

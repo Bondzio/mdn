@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110915192810) do
+ActiveRecord::Schema.define(:version => 20111229181029) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                                 :default => "", :null => false
@@ -37,6 +37,32 @@ ActiveRecord::Schema.define(:version => 20110915192810) do
     t.text     "content"
     t.boolean  "moderated"
     t.integer  "space_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "assets", :force => true do |t|
+    t.integer  "gallery_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
+    t.boolean  "featured"
+  end
+
+  create_table "galleries", :force => true do |t|
+    t.string   "gallery_name"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "gallery_images", :force => true do |t|
+    t.text     "image_desc"
+    t.string   "filename"
+    t.integer  "gallery_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
