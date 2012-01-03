@@ -1,38 +1,54 @@
+<head>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+	<script type="text/javascript">
+	/*this first line will prevent a conflict with Prototype's use of the $ sign */
+	jQuery.noConflict();	
+		jQuery(document).ready(function() {
+			$(".fancybox").fancybox({
+				openEffect	: 'none',
+				closeEffect	: 'none'
+			});
+		});
+	</script>
+</head>
 	<div id="gallery">
-		<div><h1>MDN Photo Gallery</h1></div>
+		<div class="headers"><h1>MDN Photo Gallery</h1></div></br>
 
 		<% @galleries.each do |gallery| %>
 
 		<div id="gallery_wrap">
 			<div id="gallery_left">
-				<div id="gallery_head"><%= gallery.gallery_name %></div>
+				<div id="gallery_head"><h2><%= gallery.gallery_name %></h2></div>
 				<div id="gallery_desc"><%= gallery.description %></div>
 			</div>
 			<div id="gallery_rt">
-				<% for asset in gallery.assets %>
-				  <div id="gallery_photos">		
-					 <%= link_to( image_tag(asset.image.url(:thumb)), asset.image.url(:original)) %>
-				  </div>
-				<% end %>
-
-				<% if gallery.find_only_featured.exists? %>
-				  <div id="featured_image">
-				    <%= image_tag(asset.image.url(:thumb)) %>
-				  </div>
-				<% end %>
-	
-				
+				<div id="gallery_featured">
+					<% for asset in gallery.assets.featured %>
+					  <%= link_to( image_tag(asset.image.url(:medium)), asset.image.url(:large), :class => "fancybox", :rel => gallery.id ) %>
+					<% end %>
+				</div>
+				<div id="gallery_photos">	
+				<% for asset in gallery.assets %>	
+				  <%= link_to( image_tag(asset.image.url(:thumb)), asset.image.url(:large), :class => "fancybox", :rel => gallery.id ) %>
+				<% end %>	
+				</div>
+				<td><%= link_to 'Show', gallery %></td>
+			    <td><%= link_to 'Edit', edit_gallery_path(gallery) %></td>
+			    <td><%= link_to 'Destroy', gallery, :confirm => 'Are you sure?', :method => :delete %></td>
 			</div>
-			<td><%= link_to 'Show', gallery %></td>
-		    <td><%= link_to 'Edit', edit_gallery_path(gallery) %></td>
-		    <td><%= link_to 'Destroy', gallery, :confirm => 'Are you sure?', :method => :delete %></td>
 		</div>
 		</br>
 		<% end %>
-
-
 		<br />
-
-		<%= link_to 'New Gallery', new_gallery_path %>
-
+	<%= link_to 'New Gallery', new_gallery_path %>
 	</div>
+
+
+
+
+
+
+
+

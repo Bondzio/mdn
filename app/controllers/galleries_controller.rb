@@ -1,6 +1,15 @@
 class GalleriesController < ApplicationController
   #SMC - This specifies the layout to use: views/layouts/prayer.html.erb
    layout 'static_no_head'
+    before_filter :authenticate_admin!, :only => [:edit, :update, :index, :destroy, :moderate]
+   def list
+     @galleries = Gallery.all
+
+     respond_to do |format|
+       format.html # index.html.erb
+       format.xml  { render :xml => @galleries }
+     end
+   end 
    
   # GET /galleries
   # GET /galleries.xml

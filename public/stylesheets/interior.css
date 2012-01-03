@@ -8,6 +8,12 @@
 	
 }
 
+.headers {
+	font-family: arial;
+	font-style: bold;
+	font-size: 24px;
+	text-align: center;
+}
 .caption {
 	font-family: arial;
 	font-style: italic;
@@ -673,35 +679,55 @@ h2 {
 /*--radio.html.erb-- end*/
 /*--gallery.html.erb-- start*/
 #gallery_wrap {
-	background: rgba(30,100,10,.5);
+	background: #E9DB99;
 	float: left;
 	clear: both;
 	width: 100%;
+	height: 300px;
 	border: 1px solid #000000;
 	margin: 5px 0px 5px 0px;
 	padding: 10px;
-	border-radius: 10px;
-	-moz-border-radius: 20px;
-	-webkit-border-radius: 20px;
-	box-shadow:rgb(150,150,150); 5px 5px 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 5px 5px 10px #888;
+	-moz-box-shadow: 5px 5px 10px #888;
+	-webkit-box-shadow: 5px 5px 10px #888;
+	z-index: -10;
+
 }
 #gallery_left {
 	float: left;
-	clear: right;
 	width: 45%;
+	height: 250px;
+	padding: 10px 0px 10px 10px;
+	line-height: 130%;
 	
 }
 
 #gallery_rt {
-	float: right;
-	clear: left;
-	background: rgba(20,100,10,.5);
-	width: 45%;
-	
+	float: left;
+	margin: 10px 10px 10px 10px;
+	width: 50%;
+	height: 250px;
+	vertical-align: middle;
+
 }
 
 #gallery_photos {
 	display: none;
+}
+
+#gallery_featured {
+	position: relative;
+	z-index: 100;
+	text-align: center;
+	vertical-align: middle;
+	margin: 30px 5px 5px 5px;
+}
+
+#gallery_wrap h2 {
+	color: #000000;
 }
 /*--gallery.html.erb-- end*/
 
