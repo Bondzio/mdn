@@ -5,7 +5,7 @@ class Asset < ActiveRecord::Base
     :styles => {
       :thumb => '150x150#',
       :medium => '300x300>',
-      :large => '600x600>'
+      :large => '800x600>'
     }
     
   def self.featured

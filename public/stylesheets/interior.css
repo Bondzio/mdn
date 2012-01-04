@@ -678,7 +678,7 @@ h2 {
 }
 /*--radio.html.erb-- end*/
 /*--gallery.html.erb-- start*/
-#gallery_wrap {
+.gallery_wrap {
 	background: #E9DB99;
 	float: left;
 	clear: both;
@@ -694,8 +694,51 @@ h2 {
 	-moz-box-shadow: 5px 5px 10px #888;
 	-webkit-box-shadow: 5px 5px 10px #888;
 	z-index: -10;
-
 }
+
+.gallery_wrap h2 {
+	color: #000000;
+}
+
+#gallery_footer {
+	background: #E9DB99;
+	float: left;
+	clear: both;
+	text-align: center;
+	width: 100%;
+	height: 30px;
+	border: 1px solid #000000;
+	margin: 5px 0px 5px 0px;
+	padding: 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 5px 5px 10px #888;
+	-moz-box-shadow: 5px 5px 10px #888;
+	-webkit-box-shadow: 5px 5px 10px #888;
+	z-index: -10;
+}
+
+#gallery_header {
+	background: #E9DB99;
+	float: left;
+	clear: both;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+	height: 30px;
+	border: 1px solid #000000;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 5px 5px 10px #888;
+	-moz-box-shadow: 5px 5px 10px #888;
+	-webkit-box-shadow: 5px 5px 10px #888;
+	z-index: -10;
+}
+
 #gallery_left {
 	float: left;
 	width: 45%;
@@ -726,8 +769,5 @@ h2 {
 	margin: 30px 5px 5px 5px;
 }
 
-#gallery_wrap h2 {
-	color: #000000;
-}
 /*--gallery.html.erb-- end*/
 
