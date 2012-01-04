@@ -1,0 +1,24 @@
+
+<p>
+  <b>Gallery name:</b>
+  <%= @gallery.gallery_name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @gallery.description %>
+</p>
+
+<% for asset in @gallery.assets %>
+  
+  <div class="existing_image">
+    <%= link_to( image_tag(asset.image.url(:thumb)), asset.image.url(:original)) %>
+  </div>
+<% end %>
+
+
+
+<%= link_to 'Edit', edit_gallery_path(@gallery) %> |
+<%= link_to 'Back', galleries_path %>
+
+

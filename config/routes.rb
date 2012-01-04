@@ -1,4 +1,13 @@
 DBC::Application.routes.draw do
+  
+  
+  resources :galleries do
+    get 'list', :on => :collection
+  end
+  
+  resources :assets
+  
+
   resources :stats
 
   get "pages/parable"
@@ -34,6 +43,8 @@ DBC::Application.routes.draw do
   resources :movies
   
   match "movies/browser" => "movies#browser"
+  
+
 
   resources :articles
 

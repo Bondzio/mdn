@@ -232,6 +232,7 @@ a:active {
 	top:564px;
 	width:982px;
 	height:43px;
+	z-index: 400;
 }
 
 #prayerstream {z-index: 2000;}
