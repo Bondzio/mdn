@@ -420,7 +420,7 @@ h2 {
 }
 /*--bootcamp.html.erb-- start*/
 .video {
-	text-align: left;
+	text-align: center;
 }
 #dbc ul{
 	line-height: 160%;
@@ -629,6 +629,74 @@ h2 {
 	text-align: center;
 }
 /*--donate.html.erb-- end*/
+/*--events.html.erb-- start*/
+#event_image {
+	position:absolute;
+	left:0px;
+	top:600px;
+	width:378px;
+	height:418px;
+	text-align: center;
+}
+
+#march2012-dbc-w-links-01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:378px;
+	height:236px;
+}
+
+#march2012-dbc-farmingdale {
+	position:absolute;
+	left:0px;
+	top:236px;
+	width:191px;
+	height:63px;
+}
+
+#march2012-dbc-brooklyn {
+	position:absolute;
+	left:191px;
+	top:236px;
+	width:187px;
+	height:63px;
+}
+
+#march2012-dbc-coram {
+	position:absolute;
+	left:0px;
+	top:299px;
+	width:191px;
+	height:56px;
+}
+
+#march2012-dbc-bronx {
+	position:absolute;
+	left:191px;
+	top:299px;
+	width:187px;
+	height:56px;
+}
+
+#march2012-dbc-w-links-06 {
+	position:absolute;
+	left:0px;
+	top:355px;
+	width:378px;
+	height:63px;
+}
+
+#march2012-dbc-click {
+	position:absolute;
+	left:0px;
+	top:355px;
+	width:378px;
+	height:63px;
+	text-align: center;
+}
+
+/*--events.html.erb-- end*/
 /*--parable.html.erb-- start*/
 #parables ul {
 	line-height:140%;
