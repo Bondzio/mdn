@@ -1,6 +1,6 @@
 class PrayersController < ApplicationController
   # before_filter :authenticate_user!, :except => [:edit, :update]
-  before_filter :authenticate_admin!, :only => [:edit, :update, :moderate, :index, :destroy, :moderate]
+  before_filter :authenticate_admin!, :only => [:edit, :update, :moderate, :index, :destroy, :moderate, :review]
   
   #SMC - This specifies the layout to use: views/layouts/static.html.erb
   layout 'static'
@@ -12,7 +12,8 @@ class PrayersController < ApplicationController
   # GET /prayers
   # GET /prayers.xml
   def index
-    @prayers = Prayer.order("created_at DESC")
+    @prayers = Prayer.page(params[:page]).order('created_at DESC')
+    # @prayers = Prayer.order("created_at DESC")
     # @prayers = Prayer.page(params[:page]).order('created_at DESC')
     respond_to do |format|
       format.html # index.html.erb
@@ -52,9 +53,15 @@ class PrayersController < ApplicationController
   # POST /prayers.xml
   def create
     @prayer = Prayer.new(params[:prayer])
-
+    #This is a profanity filter gem from https://github.com/intridea/profanity_filter/blob/master/README.rdoc
+    if ProfanityFilter::Base.profane?(@prayer.moderated)
+      @prayer.moderated = true
+    else
+      @prayer.moderated = false
+    end
+    
     respond_to do |format|
-      if @prayer.save
+      if @prayer.save 
         format.html { redirect_to(@prayer, :notice => 'Prayer was submitted successfully. It will be posted to the web site shortly. We are praying with you!') }
         format.xml  { render :xml => @prayer, :status => :created, :location => @prayer }
       else
@@ -71,8 +78,8 @@ class PrayersController < ApplicationController
 
     respond_to do |format|
       if @prayer.update_attributes(params[:prayer])
-        format.html { redirect_to(@prayer, :notice => 'Prayer was successfully updated.') }
-        format.xml  { head :ok }
+        format.html { redirect_to(:controller => "prayers", :action => "review", :id => @prayer.id, :notice => 'Prayer was successfully updated.') }
+       
       else
         format.html { render :action => "edit" }
         format.xml  { render :xml => @prayer.errors, :status => :unprocessable_entity }
@@ -94,7 +101,8 @@ class PrayersController < ApplicationController
   
   #This method provides a source for the prayer marquee located on the home page.
   def marquee
-    @prayers = Prayer.where(:moderated => true).order("created_at ASC").limit(4)
+    #@prayers = Prayer.where(:moderated => true).order("created_at ASC").limit(4)
+    @prayers = Prayer.where(:moderated => true).sort_by{rand}
     
     respond_to do |format|
       format.html # marquee.html.erb
@@ -111,6 +119,16 @@ class PrayersController < ApplicationController
     respond_to do |format|
       format.html # featured.html.erb
       format.xml  { render :xml => @prayers }
+    end
+  end
+  
+  def review
+    @prayer = Prayer.find(params[:id])
+
+    respond_to do |format|
+        format.html # review.html.erb
+        format.xml  { render :xml => @prayer }
+      
     end
   end
 end
