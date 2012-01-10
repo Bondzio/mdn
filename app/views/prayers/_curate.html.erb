@@ -29,11 +29,11 @@
   </div>
   <div class="field">
     <%= f.label :email %><br />
-    <%= f.text_area :email %>
+    <%= f.text_field :email %>
   </div>
   <div class="field">
     <%= f.label :request %><br />
-    <%= f.text_field :request %>
+    <%= f.text_area :request %>
   </div>
   <div class="field">
     <%= f.label :sex %><br />
@@ -56,7 +56,8 @@
     <%= f.submit %>
   </div>
   <div class="text_field">
-    <%= f.label :timestamp %><br />
-    <%= f.text_field :created_at %>
+    <%= f.label :Create_on %>
+    <%= @prayer.created_at.strftime("%b. %d, %Y") %></br>
   </div>
 <% end %>
+</br>

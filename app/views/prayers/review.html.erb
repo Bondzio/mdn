@@ -48,5 +48,7 @@
 </p>
 </br>
 </br>
- <%= button_to "Home Page", root_path %> <%= button_to 'New Prayer Request', { :action => "new" } %>
-  
+
+<%= link_to 'List All Prayers', prayers_path %>
+<%= button_to 'Edit Prayer', edit_prayer_path %>
+<%= button_to 'Delete Prayer', { :action => "destroy", :id => @prayer.id }, :confirm => 'Are you sure?', :method => :delete %>
