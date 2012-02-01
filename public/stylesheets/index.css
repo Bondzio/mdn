@@ -185,6 +185,7 @@ a:active {
 	top:163px;
 	width:1285px;
 	height:11px;
+	z-index: 11;
 }
 #featured-video iframe {
 	z-index: 10;
