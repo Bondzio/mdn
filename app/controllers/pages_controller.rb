@@ -23,9 +23,6 @@ class PagesController < ApplicationController
   def curriculum
   end
 
-  def biblestudy
-  end
-
   def bootcamp
   end
   
