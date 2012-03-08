@@ -561,6 +561,12 @@ h2 {
 	z-index:50;
 }
 /*--static.html.erb-- end*/
+/*--leadership.html.erb-- start*/
+.full-photo {
+	margin: 40px auto;
+}
+/*--leadership.html.erb-- end*/
+
 /*--mannerisms.html.erb-- start*/
 #mannerisms li {
 	line-height: 120%;
