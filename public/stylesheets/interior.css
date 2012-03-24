@@ -78,8 +78,6 @@
 	height:auto;
 	z-index:30;
 }
-
-
 #interior_body {
 	position:absolute;
 	left:453px;
@@ -313,21 +311,21 @@
 }
 #curriculum_body h1 {
 	font-size: 22pt;
-	font-color: black;
+	color: black;
 	font-family: Arial;
 
 }
 
 #curriculum_body h2 {
 	font-size: 18pt;
-	font-color: #000000;
+	color: #000000;
 	font-family: Arial;
 	line-height: 150%;
 }
 
 #curriculum_body ul {
 	font-size: 14pt;
-	font-color: #000000;
+	color: #000000;
 	font-family: Arial;
 	line-height: 160%;
 	list-style-type: square;
@@ -773,7 +771,6 @@ h2 {
 	width: 300px;
 }
 #radio_coverage {
-	float: center;
 	clear: both;
 	text-align: center;
 	border: 2px solid #000000;
