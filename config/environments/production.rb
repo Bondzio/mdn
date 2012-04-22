@@ -46,4 +46,15 @@ DBC::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
+  
+  # SMTP configurations for Action Mailer
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.smtp_settings = {
+    :address              => "smtp.mensdiscipleshipnetwork.com",
+    :domain               => 'mensdiscipleshipnetwork.com',
+    :user_name            => 'info@mensdiscipleshipnetwork.com',
+    :password             => 'Psalm344',
+    :authentication       => 'login',
+    :enable_starttls_auto => true  }
 end

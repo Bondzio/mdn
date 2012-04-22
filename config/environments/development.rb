@@ -24,7 +24,21 @@ DBC::Application.configure do
   config.action_dispatch.best_standards_support = :builtin
   
   # Configured for Devise
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }   
+  
+  # SMTP configurations for Action Mailer
+  config.action_mailer.delivery_method = :smtp
+#  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.smtp_settings = {
+#    :address              => "smtp.mensdiscipleshipnetwork.com",
+    :address              => "smtp.me.com",
+#    :domain               => 'mensdiscipleshipnetwork.com',
+#    :user_name            => 'info@mensdiscipleshipnetwork.com',
+    :user_name            => 'cervera1',
+#    :password             => 'Psalm344',
+    :password             => 'd1v1ne',
+    :authentication       => 'login',
+    :enable_starttls_auto => true  }
   
 end
 

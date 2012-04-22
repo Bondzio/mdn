@@ -1,5 +1,9 @@
 DBC::Application.routes.draw do
   
+  resources :requests
+
+  resources :customers
+
   resources :galleries do
     get 'list', :on => :collection
   end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111229181029) do
+ActiveRecord::Schema.define(:version => 20120421194527) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                                 :default => "", :null => false
@@ -50,6 +50,32 @@ ActiveRecord::Schema.define(:version => 20111229181029) do
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
     t.boolean  "featured"
+  end
+
+  create_table "coach_requests", :force => true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "phone"
+    t.string   "email"
+    t.text     "organization"
+    t.string   "address1"
+    t.string   "address2"
+    t.string   "city"
+    t.string   "state"
+    t.string   "zip"
+    t.text     "request"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "customers", :force => true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "email"
+    t.string   "daytime_phone"
+    t.string   "evening_phone"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "galleries", :force => true do |t|
@@ -102,6 +128,22 @@ ActiveRecord::Schema.define(:version => 20111229181029) do
     t.boolean  "enabled"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "requests", :force => true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "church"
+    t.string   "address1"
+    t.string   "address2"
+    t.string   "city"
+    t.string   "state"
+    t.string   "zip"
+    t.string   "phone"
+    t.text     "request"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "email"
   end
 
   create_table "stats", :force => true do |t|

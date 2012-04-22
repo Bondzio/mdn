@@ -39,8 +39,10 @@ class PrayersController < ApplicationController
     @prayer = Prayer.new
 
     respond_to do |format|
+      
       format.html # new.html.erb
       format.xml  { render :xml => @prayer }
+      
     end
   end
 
