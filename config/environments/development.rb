@@ -30,15 +30,14 @@ DBC::Application.configure do
   config.action_mailer.delivery_method = :smtp
 #  config.action_mailer.raise_delivery_errors = true
   config.action_mailer.smtp_settings = {
-#    :address              => "smtp.mensdiscipleshipnetwork.com",
-    :address              => "smtp.me.com",
-#    :domain               => 'mensdiscipleshipnetwork.com',
-#    :user_name            => 'info@mensdiscipleshipnetwork.com',
-    :user_name            => 'cervera1',
-#    :password             => 'Psalm344',
-    :password             => 'd1v1ne',
+    :address              => "smtp.mensdiscipleshipnetwork.com",
+    :domain               => 'mensdiscipleshipnetwork.com',
+    :user_name            => 'info@mensdiscipleshipnetwork.com',
+    :password             => 'Psalm344',
+    :port                 => 587,
     :authentication       => 'login',
-    :enable_starttls_auto => true  }
+#    :openssl_verify_mode => 'none',
+    :enable_starttls_auto => false  }
   
 end
 
