@@ -1,7 +1,10 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>First name:</b>
+<p>Thank you, <%= @request.first_name %>. Your request for a coach has been received. We will contact you within 48 hours. Remember...Men don't get what they wish for, they get what they prepare, train, and live for!<p></br>
+	
+<p>Here is a summary of the contact information you provided.</p></br>
+
+<p>First name:</p>
   <%= @request.first_name %>
 </p>
 
@@ -53,7 +56,7 @@
   <b>Request:</b>
   <%= @request.request %>
 </p>
-
-
-<%= link_to 'Edit', edit_request_path(@request) %> |
-<%= link_to 'Back', requests_path %>
+</br>
+<p>
+<%= link_to 'Home', root_path %>
+</p>
