@@ -49,6 +49,7 @@
     .pagination a:hover, .pagination a:focus {
       text-decoration: underline; }
 
+em {font-weight: bold;}
 /* static.html.erb CSS goes here */
 #about_menu {
 	background:#000000;
