@@ -1,6 +1,25 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* Clear Fix to prevent div collapse */
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+</style>
+
+<!--[if lt IE 8]>
+<style>
+/* For IE < 8 (trigger hasLayout) */
+.clearfix {
+    zoom:1;
+}
+/* Clear Fix end */
+
 /* will_paginate gem styling */
 .pagination {
   background: #f1f1f1;
@@ -30,6 +49,7 @@
     .pagination a:hover, .pagination a:focus {
       text-decoration: underline; }
 
+em {font-weight: bold;}
 /* static.html.erb CSS goes here */
 #about_menu {
 	background:#000000;
@@ -78,8 +98,6 @@
 	height:auto;
 	z-index:30;
 }
-
-
 #interior_body {
 	position:absolute;
 	left:453px;
@@ -313,21 +331,21 @@
 }
 #curriculum_body h1 {
 	font-size: 22pt;
-	font-color: black;
+	color: black;
 	font-family: Arial;
 
 }
 
 #curriculum_body h2 {
 	font-size: 18pt;
-	font-color: #000000;
+	color: #000000;
 	font-family: Arial;
 	line-height: 150%;
 }
 
 #curriculum_body ul {
 	font-size: 14pt;
-	font-color: #000000;
+	color: #000000;
 	font-family: Arial;
 	line-height: 160%;
 	list-style-type: square;
@@ -779,7 +797,6 @@ h2 {
 	width: 300px;
 }
 #radio_coverage {
-	float: center;
 	clear: both;
 	text-align: center;
 	border: 2px solid #000000;
@@ -880,4 +897,14 @@ h2 {
 }
 
 /*--gallery.html.erb-- end*/
+/*--request.html.erb-- start*/
+#request_detail textarea {
+	width: 600px;
+	height: 100px;
+	margin: 10px 0 0 0;
+}
+
+
+
+/*--request.html.erb-- end*/
 

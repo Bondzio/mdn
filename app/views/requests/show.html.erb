@@ -1,0 +1,63 @@
+<p id="notice"><%= notice %></p>
+
+<p>Thank you, <%= @request.first_name %>. Your request for a coach has been received. We will contact you within 48 hours. 
+	Remember...Men don't get what they wish for, they get what they <em>Prepare</em>, <em>Train</em>, and <em>Live for</em>!<p></br>
+	
+<p>Here is a summary of the contact information you provided.</p></br>
+
+<p>First name:</p>
+  <%= @request.first_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%= @request.last_name %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= @request.phone %>
+</p>
+
+  <b>Email Address:</b>
+  <%= @request.email %>
+</p>
+
+<p>
+  <b>Church:</b>
+  <%= @request.church %>
+</p>
+
+<p>
+  <b>Address1:</b>
+  <%= @request.address1 %>
+</p>
+
+<p>
+  <b>Address2:</b>
+  <%= @request.address2 %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @request.city %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @request.state %>
+</p>
+
+<p>
+  <b>Zip:</b>
+  <%= @request.zip %>
+</p>
+
+<p>
+  <b>Request:</b>
+  <%= @request.request %>
+</p>
+</br>
+<p>
+<%= link_to 'Home', root_path %>
+</p>
