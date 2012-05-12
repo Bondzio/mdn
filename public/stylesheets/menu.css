@@ -1,6 +1,6 @@
 .container {width:1200px; height:395px; padding-top:5px;}
 
-.menu {width:1190px; height:200px; margin:0 auto;position: absolute; top: 130px; left:190px;}
+.menu {width:1190px; height:200px; margin:0 auto;position: absolute; top: 120px; left:170px;}
 
 /* set up defaults */
 .nav,
@@ -9,7 +9,7 @@
 .nav {width:120px; float:left; margin-right:-1px;}
 
 /* set up the heights SMC */
-.nav a {height: 41px;}
+.nav a {height: 50px;}
 
 /* set up the widths */
 .nav {width:100px;margin: 0px 10px 0px 10px;}
