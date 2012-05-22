@@ -10,7 +10,6 @@
 	  <link href='http://fonts.googleapis.com/css?family=Stardos+Stencil:400,700' rel='stylesheet' type='text/css'>
 
 	  <script type="text/javascript" src="/javascripts/jquery-1.7.1.min.js"></script>
-<!-- END CAUTION-->
 	<link href="/stylesheets/jquery.fancybox.css" rel="stylesheet" type="text/css">
 <!-- END CAUTION: -->
 
@@ -18,6 +17,17 @@
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	
+<script type="text/javascript">
+	/*this first line will prevent a conflict with Prototype's use of the $ sign */
+	jQuery.noConflict();	
+		jQuery(document).ready(function() {
+			$(".fancybox").fancybox({
+				openEffect	: 'none',
+				closeEffect	: 'none'
+			});
+		});
+</script>
+
 </head>
 
 <body style="background-color:#FFFFFF; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;">
@@ -52,15 +62,7 @@
 	</div>
 	
 	<!-- Enter items to be placed in sidebar -->
-	<div id="gray_sidebar">
-		<div id="promos">
-			<div id="promo1" class="promo_block"><%= render_cell :quote, :display, :quote => @quote %></div>
-			<div id="promo2" class="promo_block"><a href="/pages/donate"/><img src="/images/donate/Sow_Donate.jpg" /></a></div>
-			<div id="promo3" class="promo_block"><a href="/pages/events#weapons" target="self"><img src="/images/announcements/WEAPONS.gif" width="240" height="275"></a>
-			<div id="promo4" class="promo_block"><a href="http://www.covenanteyes.com/"/><img src="/images/ads/covenanteyes.jpg"/></a></div>	
-		</div>
-		
-	</div>
+	<%= render "shared/sidebar" %>
 	
 	<!-- Enter items to be placed in main body -->
 	<div id="interior_body">
