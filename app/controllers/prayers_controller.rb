@@ -12,9 +12,10 @@ class PrayersController < ApplicationController
   # GET /prayers
   # GET /prayers.xml
   def index
+    #This is required for will_paginate gem
     @prayers = Prayer.page(params[:page]).order('created_at DESC')
     # @prayers = Prayer.order("created_at DESC")
-    # @prayers = Prayer.page(params[:page]).order('created_at DESC')
+
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @prayers }

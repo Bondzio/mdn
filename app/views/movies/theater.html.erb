@@ -1,0 +1,19 @@
+<div id="theater">
+		<caption><h1><%= @movie.title %></h1></caption>
+		<div id="target_video">
+		  <iframe width="480" height="290" src="http://www.youtube.com/embed/<%= @movie %>?wmode=transparent"  frameborder="0" allowfullscreen></iframe>
+		  <p><%= @movie.description %></p>
+		</div> 
+
+		<div id="theater_bottom">
+			<table class="table_cleared">
+				<tr>
+					<td><%= button_to 'Back', movies_path %></td>
+					<td><%= button_to "Home Page", root_path %></td>
+				</tr>
+			</table>
+		</div>
+		 
+
+</div>
+

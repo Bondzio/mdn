@@ -47,6 +47,7 @@ DBC::Application.routes.draw do
   
   match "movies/browser" => "movies#browser"
   match "review/:id" => "Prayer#review"
+  match "theater/:id" => "Movie#theater"
   
 
 
