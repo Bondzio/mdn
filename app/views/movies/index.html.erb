@@ -5,11 +5,10 @@
 <table>
   <tr>
     <th>Title</th>
-    <th>Date</th>
     <th>Speaker</th>
     <th>Description</th>
-	<th>Duration</th>
-    <th>Featured</th>
+    <th>Featured?</th>
+    <th>Carousel?</th>
     <th></th>
     <th></th>
     <th></th>
@@ -18,12 +17,13 @@
 <% @movies.each do |movie| %>
   <tr>
     <td><%= movie.title %></td>
-    <td><%= movie.date %></td>
     <td><%= movie.speaker %></td>
     <td><%= movie.description %></td>
-	<td><%= movie.duration %></td>
 	<td><%= movie.featured %></td>
+	<td><%= movie.carousel %></td>
     <td><%= link_to 'Show', movie %></td>
+
+    <td><%= link_to((:Theater), :action => 'theater', :method => :theater, :id => movie.id ) %> </td>
     <td><%= link_to 'Edit', edit_movie_path(movie) %></td>
     <td><%= link_to 'Destroy', movie, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>

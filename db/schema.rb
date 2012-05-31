@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120421194527) do
+ActiveRecord::Schema.define(:version => 20120530163441) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                                 :default => "", :null => false
@@ -50,6 +50,41 @@ ActiveRecord::Schema.define(:version => 20120421194527) do
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
     t.boolean  "featured"
+  end
+
+  create_table "clips", :force => true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "movie_id"
+    t.string   "clip_file_name"
+    t.string   "clip_content_type"
+    t.integer  "clip_file_size"
+    t.datetime "clip_updated_at"
+    t.boolean  "featured"
+    t.string   "qtvideo_file_name"
+    t.string   "qtvideo_content_type"
+    t.integer  "qtvideo_file_size"
+    t.datetime "qtvideo_updated_at"
+    t.string   "qtaudio_file_name"
+    t.string   "qtaudio_content_type"
+    t.integer  "qtaudio_file_size"
+    t.datetime "qtaudio_updated_at"
+    t.string   "oggvideo_file_name"
+    t.string   "oggvideo_content_type"
+    t.integer  "oggvideo_file_size"
+    t.datetime "oggvideo_updated_at"
+    t.string   "oggaudio_file_name"
+    t.string   "oggaudio_content_type"
+    t.integer  "oggaudio_file_size"
+    t.datetime "oggaudio_updated_at"
+    t.string   "webm_file_name"
+    t.string   "webm_content_type"
+    t.integer  "webm_file_size"
+    t.datetime "webm_updated_at"
+    t.string   "posterframe_file_name"
+    t.string   "posterframe_content_type"
+    t.integer  "posterframe_file_size"
+    t.datetime "posterframe_updated_at"
   end
 
   create_table "coach_requests", :force => true do |t|
@@ -104,6 +139,11 @@ ActiveRecord::Schema.define(:version => 20120421194527) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "duration"
+    t.string   "attach_file_name"
+    t.string   "attach_content_type"
+    t.integer  "attach_file_size"
+    t.datetime "attach_updated_at"
+    t.boolean  "carousel"
   end
 
   create_table "prayers", :force => true do |t|

@@ -1,12 +1,35 @@
-<div id="theater">
-		<caption><h1><%= @movie.title %></h1></caption>
-		<div id="target_video">
-		  <iframe width="480" height="290" src="http://www.youtube.com/embed/<%= @movie.url %>?wmode=transparent"  frameborder="0" allowfullscreen></iframe>
-		  <p><%= @movie.description %></p>
-		</div> 
 
-		<div id="theater_bottom">
-					<%= button_to "Home Page", root_path %>
-		</div>
+<div id="theater">
+		<section id="theater_upper" class="clearfix">
+			<div id="theater_caption"><caption><h1><%= @movie.title %></h1></caption></div>
+			<div id="target_video">
+				  <iframe width="600" height="314" src="http://www.youtube.com/embed/<%= @movie.url %>?wmode=transparent"  frameborder="0" allowfullscreen></iframe>
+				  <p><%= @movie.description %></p>
+			</div> 
+		</section>
+		
+		<!-- This is a jquery plug-in for the carousel available here - http://fredhq.com/projects/roundabout -->
+		<!-- Display properties for the carousel determined by css and in variable values in jquery.roundabout.js file -->
+		<section id="theater_middle" class="clearfix">
+			<div id="carousel" class="clearfix">
+				<h1>View More Videos From MDN</h1>
+					<ul>
+						<%= render_cell :carousel, :display, :movies => @movies %>
+				    </ul>
+			</div>
+			<div class="next"><p>Next</p></div>
+		</section>
+<!-- This is a jquery plug-in for the carousel on theater.html.erb -->
+      <script type="text/javascript" src="/javascripts/jquery-1.7.1.min.js"></script>
+	  <script type="text/javascript" src="/javascripts/jquery.roundabout.js"></script>
+	  	  
+	<script>
+	   $(document).ready(function() {
+	      $('ul').roundabout({
+	      	btnNext: ".next",
+         duration: 1500
+	      });
+	   });
+	</script>
 </div>
 

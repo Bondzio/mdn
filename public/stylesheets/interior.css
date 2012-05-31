@@ -231,6 +231,15 @@ em {font-weight: bold;}
 	height:120px;
 }
 
+#donate-badge {
+	position: absolute;
+	top: 0px;
+	left: 1170px;
+	float: right;
+	margin: 0px 20px 0 0;
+	z-index: 1000;
+}
+
 #right-shadow {
 	position:absolute;
 	left:1435px;
@@ -909,32 +918,158 @@ h2 {
 #theater {
 	position: relative;
 }
-#theater caption {
-	padding: 0 0 10px 0;
-	color: #0000FF;
-}
 
-#target_video {
-	padding: 10px 0 40px 0;
-	width: 500px;
+#theater_upper {
+
+	width: 600px;
 	height: auto;
+	min-height 300px;
+	clear: both;
+	border: 1px solid #000000;
+	margin: 5px 0px 5px 0px;
+	padding: 20px;
+	position:relative;
+	left: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 5px 5px 10px #888;
+	-moz-box-shadow: 5px 5px 10px #888;
+	-webkit-box-shadow: 5px 5px 10px #888;
+	
+background: #ccccad; /* Old browsers */
+background: -moz-linear-gradient(top,  #ccccad 0%, #ada272 17%, #cccc9a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ccccad), color-stop(17%,#ada272), color-stop(100%,#cccc9a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ccccad 0%,#ada272 17%,#cccc9a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ccccad 0%,#ada272 17%,#cccc9a 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ccccad 0%,#ada272 17%,#cccc9a 100%); /* IE10+ */
+background: linear-gradient(top,  #ccccad 0%,#ada272 17%,#cccc9a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccccad', endColorstr='#cccc9a',GradientType=0 ); /* IE6-9 */
+
 }
 
-#theater p {
-	padding: 10px 0 0 0;
+#theater_middle {
+	width: 640px;
+	height: 300px;
+	min-height 100px;
+	clear: both;
+	border: 1px solid #000000;
+	margin: 50px 0px 5px 0px;
+	padding: 5px 0 20px 0;
+	position:relative;
+	left: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 5px 5px 10px #888;
+	-moz-box-shadow: 5px 5px 10px #888;
+	-webkit-box-shadow: 5px 5px 10px #888;
+	
+background: #ccccad; /* Old browsers */
+background: -moz-linear-gradient(top,  #ccccad 0%, #ada272 17%, #cccc9a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ccccad), color-stop(17%,#ada272), color-stop(100%,#cccc9a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ccccad 0%,#ada272 17%,#cccc9a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ccccad 0%,#ada272 17%,#cccc9a 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ccccad 0%,#ada272 17%,#cccc9a 100%); /* IE10+ */
+background: linear-gradient(top,  #ccccad 0%,#ada272 17%,#cccc9a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccccad', endColorstr='#cccc9a',GradientType=0 ); /* IE6-9 */
+
+}
+
+#theater_middle h1 {
+	text-align: center;
+	margin: 5px 0 40px 0;
+	clear: both;
 }
 
 #theater_bottom {
-	width: 500px;
-	height: 20px;
+	
+}
+
+#theater_caption {
+	margin: 10px 0 5px 0;
+	color: #0000FF;
+	float: left;
+	clear: both;
+}
+
+#target_video {
+	text-align:center;
+	margin: 10px auto;
+	height: auto;
+	left: 55px;
+	top: 20px;
+	float: left;
+	clear: both;
+}
+
+#theater p {
+	margin: 20px 30px 0 30px;
+	overflow: hidden;
+	text-align: justify;
+	
+}
+
+#carousel {
+    padding: 10px 0 20px 0;
+	vertical-align: middle;
+}
+
+#carousel ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	width: 250px;
+	height: 151px;
+}
+
+#carousel m {
+    width: 375px;
+	height: 200px;
+	background-color: #433022;
 	text-align: center;
-	position: absolute;
+	cursor: pointer;
+}
+
+#carousel m.roundabout-in-focus {
+	cursor: default;
+}
+
+#carousel span {
+	display: block;
+	padding-top: 20px;
+
+}
+
+#carousel h1 {
+	text-align: center;
+}
+
+#carousel h2 {
+	color: #FFFFFF;
 }
 
 .table_cleared {
 	border: none;
 }
 
-
+ .roundabout-holder {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      height: 5em;
+      width: 5em;
+   }
+.roundabout-moveable-item {
+      height: 4em;
+      width: 30em;
+      cursor: pointer;
+      background-color: #CCCC9A;
+      border: 1px solid #999;
+   }
+.roundabout-in-focus {
+      cursor: auto;
+      background-color: #FFF;
+   }
 /*--theater.html.erb-- end*/
 

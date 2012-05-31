@@ -1,0 +1,7 @@
+<!-- This is a cell that is used to display the list of movies in the carousel -->
+<!-- https://github.com/apotonick/cells -->
+
+			<% @movies.each do |movie| %>
+				<m><span><iframe width="250" height="151" src="http://www.youtube.com/embed/<%= movie.url %>?wmode=transparent"  frameborder="0" allowfullscreen></span></iframe><h2><%= movie.title %></h2></m>
+			<% end %>
+

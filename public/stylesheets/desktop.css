@@ -26,6 +26,7 @@
 	width: 1000px;
 	height: 120px;
 	background-color: #660000;
+	z-index: 1;
 }
 
 #logo {
@@ -36,6 +37,11 @@
 	height:76px;
 }
 
+#donate-badge {
+	float: right;
+	margin: 10px 20px 0 0;
+	z-index: 1000;
+}
 #top-nav {
 	position:absolute;
 	left:0px;
@@ -81,7 +87,7 @@ background-repeat:no-repeat; }
 
 #featured-area img {
 	width: 472px;
-	height; 290px;
+	height: 290px;
 	overflow: hidden;
 }
 #spacer {
