@@ -17,7 +17,8 @@
 						<%= render_cell :carousel, :display, :movies => @movies %>
 				    </ul>
 			</div>
-			<div class="next"><p>Next</p></div>
+			<div class="next" id="nav-next"><img src="/images/nav-next.gif" /></div>
+			<div class="back" id="nav-back"><img src="/images/nav-back.gif" /></div>
 		</section>
 <!-- This is a jquery plug-in for the carousel on theater.html.erb -->
       <script type="text/javascript" src="/javascripts/jquery-1.7.1.min.js"></script>
@@ -27,7 +28,7 @@
 	   $(document).ready(function() {
 	      $('ul').roundabout({
 	      	btnNext: ".next",
-         duration: 1500
+	      	btnPrev: ".back"
 	      });
 	   });
 	</script>

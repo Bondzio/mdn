@@ -157,20 +157,20 @@ em {font-weight: bold;}
 .promo_block {
 	width: 240px;
 	height: auto;
-	-moz-box-shadow: 5px 5px 10px #888;
+/*	-moz-box-shadow: 5px 5px 10px #888;
 	-webkit-box-shadow: 5px 5px 10px #888;
-	box-shadow: 5px 5px 10px #888;
-	
+	box-shadow: 5px 5px 10px #888;	 */
 }
+
 #promos {
 	text-align: center;
 }
 
 #promo1 {
 	position:relative;
-	margin: 30px 30px 30px 57px;
+	margin: 30px 30px 30px 40px;
 	height: auto;
-	width: 205px;
+	width: 240px;
 	font-family: 'brush script', Georgia, Times;
 	color: #4C4731;
 	font-size: 18px;
@@ -182,7 +182,7 @@ em {font-weight: bold;}
 }
 #promo2 {
 	position: relative;
-	margin: 30px 30px 30px 57px;
+	margin: 30px 30px 30px 10px;
 	text-align: center;
 	height: auto;
 }
@@ -191,7 +191,8 @@ em {font-weight: bold;}
 	position: relative;
 	margin: 30px 30px 30px 56px;
 	height: 275px;
-	background-color: #ffffff;
+	width: 240px;
+
 	text-align: center;
 }
 #promo4 {
@@ -1049,6 +1050,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccccad', end
 	color: #FFFFFF;
 }
 
+#nav-next {
+	position: absolute;
+	top: 120px;
+	right: 10px;
+	z-index: 1000px;
+}
+
+#nav-back {
+	position: absolute;
+	top: 120px;
+	left: 10px;
+	z-index: 1000px;
+}
 .table_cleared {
 	border: none;
 }
