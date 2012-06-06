@@ -97,6 +97,7 @@ em {font-weight: bold;}
 	width:auto;
 	height:auto;
 	z-index:30;
+	text-align: left;
 }
 #interior_body {
 	position:absolute;
@@ -189,7 +190,7 @@ em {font-weight: bold;}
 
 #promo3 {
 	position: relative;
-	margin: 30px 30px 30px 56px;
+	margin: 30px 30px 30px 50px;
 	height: 275px;
 	width: 240px;
 
@@ -197,8 +198,16 @@ em {font-weight: bold;}
 }
 #promo4 {
 	position:relative;
-	margin: 30px 30px 30px 0px;	
+	margin: 30px 30px 30px -1px;	
 
+}
+
+#promo5 {
+	position: relative;
+	margin: 30px 30px 30px 0px;
+	height: 275px;
+	width: 240px;
+	text-align: center;
 }
 
 #Table_01 {
@@ -709,62 +718,6 @@ h2 {
 	text-align: center;
 }
 
-#march2012-dbc-w-links-01 {
-	position:absolute;
-	left:0px;
-	top:0px;
-	width:378px;
-	height:236px;
-}
-
-#march2012-dbc-farmingdale {
-	position:absolute;
-	left:0px;
-	top:236px;
-	width:191px;
-	height:63px;
-}
-
-#march2012-dbc-brooklyn {
-	position:absolute;
-	left:191px;
-	top:236px;
-	width:187px;
-	height:63px;
-}
-
-#march2012-dbc-coram {
-	position:absolute;
-	left:0px;
-	top:299px;
-	width:191px;
-	height:56px;
-}
-
-#march2012-dbc-bronx {
-	position:absolute;
-	left:191px;
-	top:299px;
-	width:187px;
-	height:56px;
-}
-
-#march2012-dbc-w-links-06 {
-	position:absolute;
-	left:0px;
-	top:355px;
-	width:378px;
-	height:63px;
-}
-
-#march2012-dbc-click {
-	position:absolute;
-	left:0px;
-	top:355px;
-	width:378px;
-	height:63px;
-	text-align: center;
-}
 
 /*--events.html.erb-- end*/
 /*--parable.html.erb-- start*/
@@ -1087,3 +1040,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccccad', end
    }
 /*--theater.html.erb-- end*/
 
+/*--bof.html.erb-- start*/
+
+.bof-scripture {
+	position: relative;
+	margin: 0px 0 0 0;
+}
+#verse1 {
+	width: 150px;
+	float: right;
+	clear: right;
+	margin: 65px 5px 0 25px;
+	padding: 7px 7px 7px 7px;
+	background: #CCCCCC;
+	border: 1px solid black;
+}
+#verse2 {
+	width: 150px;
+	float: right;
+	clear: right;
+	margin: 25px 5px 10px 25px;
+	padding: 7px 7px 7px 7px;
+	background: #CCCCCC;
+	border: 1px solid black;
+}
+.bof-scripture p {
+	font-size: 14px;
+}
+
+#bof p {
+	text-align: left;
+}
+
+/*--bof.html.erb-- end*/

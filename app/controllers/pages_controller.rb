@@ -49,5 +49,8 @@ class PagesController < ApplicationController
   
   def browserupdate
   end
+  
+  def bof
+  end
 
 end
