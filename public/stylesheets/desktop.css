@@ -87,7 +87,7 @@ background-repeat:no-repeat; }
 
 #featured-area img {
 	width: 472px;
-	height: 290px;
+	height: 300px;
 	overflow: hidden;
 }
 #spacer {
@@ -371,21 +371,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 	position: absolute;
 	top: 1035px;
 	left: 500px;
-	width: 250px;
+	width: 350px;
 	height: 23px;
 	z-index: 20;
 }
 #youtube img {
 	position: absolute;
 	top: 1120px;
-	left: 510px;
+	left: 590px;
 	width: 150px;
 	height: 33px;
-	z-index: 20;
+	z-index: 10;
 }
 #donate img{
 	position: absolute;
-	left:820px;
+	left:840px;
 	top: 1035px;
 	width: 234px;
 	height: 124px;
