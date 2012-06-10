@@ -8,6 +8,10 @@ DBC::Application.routes.draw do
     get 'list', :on => :collection
   end
   
+  resources :movies do
+    get 'browser', :on => :collection
+  end
+  
   resources :assets
   
 
@@ -45,7 +49,7 @@ DBC::Application.routes.draw do
 
   resources :movies
   
-  match "movies/browser" => "movies#browser"
+  match "browser" => "movies#browser"
   match "review/:id" => "prayer#review"
   match "theater/:id" => "movie#theater"
   
