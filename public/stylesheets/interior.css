@@ -163,6 +163,13 @@ em {font-weight: bold;}
 	box-shadow: 5px 5px 10px #888;	 */
 }
 
+#share_sidebar {
+	z-index: 300;
+	vertical-align: bottom;
+}
+
+#share_sidebar span {margin: 5px 0 0 0;}
+
 #promos {
 	text-align: center;
 }
