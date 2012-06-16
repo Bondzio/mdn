@@ -1,37 +1,42 @@
 <div class="on_white">
-<h1>Video Clip Browser</h1>
+	<dir id="browser_body">
+	<h1>Video Clip Browser</h1>
+	<p>Welcome to MDN's video clip browser. Truth that Transforms needs Training that Sustains, and the videos listed here 
+		provide powerful training for the man who seeks to be transformed in Christ. But be warned...watching these videos is 
+		likely to lead to spontaneous changes like:</p> 
+		
+		<ul>
+			<li>becoming a man of your word ("Do what you say, say what you do")</li>
+			<li>losing friendships (You crazy Jesus freak)</li>
+			<li>leading your family in prayer...(Wanna see your wife get hot for you?!)</li>
+			<li>addictions to pornography broken</li>
+			<li>sudden loss of fear, anxiety, and shame</li>
+			<li>grand realizations of purpose and meaning</li>
+			<li>new found strength and confidence (like you're a prince or something crazy)</li>
+		</ul>
+	<p>The list goes on...This is some dangerous stuff here. <span style="font-weight: bold; "> You were warned...</span> </p>
+	</dir>
+	<div class="data">	
+		<div class="pagination"<%= will_paginate @movies %></div></br>
+				<table class="table-content1">
+					<thead>
+					  <tr>
+					    <th>Title</th>
+					    <th>Speaker</th>
+					    <th>Description</th>
+					    <th></th>
+					  </tr>
+				    </thead>
+				<% @movies.each do |movie| %>
+				  <tr>
+				    <td class="movie_title"><%= movie.title %></td>
+				    <td><%= movie.speaker %></td>
+				    <td><%= movie.description %></td>
+				    <td><%= link_to((:Watch), :action => 'theater', :method => :theater, :id => movie.id ) %> </td>
+				  </tr>
+				<% end %>
+				</table>
 
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Date</th>
-    <th>Speaker</th>
-    <th>Description</th>
-    <th>Url</th>
-	<th>Duration</th>
-    <th>Featured</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @movies.each do |movie| %>
-  <tr>
-    <td><%= movie.title %></td>
-    <td><%= movie.date %></td>
-    <td><%= movie.speaker %></td>
-    <td><%= movie.description %></td>
-    <td><%= movie.url %></td>
-	<td><%= movie.duration %></td>
-    <td><%= movie.featured %></td>
-    <td><%= link_to 'Show', movie %></td>
-    <td><%= link_to 'Edit', edit_movie_path(movie) %></td>
-    <td><%= link_to 'Destroy', movie, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
-
-<br />
-
-<%= link_to 'New Movie', new_movie_path %>
+		<div class="pagination"<%= will_paginate @movies %></div></br>
+	</div>
 </div>

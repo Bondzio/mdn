@@ -19,7 +19,8 @@ class MoviesController < ApplicationController
   # GET /movies/browser
   # GET /movies/browser.xml
   def browser
-    @movies = Movie.all
+     #this is needed for will_paginate to return a paginated query
+    @movies = Movie.page(params[:page]).order('created_at DESC').limit(10)
 
     respond_to do |format|
       format.html # browser.html.erb
