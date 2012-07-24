@@ -1,0 +1,89 @@
+<div id="top-image">
+	<img src="../images/radio/radio_top_image.jpg" width="933" height="377" alt="">
+</div>
+
+<div id="radio_desc">
+	<h1><span style="line-height: 120%;">"A New Kind of Man"&#153;</span></h1>
+	<h2>A Radio Ministry of MDN</h2></br>
+	<p>"A New Kind of Man" radio program is a new ministry of Men's Discipleship Network. It is our prayer that this radio program will reach the millions of Christian men who are not living out their fullest potential in Christ. Many of them living in quiet desperation and at a loss in knowing how to live "the Abundant Life" that Jesus spoke about in John 10:10.</p></br>
+	<p><a href="#programs">Listen to Previously Aired Episodes</a></p></br>
+	<p>Each episode will provide our listening audience with scriptural challenges, biblical truths, and rich parables to illustrate Godly character and to provide the "training to sustain" a man in his Christian walk. Every program will introduce one message and one application that a man can immediately put into practice in their lives "Tuesday at 2 o'clock".</p></br>
+	<p>Join us <span style="font-weight:bold">Saturday mornings at 9am on WLIX FM (see coverage map below) </span>as Head Coach Scott Caesar calls out the men of the Northeast to spiritual maturity and masculinity in Christ.</p> </br>
+</div>
+</br>
+	<div id="radio2" class="bottom_imgs"><img src="../images/radio/radio2.jpg"></div>
+	<div id="radio2-caption"><p><span style="font-size: 10pt">Head Coach Scott Caesar</span></p></div>
+	<div id="radio1" class="bottom_imgs"><img src="../images/radio/radio1.jpg"></div>
+	<div id="radio1-caption"><p><span style="font-size: 10pt">(from lft to rt) Co-Host Coach Marc Birthwright, Technical Director Mike Rohde, Co-Host Steve Cervera</span></p></div>
+
+<div id="radio_app"><h2>Listen on your phone or tablet!</h2>
+	<p>Now available for free on both iOS and Android devices, 
+		the WLIX mobile app keeps you connected to the Voice of Hope anywhere you go. 
+		Listen live on your device, while contact is always just a touch away.</p>
+</div>
+<div id="radio_app1">
+	<a href="http://itunes.apple.com/us/app/wlix-radio/id516094506?mt=8" target="_blank"><img src="/images/radio/appicon.jpg" /></a><br>
+	<a href="http://itunes.apple.com/us/app/wlix-radio/id516094506?mt=8" target="_blank"><h2>Get Free App!</h2></a>
+</div>
+<div id="radio_coverage"><!-- image in css background --></div>
+	
+
+<div>
+	
+<table class="table-content1" id="programs">
+	<caption>Previously Aired Programs</caption>
+	<thead>
+	  <tr>
+	    <th>Title</th>
+	    <th>Description</th>
+	    <th>Date Aired</th>
+	    <th></th>
+
+	  </tr>
+	</thead>
+		<% @radio_programs.each do |radio_program| %>
+		  <tr>
+		    <td><%= radio_program.title %></td>
+		    <td><%= radio_program.description %></td>
+		    <td><%= l radio_program.date, :format => :long %></td>
+		    <td><% for audio in radio_program.audios %>
+      			<a class="various" href="#<%= radio_program.id %>" >Listen</a><br />
+				<% end %>
+			</td>
+		  </tr>
+		  
+		  <div class="audio_player" id="<%= radio_program.id %>" >
+		  	<h1>Listen to "<%= radio_program.title %>"</h1>
+		  	<ul>
+		  		<li>Date Aired: <%= radio_program.date %></li>
+		  		<li>Speakers: <%= radio_program.speaker %></li>
+		  		<li>Description: <%= radio_program.description %></li>
+		  	</ul></br>
+		  	<% for audio in radio_program.audios %>
+				<audio controls="controls">
+				  <source src="<%= audio.attachment.url %>" type="audio/mp4" />
+				  Your browser does not support the audio tag.
+				</audio>
+			
+			<% end %>
+			</br>
+				<a href="javascript:$.fancybox.close();">Close</a>
+		  </div>
+		  
+		<% end %>	
+
+</table>
+<div class="pagination"<%= will_paginate @radio_programs %> </div></br>
+</div>
+<br />
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".various").fancybox({
+		autosize	: true,
+		fitToView	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+});
+</script>

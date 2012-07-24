@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120530163441) do
+ActiveRecord::Schema.define(:version => 20120723190535) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                                 :default => "", :null => false
@@ -50,6 +50,17 @@ ActiveRecord::Schema.define(:version => 20120530163441) do
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
     t.boolean  "featured"
+  end
+
+  create_table "audios", :force => true do |t|
+    t.string   "title"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "attachment_file_name"
+    t.string   "attachment_content_type"
+    t.integer  "attachment_file_size"
+    t.datetime "attachment_updated_at"
+    t.integer  "radio_program_id"
   end
 
   create_table "clips", :force => true do |t|
@@ -166,6 +177,27 @@ ActiveRecord::Schema.define(:version => 20120530163441) do
     t.text     "author"
     t.text     "source"
     t.boolean  "enabled"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "radio_programs", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.date     "date"
+    t.boolean  "featured"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "speaker"
+  end
+
+  create_table "radios", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.string   "duration"
+    t.string   "speaker"
+    t.boolean  "featured"
+    t.date     "date"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

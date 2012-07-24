@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @radio_program.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @radio_program.description %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%= @radio_program.date %>
+</p>
+
+<p>
+  <b>Is this a featured audio?</b>
+  <%= @radio_program.featured %>
+</p>
+
+
+<% for audio in @radio_program.audios %>
+      <img src="/images/icons/audio.gif" /><a href="<%= audio.attachment.url %>" target="_blank"><%= audio.attachment_file_name %></a><br />
+<% end %></br>
+
+
+<%= link_to 'Edit', edit_radio_program_path(@radio_program) %> |
+<%= link_to 'Back', radio_programs_path %>

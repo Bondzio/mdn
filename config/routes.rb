@@ -1,5 +1,9 @@
 DBC::Application.routes.draw do
   
+  resources :radio_programs do
+    get 'ankom', :on => :collection
+  end
+
   resources :requests
 
   resources :customers

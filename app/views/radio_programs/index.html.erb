@@ -1,0 +1,30 @@
+<h1>Listing radio_programs</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Date</th>
+    <th>Featured</th>
+    <th>Display</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @radio_programs.each do |radio_program| %>
+  <tr>
+    <td><%= radio_program.title %></td>
+    <td><%= radio_program.description %></td>
+    <td><%= radio_program.date %></td>
+    <td><%= radio_program.featured %></td>
+    <td><%= link_to 'Show', radio_program %></td>
+    <td><%= link_to 'Edit', edit_radio_program_path(radio_program) %></td>
+    <td><%= button_to 'Delete', { :action => "destroy", :id => radio_program.id }, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Radio program', new_radio_program_path %>
