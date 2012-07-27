@@ -12,6 +12,10 @@
   <% end %>
 
   <div class="field">
+    <%= f.label :episode %><br />
+    <%= f.text_field :episode %>
+  </div>
+  <div class="field">
     <%= f.label :title %><br />
     <%= f.text_field :title %>
   </div>
@@ -24,7 +28,7 @@
     <%= f.text_field :speaker %>
   </div>
   <div class="field">
-    <%= f.label :date %><br />
+    <%= f.label :date_aired %><br />
     <%= f.date_select :date %>
   </div>
   <div class="field">

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120723190535) do
+ActiveRecord::Schema.define(:version => 20120726011745) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                                 :default => "", :null => false
@@ -189,6 +189,7 @@ ActiveRecord::Schema.define(:version => 20120723190535) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "speaker"
+    t.integer  "episode"
   end
 
   create_table "radios", :force => true do |t|

@@ -4,6 +4,6 @@ class Audio < ActiveRecord::Base
   
   has_attached_file :attachment
   
-  validates_attachment_presence :audios
+#  validates_attachment_presence :audios
   
 end

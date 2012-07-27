@@ -1,5 +1,6 @@
 class QuotesController < ApplicationController
   before_filter :authenticate_admin!
+  layout 'static_no_head'
   
   # GET /quotes
   # GET /quotes.xml
