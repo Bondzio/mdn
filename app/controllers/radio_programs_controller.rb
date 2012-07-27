@@ -6,7 +6,8 @@ class RadioProgramsController < ApplicationController
   # GET /radio_programs
   # GET /radio_programs.xml
   def index
-    @radio_programs = RadioProgram.all
+    @radio_programs = RadioProgram.page(params[:page]).order('date DESC').limit(20)
+ #   @radio_programs = RadioProgram.all
 
     respond_to do |format|
       format.html # index.html.erb
@@ -14,7 +15,6 @@ class RadioProgramsController < ApplicationController
     end
   end
   def ankom
-    #@movies = Movie.page(params[:page]).order('created_at DESC').limit(10)
     @radio_programs = RadioProgram.featured.page(params[:page]).order('date DESC').limit(20)
 
     respond_to do |format|
