@@ -1,3 +1,4 @@
+
 <div id="top-image">
 	<img src="../images/radio/radio_top_image.jpg" width="933" height="377" alt="">
 </div>
@@ -51,31 +52,28 @@
 				<% end %>
 			</td>
 		  </tr>
-		  
-		  <div class="audio_player" id="<%= radio_program.id %>" >
-		  	<h1>Listen to "<%= radio_program.title %>"</h1>
+		 </br>
+		<div class="audio_player" id="<%= radio_program.id %>" >
+			<h1>Listen to "<%= radio_program.title %>"</h1>
 		  	<ul>
 		  		<li>Date Aired: <%= radio_program.date %></li>
 		  		<li>Speakers: <%= radio_program.speaker %></li>
 		  		<li>Description: <%= radio_program.description %></li>
 		  	</ul></br>
-		  	<% for audio in radio_program.audios %>
-				<audio controls="controls">
-				  <source src="<%= audio.attachment.url %>" type="audio/mp4" />
-				  Your browser does not support the audio tag.
-				</audio>
-			
-			<% end %>
-			</br>
+		  	
+				
 				<a href="javascript:$.fancybox.close();">Close</a>
-		  </div>
-		  
+		</div>
+
+
 		<% end %>	
 
 </table>
 <div class="pagination"<%= will_paginate @radio_programs %> </div></br>
 </div>
+
 <br />
+
 <script type="text/javascript">
 $(document).ready(function() {
 	$(".various").fancybox({
@@ -87,3 +85,4 @@ $(document).ready(function() {
 	});
 });
 </script>
+
