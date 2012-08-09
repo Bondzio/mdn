@@ -60,9 +60,14 @@
 		  		<li>Speakers: <%= radio_program.speaker %></li>
 		  		<li>Description: <%= radio_program.description %></li>
 		  	</ul></br>
+		  	<div class="player_box">
+			  	<% for audio in radio_program.audios %>
+					<div data-media="<%= audio.attachment.url %>" data-image="/images/radio/radio2.jpg"></div>
+				<% end %>
+		  	</div>
 		  	
 				
-				<a href="javascript:$.fancybox.close();">Close</a>
+				
 		</div>
 
 
