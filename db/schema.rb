@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120726011745) do
+ActiveRecord::Schema.define(:version => 20120819213439) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                                 :default => "", :null => false
@@ -120,6 +120,18 @@ ActiveRecord::Schema.define(:version => 20120726011745) do
     t.string   "email"
     t.string   "daytime_phone"
     t.string   "evening_phone"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "events", :force => true do |t|
+    t.string   "title"
+    t.string   "date"
+    t.string   "time"
+    t.string   "venue"
+    t.string   "location"
+    t.string   "summary_title"
+    t.text     "summary"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

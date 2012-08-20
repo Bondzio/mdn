@@ -4,6 +4,10 @@ DBC::Application.routes.draw do
     get 'ankom', :on => :collection
   end
 
+  resources :events do
+    get 'events', :on => :collection
+  end
+  resources :events
   resources :requests
 
   resources :customers

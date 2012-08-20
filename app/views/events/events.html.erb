@@ -1,0 +1,43 @@
+<div id="top-image">
+	<img src="../images/events/events_top_image.jpg" width="933" height="377" alt="">
+</div>
+<h1>Upcoming Events</h1>
+</br>
+<div class="white_data" id="events">
+<table width="100%" border="5">
+	<col align="center" width="30"/>
+	<col align="center" width="25"/>
+	<col align="center" width="25"/>
+	<col align="center" width="20"/>
+	<col align="center" width="20"/>
+	<tr>
+	    <th>Event</th>
+	    <th>Date</th>
+	    <th>Time</th>
+		<th>Venue</th>
+		<th>Location</th>
+	 </tr>
+	<% @events.each do |event| %>
+	  <tr>
+	    <td><a href="#<%= event.title %>"><%= event.title %></a></td>
+	    <td><%= event.date %></td>
+	    <td><%= event.time %></td>
+	    <td><%= event.venue %></td>
+	    <td><%= event.location %></td>
+	  </tr>
+	<% end %>	
+</table>
+</br>
+<p>If you would like to host an event at your church, please contact Paula DiBernardo at 631-753-1244 or email her at <a href="mailto:paula@mensdiscipleshipnetwork.com?&subject=MDN Inaugural Gala">paula@mensdiscipleshipnetwork.com.</a></p>
+</div>
+</br>
+
+<div id="event_details">
+	<% @events.each do |event| %>
+	<a name="<%= event.title %>"></a>
+	<h2 class="weapons"><%= event.summary_title.html_safe %></h2>
+	<p><%= event.summary.html_safe %></p>
+	</br><a href="#events">Back to top</a> &uarr;</br></br>
+	<% end %>	
+</div>
+
