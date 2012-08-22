@@ -32,7 +32,7 @@ var PKL_Loop = false;
 var PKL_Random = false;
 
 var PKL_EngineSpeed = 30;
-var PKL_FadeDelaySpeed = 200;
+var PKL_FadeDelaySpeed = 2000;
 var PKL_FadeSpeed = 55;
 var PKL_ScrollUpdateSpeed = 8;
 var PKL_InfoDisplaySpeed = 1.1;

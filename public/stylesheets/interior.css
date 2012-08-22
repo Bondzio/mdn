@@ -792,12 +792,17 @@ h2 {
 	position: relative;
 	display:none;
 	width:500px;
-	height: 250px;
+	height: 450px;
 	background: #AFAFAF;
 }
 #audio_player h1 {
 	text-align:center;
-
+}
+.player_box {
+	margin-left: 100px;
+	margin-top: 20px;
+	text-align:center;
+	
 }
 #radio_app {
 	clear: left;
