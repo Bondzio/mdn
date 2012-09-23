@@ -1,12 +1,12 @@
 
 <p>
   <b>Gallery name:</b>
-  <%= @gallery.gallery_name %>
+  <%= @gallery.gallery_name.html_safe %>
 </p>
 
 <p>
   <b>Description:</b>
-  <%= @gallery.description %>
+  <%= @gallery.description.html_safe %>
 </p>
 
 <% for asset in @gallery.assets %>
