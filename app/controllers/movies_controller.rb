@@ -8,7 +8,7 @@ class MoviesController < ApplicationController
   def index
     #this is needed for will_paginate to return a paginated query
     @movies = Movie.page(params[:page]).order('created_at DESC').limit(10)
-    #@movies = Movie.all
+
 
     respond_to do |format|
       format.html # index.html.erb

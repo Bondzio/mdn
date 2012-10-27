@@ -1,6 +1,13 @@
 #This will cause bundler to run after deployment, to make sure that Gems are installed after each upload
 require "bundler/capistrano"
 
+#rvm configuration and deployment see https://rvm.io/integration/capistrano/
+before 'deploy:setup', 'rvm:install_rvm'
+before 'deploy:setup', 'rvm:install_ruby'
+
+set :rvm_ruby_string, '1.9.3@mdn_web'
+require "rvm/capistrano"
+
 set :application, "MDN Website"
 set :repository,  "turn2god@turn2god.net:/home/turn2god/git/MDN.git"
 #set :repository,  "ssh://git@github.com:scervera/MDN-Website.git"

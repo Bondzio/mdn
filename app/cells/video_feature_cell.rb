@@ -1,6 +1,6 @@
 class VideoFeatureCell < Cell::Rails
 
-  def display
+  def display(movies)
    movies = Movie.where(:featured => true)
    
    movies.each do |movie|

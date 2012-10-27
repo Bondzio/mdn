@@ -1,5 +1,7 @@
 DBC::Application.routes.draw do
   
+  resources :tests
+
   resources :radio_programs do
     get 'ankom', :on => :collection
   end
@@ -150,4 +152,5 @@ DBC::Application.routes.draw do
   #map.connect 'static/:path', :controller => 'static', :action => 'show'
 
   match ':action' => 'static#:show'
+ 
 end
