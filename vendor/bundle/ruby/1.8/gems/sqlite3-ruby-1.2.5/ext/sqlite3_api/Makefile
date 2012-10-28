@@ -9,33 +9,33 @@ hdrdir = $(topdir)
 VPATH = $(srcdir):$(topdir):$(hdrdir)
 prefix = $(DESTDIR)/usr/local/rvm/rubies/ruby-1.8.7-p370
 exec_prefix = $(prefix)
-pdfdir = $(docdir)
-libexecdir = $(exec_prefix)/libexec
-oldincludedir = $(DESTDIR)/usr/include
-includedir = $(prefix)/include
-sysconfdir = $(prefix)/etc
-datarootdir = $(prefix)/share
-vendordir = $(libdir)/ruby/vendor_ruby
-sitelibdir = $(sitedir)/$(ruby_version)
-infodir = $(datarootdir)/info
-sitedir = $(libdir)/ruby/site_ruby
-rubylibdir = $(libdir)/ruby/$(ruby_version)
-sbindir = $(exec_prefix)/sbin
-sharedstatedir = $(prefix)/com
-vendorarchdir = $(vendorlibdir)/$(sitearch)
-datadir = $(datarootdir)
-vendorlibdir = $(vendordir)/$(ruby_version)
-psdir = $(docdir)
-dvidir = $(docdir)
-archdir = $(rubylibdir)/$(arch)
-libdir = $(exec_prefix)/lib
-localstatedir = $(prefix)/var
 sitearchdir = $(sitelibdir)/$(sitearch)
-docdir = $(datarootdir)/doc/$(PACKAGE)
 htmldir = $(docdir)
-mandir = $(datarootdir)/man
 bindir = $(exec_prefix)/bin
+psdir = $(docdir)
+localstatedir = $(prefix)/var
+vendorlibdir = $(vendordir)/$(ruby_version)
+oldincludedir = $(DESTDIR)/usr/include
+sitedir = $(libdir)/ruby/site_ruby
+docdir = $(datarootdir)/doc/$(PACKAGE)
+vendordir = $(libdir)/ruby/vendor_ruby
+archdir = $(rubylibdir)/$(arch)
 localedir = $(datarootdir)/locale
+sitelibdir = $(sitedir)/$(ruby_version)
+libexecdir = $(exec_prefix)/libexec
+mandir = $(datarootdir)/man
+dvidir = $(docdir)
+sbindir = $(exec_prefix)/sbin
+sysconfdir = $(prefix)/etc
+vendorarchdir = $(vendorlibdir)/$(sitearch)
+pdfdir = $(docdir)
+sharedstatedir = $(prefix)/com
+datarootdir = $(prefix)/share
+includedir = $(prefix)/include
+rubylibdir = $(libdir)/ruby/$(ruby_version)
+infodir = $(datarootdir)/info
+libdir = $(exec_prefix)/lib
+datadir = $(datarootdir)
 
 CC = /usr/bin/gcc-4.2
 LIBRUBY = $(LIBRUBY_SO)
@@ -44,10 +44,10 @@ LIBRUBYARG_SHARED = -l$(RUBY_SO_NAME)
 LIBRUBYARG_STATIC = -l$(RUBY_SO_NAME)-static
 
 RUBY_EXTCONF_H = 
-CFLAGS   =  -fno-common -I/opt/sm/pkg/active/include  -fno-common -pipe -fno-common $(cflags) -O3 -Wall 
-INCFLAGS = -I. -I$(topdir) -I$(hdrdir) -I$(srcdir)
+CFLAGS   =  -fno-common -I/opt/sm/pkg/active/include  -fno-common -pipe -fno-common $(cflags) -fno-strict-aliasing 
+INCFLAGS = -I. -I. -I/usr/local/rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/i686-darwin12.2.0 -I.
 DEFS     = 
-CPPFLAGS =   -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE $(DEFS) $(cppflags)
+CPPFLAGS = -DHAVE_SQLITE3_H  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE  
 CXXFLAGS = $(CFLAGS) 
 ldflags  = -L. -L/opt/sm/pkg/active/lib
 dldflags = 
@@ -84,20 +84,20 @@ DISTCLEANFILES =
 
 extout = 
 extout_prefix = 
-target_prefix = /json/ext
+target_prefix = 
 LOCAL_LIBS = 
-LIBS = $(LIBRUBYARG_SHARED)  -ldl -lobjc  
-SRCS = parser.c
-OBJS = parser.o
-TARGET = parser
+LIBS = $(LIBRUBYARG_SHARED) -lsqlite3  -ldl -lobjc  
+SRCS = sqlite3_api_wrap.c
+OBJS = sqlite3_api_wrap.o
+TARGET = sqlite3_api
 DLLIB = $(TARGET).bundle
 EXTSTATIC = 
 STATIC_LIB = 
 
 BINDIR        = $(bindir)
 RUBYCOMMONDIR = $(sitedir)$(target_prefix)
-RUBYLIBDIR = /Users/scervera/Sites/MDN/vendor/bundle/ruby/1.8/gems/json-1.7.5/lib$(target_prefix)
-RUBYARCHDIR = /Users/scervera/Sites/MDN/vendor/bundle/ruby/1.8/gems/json-1.7.5/lib$(target_prefix)
+RUBYLIBDIR = /Users/scervera/Sites/MDN/vendor/bundle/ruby/1.8/gems/sqlite3-ruby-1.2.5/lib$(target_prefix)
+RUBYARCHDIR = /Users/scervera/Sites/MDN/vendor/bundle/ruby/1.8/gems/sqlite3-ruby-1.2.5/lib$(target_prefix)
 
 TARGET_SO     = $(DLLIB)
 CLEANLIBS     = $(TARGET).bundle $(TARGET).il? $(TARGET).tds $(TARGET).map
@@ -154,5 +154,4 @@ $(DLLIB): $(OBJS) Makefile
 
 
 
-###
-parser.o: parser.c parser.h $(srcdir)/../fbuffer/fbuffer.h
+$(OBJS): ruby.h defines.h
