@@ -137,7 +137,7 @@ checked program was:
 "/usr/bin/gcc-4.2 -o conftest -I. -I/usr/local/rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/i686-darwin12.2.0 -I. -I/usr/include/ffi  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -I/opt/sm/pkg/active/include  -fno-common -pipe -fno-common   conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.8.7-p370/lib -L. -L/opt/sm/pkg/active/lib    -lffi  -lruby-static -lffi  -ldl -lobjc  "
 Undefined symbols for architecture x86_64:
   "_rb_thread_blocking_region", referenced from:
-      _t in ccJz1eSR.o
+      _t in ccnj8v9v.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 checked program was:
@@ -166,7 +166,7 @@ checked program was:
 "/usr/bin/gcc-4.2 -o conftest -I. -I/usr/local/rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/i686-darwin12.2.0 -I. -I/usr/include/ffi  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -I/opt/sm/pkg/active/include  -fno-common -pipe -fno-common   conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.8.7-p370/lib -L. -L/opt/sm/pkg/active/lib    -lffi  -lruby-static -lffi  -ldl -lobjc  "
 Undefined symbols for architecture x86_64:
   "_ruby_native_thread_p", referenced from:
-      _t in ccgTQtZx.o
+      _t in ccIx3XE3.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 checked program was:
@@ -195,7 +195,7 @@ checked program was:
 "/usr/bin/gcc-4.2 -o conftest -I. -I/usr/local/rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/i686-darwin12.2.0 -I. -I/usr/include/ffi  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -I/opt/sm/pkg/active/include  -fno-common -pipe -fno-common   conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.8.7-p370/lib -L. -L/opt/sm/pkg/active/lib    -lffi  -lruby-static -lffi  -ldl -lobjc  "
 Undefined symbols for architecture x86_64:
   "_rb_thread_call_with_gvl", referenced from:
-      _t in ccADjJDu.o
+      _t in ccIAw2AI.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 checked program was:
