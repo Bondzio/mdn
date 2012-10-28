@@ -32,7 +32,7 @@ group :development, :test do
   gem 'capybara'
   gem 'launchy'
   gem 'database_cleaner'
-  group :test, :development, :darwin do
+  group :test, :darwin do
     gem 'rb-fsevent'
   end
 #  gem 'rb-fsevent', :require => false if RUBY_PLATFORM =~ /darwin/i
