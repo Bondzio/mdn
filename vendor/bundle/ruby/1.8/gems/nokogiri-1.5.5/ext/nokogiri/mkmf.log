@@ -38,7 +38,7 @@ ld: warning: directory not found for option '-L/usr/local/Cellar/libxml2/2.8.0/l
 ld: warning: directory not found for option '-L/opt/local/lib'
 Undefined symbols for architecture x86_64:
   "_libiconv_open", referenced from:
-      _t in cc6EIQxS.o
+      _t in ccPh99u4.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 checked program was:
@@ -71,7 +71,7 @@ ld: warning: directory not found for option '-L/usr/local/Cellar/libxml2/2.8.0/l
 ld: warning: directory not found for option '-L/opt/local/lib'
 Undefined symbols for architecture x86_64:
   "_libiconv_open", referenced from:
-      _t in ccsKtsfE.o
+      _t in ccFDPgnr.o
 ld: symbol(s) not found for architecture x86_64
 collect2: ld returned 1 exit status
 checked program was:
