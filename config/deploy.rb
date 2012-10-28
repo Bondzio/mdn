@@ -2,11 +2,10 @@
 require "bundler/capistrano"
 
 #rvm configuration and deployment see https://rvm.io/integration/capistrano/
-before 'deploy:setup', 'rvm:install_rvm'
-before 'deploy:setup', 'rvm:install_ruby'
-
-set :rvm_ruby_string, '1.9.3@mdn_web'
-require "rvm/capistrano"
+#before 'deploy:setup', 'rvm:install_rvm'
+#before 'deploy:setup', 'rvm:install_ruby'
+#set :rvm_ruby_string, 'ruby-1.9.3-p286@mdn_web'
+#require "rvm/capistrano"
 
 set :application, "MDN Website"
 set :repository,  "turn2god@turn2god.net:/home/turn2god/git/MDN.git"

@@ -16,7 +16,7 @@ gem 'sqlite3'
 
 # Deploy with Capistrano
 gem 'capistrano'
-gem 'rvm-capistrano'
+#gem 'rvm-capistrano'
 
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 # gem 'ruby-debug'
@@ -32,7 +32,7 @@ gem 'devise'
 gem "cells", "~> 3.8.0"
 gem 'rack'
 gem 'will_paginate'
-gem 'paperclip'
+gem 'paperclip', '~> 2.7.0'
 gem "profanity_filter"
 
 #gem "bcrypt-ruby", :require => "bcrypt"

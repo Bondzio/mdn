@@ -7,6 +7,7 @@ load 'config/deploy' # remove this line to skip loading any of the default tasks
 #rvm configuration and deployment see https://rvm.io/integration/capistrano/
 before 'deploy:setup', 'rvm:install_rvm'
 before 'deploy:setup', 'rvm:install_ruby'
+#before 'deploy', 'rvm:install_ruby'
 
-set :rvm_ruby_string, '1.9.3@mdn_web'
+set :rvm_ruby_string, 'ruby-1.9.3-p286@mdn_web'
 require "rvm/capistrano"
