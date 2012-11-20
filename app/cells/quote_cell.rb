@@ -1,11 +1,11 @@
 class QuoteCell < Cell::Rails
 
-  def display(quote)
-   quotes = Quote.where(:enabled => true)
+  def display
+    quotes = Quote.where(:enabled => true)
     
-   quotes.each do |quote|
+    quotes.each do |quote|
     @quote = quote
-   end
+    end
     
     render
 

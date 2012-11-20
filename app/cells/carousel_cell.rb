@@ -1,6 +1,6 @@
 class CarouselCell < Cell::Rails
 
-  def display(movie)
+  def display
    @movies = Movie.where(:carousel => true)
    
 #   movies.each do |movie|

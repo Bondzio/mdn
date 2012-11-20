@@ -5,7 +5,7 @@ class ArticlePlacementCell < Cell::Rails
   
 #SMC - Need to always use .all on this query or it doesn't recognize the method
 
-  def article1(article)
+  def article1
     article = Article.where(:space_id => '1', :moderated => true)
     
     article.each do |article|
@@ -16,7 +16,7 @@ class ArticlePlacementCell < Cell::Rails
 
    end
 
-   def article2(article)
+   def article2
      article = Article.where(:space_id => '2', :moderated => true)
 
      article.each do |article|
@@ -27,7 +27,7 @@ class ArticlePlacementCell < Cell::Rails
 
     end
     
-  def article3(article)
+  def article3
       article = Article.where(:space_id => '3', :moderated => true)
 
       article.each do |article|
