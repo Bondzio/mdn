@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Joshua Peek"]
-  s.date = "2011-03-23"
+  s.date = "2011-03-22"
   s.description = "    A stackable dynamic tree based Rack router.\n"
   s.email = "josh@joshpeek.com"
   s.homepage = "https://github.com/josh/rack-mount"

@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jim Weirich"]
-  s.date = "2009-05-15"
+  s.date = "2009-05-14"
   s.description = "Rake is a Make-like program implemented in Ruby. Tasks and dependencies are specified in standard Ruby syntax."
   s.email = "jim@weirichhouse.org"
   s.executables = ["rake"]

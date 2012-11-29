@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jamis Buck", "Delano Mandelbaum"]
-  s.date = "2010-08-17"
+  s.date = "2010-08-16"
   s.description = "A pure Ruby implementation of the SCP client protocol"
   s.email = "net-scp@solutious.com"
   s.extra_rdoc_files = ["CHANGELOG.rdoc", "lib/net/scp/download.rb", "lib/net/scp/errors.rb", "lib/net/scp/upload.rb", "lib/net/scp/version.rb", "lib/net/scp.rb", "lib/uri/open-scp.rb", "lib/uri/scp.rb", "README.rdoc"]

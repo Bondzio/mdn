@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["David Heinemeier Hansson"]
-  s.date = "2010-11-16"
+  s.date = "2010-11-15"
   s.description = "Web apps on Rails. Simple, battle-tested conventions for building and testing MVC web applications. Works with any Rack-compatible server."
   s.email = "david@loudthinking.com"
   s.homepage = "http://www.rubyonrails.org"

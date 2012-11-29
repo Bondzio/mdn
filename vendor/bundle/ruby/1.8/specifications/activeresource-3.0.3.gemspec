@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["David Heinemeier Hansson"]
-  s.date = "2010-11-16"
+  s.date = "2010-11-15"
   s.description = "REST on Rails. Wrap your RESTful web app with Ruby classes and work with them like Active Record models."
   s.email = "david@loudthinking.com"
   s.extra_rdoc_files = ["README.rdoc"]

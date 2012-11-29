@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["David Heinemeier Hansson"]
-  s.date = "2010-11-16"
+  s.date = "2010-11-15"
   s.description = "Rails internals: application bootup, plugins, generators, and rake tasks."
   s.email = "david@loudthinking.com"
   s.homepage = "http://www.rubyonrails.org"

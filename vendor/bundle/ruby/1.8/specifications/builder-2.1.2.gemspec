@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors = ["Jim Weirich"]
   s.autorequire = "builder"
   s.cert_chain = nil
-  s.date = "2007-06-15"
+  s.date = "2007-06-14"
   s.description = "Builder provides a number of builder objects that make creating structured data simple to do.  Currently the following builder objects are supported:  * XML Markup * XML Events"
   s.email = "jim@weirichhouse.org"
   s.extra_rdoc_files = ["CHANGES", "Rakefile", "README", "doc/releases/builder-1.2.4.rdoc", "doc/releases/builder-2.0.0.rdoc", "doc/releases/builder-2.1.1.rdoc"]
