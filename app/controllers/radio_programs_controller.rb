@@ -1,6 +1,7 @@
 class RadioProgramsController < ApplicationController
   #SMC - This specifies the layout to use: views/layouts/prayer.html.erb
-  layout 'static'
+#  layout 'static'
+  layout 'application_template'
   before_filter :authenticate_admin!, :only => [:edit, :update, :index, :new, :destroy, :moderate]
   
   # GET /radio_programs

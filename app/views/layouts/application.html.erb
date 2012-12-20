@@ -18,6 +18,10 @@
 <!-- Add jQuery library -->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 
+<!-- Insert Fonts Here -->
+	  <link href='http://fonts.googleapis.com/css?family=Stardos+Stencil:400,700' rel='stylesheet' type='text/css'>
+	  <script type="text/javascript" src="/javascripts/jquery-1.7.1.min.js"></script>
+	  
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -36,9 +40,9 @@ window.location.replace("http://192.168.0.181:3000/pages/browserupdate.html") --
 
 </script>
 
-<link rel="stylesheet" media="screen and (max-device-width: 480px) and (min-device-width: 320px)" href="phone.css" >
+<!-- ><link rel="stylesheet" media="screen and (max-device-width: 480px) and (min-device-width: 320px)" href="phone.css" >
 <link rel="stylesheet" media="screen and (max-device-width: 800px) and (min-device-width: 600px)" href="tablet.css" >
-<link rel="stylesheet" media="screen and (min-device-width: 1024px)" href="desktop.css" >
+<link rel="stylesheet" media="screen and (min-device-width: 1024px)" href="desktop.css" > -->
 
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag :all %>
@@ -58,9 +62,20 @@ window.location.replace("http://192.168.0.181:3000/pages/browserupdate.html") --
 </script>
 <!-- Google Analytics - End -->
 
+	<script type="text/javascript">
+	/*this first line will prevent a conflict with Prototype's use of the $ sign */
+	jQuery.noConflict();	
+		jQuery(document).ready(function() {
+			$(".fancybox").fancybox({
+				openEffect	: 'none',
+				closeEffect	: 'none'
+			});
+		});
+	</script>
 </head>
 <body>
- 
+  
+
 
 <%= yield %>
 

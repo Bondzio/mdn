@@ -1,6 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* Form content on form pages */
+
+.form-content {
+	position: absolute;
+	left: 800px;
+}
+
 /* Clear Fix to prevent div collapse */
 .clearfix:before,
 .clearfix:after {
