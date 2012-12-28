@@ -1,6 +1,8 @@
 
-<div id="theater">
+<div id="theater" class="clearfix">
+	<h1 class="content_title">MDN Theater</h1>
 		<section id="theater_upper" class="clearfix">
+			
 			<div id="theater_caption"><caption><h1><%= @movie.title %></h1></caption></div>
 			<div id="target_video">
 				  <iframe width="600" height="314" src="http://www.youtube.com/embed/<%= @movie.url %>?wmode=transparent"  frameborder="0" allowfullscreen></iframe>
@@ -17,8 +19,8 @@
 						<%= render_cell :carousel, :display, :movies => @movies %>
 				    </ul>
 			</div>
-			<div class="next" id="nav-next"><img src="/images/nav-next.gif" /></div>
-			<div class="back" id="nav-back"><img src="/images/nav-back.gif" /></div>
+			<div class="next" id="nav-next"><img src="/images/nav-back.gif" /></div>
+			<div class="back" id="nav-back"><img src="/images/nav-next.gif" /></div>
 			<div id="movie_browser"><a href="/movies/browser">Browse MDN's Complete List of Videos</a></div>
 		</section>
 <!-- This is a jquery plug-in for the carousel on theater.html.erb -->

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- This is the standard <head> section -->
+		<%= render "/shared/header" %>
+	</head>
+	<body class="clearfix">
+		<div id="maroon_bar_a"></div>
+		<div id="black_bar_a"></div>
+		<div id="white_bar_a"></div>
+		<div id="beige_bar_a"></div>
+		<div id="container" class="clearfix">
+	    	<div id="navbar" class="clearfix">
+				<!-- This is the nav section of the page -->
+				<%= render "/shared/navbar" %>
+			</div> 
+		
+			<div id="content" class="clearfix">
+				<%= yield %>
+			</div> 
+		</div>
+	</body>
+</html>

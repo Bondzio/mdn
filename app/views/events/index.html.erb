@@ -1,6 +1,6 @@
 <h1>Events List</h1></br>
 <p>This is the list of events that appear on the events web page. You may add new events, edit existing ones, or destroy(delete) existing ones.</p></br>
-
+<div class="button_lft"><%= button_to 'Create New Event', { :action => "new", :class => "button_lft" } %></div>
 <table >
   <tr>
     <th>Title</th>
@@ -28,6 +28,4 @@
 </table>
 
 <br />
-
-<%= link_to 'Create New Event', new_event_path %> | 
-<%= link_to "View Events Page", events_events_path %>
+<div class="button_lft"><%= button_to 'Create New Event', { :action => "new", :class => "button_lft" } %></div>

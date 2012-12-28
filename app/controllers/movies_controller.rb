@@ -1,7 +1,7 @@
 class MoviesController < ApplicationController
   before_filter :authenticate_admin!, :only => [:edit, :update, :moderate, :destroy, :index]
-  
-  layout 'static_no_head'
+  layout Proc.new{ ['edit', 'new', 'create', 'index'].include?(action_name) ? 'no_side' : 'interior' }
+  # layout 'static_no_head'
    
   # GET /movies
   # GET /movies.xml

@@ -1,6 +1,6 @@
 class EventsController < ApplicationController
-  layout 'static'
    before_filter :authenticate_admin!, :only => [:edit, :update, :new, :index, :destroy]
+   layout Proc.new{ ['edit', 'new', 'create', 'index'].include?(action_name) ? 'no_side' : 'interior' }
   # GET /events
   # GET /events.xml
   def index

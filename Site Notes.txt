@@ -1,5 +1,16 @@
-Backup on 5/13/2011
-	- Just after cells gem was installed
-	
-Using Cells gem to enable the ability to take actions from multiple controllers and view them in the home page.
-See: https://github.com/apotonick/cells/blob/master/README.rdoc
+To Do:
+
+In branch auth_project
+1. Add username field to devise and display login as "username" instead of email.
+2. Add roles column to database as per rbates (admin, moderator, author)
+3. Add omni-auth as per rbates for authentication of Facebook and Twitter
+4. Set up CanCan gem and configure authorizations
+5. Create book reviews
+6. Create comments
+7. change form pages for sign in
+
+In branch master
+1. Update Staggering Stats page
+2. Create survey and post to web site
+
+

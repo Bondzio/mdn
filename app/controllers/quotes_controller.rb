@@ -1,6 +1,6 @@
 class QuotesController < ApplicationController
   before_filter :authenticate_admin!
-  layout 'static_no_head'
+  layout Proc.new{ ['edit', 'new', 'create', 'index'].include?(action_name) ? 'no_side' : 'interior' }
   
   # GET /quotes
   # GET /quotes.xml
