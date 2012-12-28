@@ -1,5 +1,5 @@
 class StatsController < ApplicationController
-  layout 'static'
+  layout Proc.new{ ['edit', 'new', 'create', 'index'].include?(action_name) ? 'no_side' : 'interior' }
   # GET /stats
   # GET /stats.xml
   def index

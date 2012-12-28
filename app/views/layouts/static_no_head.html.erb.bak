@@ -19,7 +19,7 @@
 	
 	<script type="text/javascript">
 	/*this first line will prevent a conflict with Prototype's use of the $ sign */
-	jQuery.noConflict();	
+/*	jQuery.noConflict();	*/
 		jQuery(document).ready(function() {
 			$(".fancybox").fancybox({
 				openEffect	: 'none',

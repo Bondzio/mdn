@@ -14,11 +14,16 @@
 				<!-- This is the nav section of the page -->
 				<%= render "/shared/navbar" %>
 			</div> 
-				<%= render '/shared/sidebar'%>
 			<div id="content" class="clearfix">
-			
-				<%= yield %>
-			</div> 
+				<div id="interior_content" >
+					<%= yield %>
+				</div>
+			</div>
+			<div id="gray_sidebar" class="clearfix">
+				<%= render '/shared/sidebar'%>
+			</div>
+			 
 		</div>
+		
 	</body>
 </html>

@@ -1,6 +1,6 @@
 /*.container {width:1200px; height:395px; padding-top:5px;} */
 
-.menu {width:1000px; height:200px; margin:0 auto;position: absolute; top: 120px; left:0px; z-index: 20000;}
+.menu {width:1000px; height:40px; margin:0 auto;position: absolute; top: 120px; left:0px; z-index: 20000;}
 
 /* set up defaults */
 .nav,
@@ -40,7 +40,7 @@
 .nav li:hover > a {background:#666666; color:#fff;}
 
 /* style the positions of the ul and also when the text spans two and three lines */
-.nav {height:200px;}
+.nav {height:20px;}
 .nav .drop {height:200px;}
 
 .nav ul {position:relative; left:0; top:-9px; z-index:100;} /* the dropdown */

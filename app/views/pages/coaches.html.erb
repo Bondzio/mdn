@@ -1,22 +1,5 @@
-<head>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-
-<script>
-function showonlyone(thechosenone) {
-     $('div[name|="coachbox"]').each(function(index) {
-          if ($(this).attr("id") == thechosenone) {
-               $(this).fadeIn("slow");
-          }
-          else {
-               $(this).fadeOut("slow");
-          }
-     });
-}
-</script>
-</head>
-
-<div id="top-coach">
-		<img src="../images/coaches/coaches_top_image.jpg" width="933" height="377" alt="">
+<div id="top-image">
+		<img src="../images/coaches/coaches_top_image.jpg" width="730" height="295" alt="">
 </div>
 <div id="what_is">
 	<div>
@@ -189,4 +172,17 @@ function showonlyone(thechosenone) {
 	        	and have harvested a deep and abiding love for each other." Steve is the father of two beautiful teenage daughters and his greatest 
 	        	desire for them is that they know God and bear much fruit for Him.</p></br>
 	    </div>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
 
+<script>
+function showonlyone(thechosenone) {
+     $('div[name|="coachbox"]').each(function(index) {
+          if ($(this).attr("id") == thechosenone) {
+               $(this).fadeIn("slow");
+          }
+          else {
+               $(this).fadeOut("slow");
+          }
+     });
+}
+</script>

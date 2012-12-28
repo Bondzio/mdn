@@ -1,7 +1,7 @@
-<div class="on_white">
-	<dir id="browser_body">
-	<h1>MDN Video Archive Browser - CAUTION!</h1>
-	<p>Welcome to MDN's video clip browser. "Truth that Transforms needs Training that Sustains", and the videos listed here 
+
+ 	<div id="browser_body">
+		<h1>MDN Video Archive Browser - CAUTION!</h1>
+		<p>Welcome to MDN's video clip browser. "Truth that Transforms needs Training that Sustains", and the videos listed here 
 		provide powerful training for the man who seeks to be transformed in Christ. But be warned...watching these videos is 
 		likely to lead to spontaneous changes like:</p> 
 		
@@ -12,14 +12,12 @@
 			<li>addictions to pornography broken</li>
 			<li>sudden loss of fear, anxiety, and shame</li>
 			<li>grand realizations of purpose and meaning</li>
-			<li>new found strength and confidence (like you're a prince or something crazy)</li>
+			<li>new found strength and confidence (like you're a prince or something)</li>
 		</ul>
-	<p>The list goes on...This is some dangerous stuff here. </br><span style="font-weight: bold; "> You were warned...</span> </p>
-	</dir>
-	<div id="eyeball"></div>
-	<div id="dynamite"><img src="/images/movies/dynamite.gif" /></div>
-	<div class="data">	
-		<div class="pagination"<%= will_paginate @movies %></div></br>
+		<p>The list goes on...This is some dangerous stuff here. </br><span style="font-weight: bold; "> You were warned...</span> </p>
+	</div>
+	<div id="movie_list" >	
+		<div class="pagination"> <%= will_paginate @movies %> </div></br>
 				<table class="table-content1">
 					<thead>
 					  <tr>
@@ -39,6 +37,9 @@
 				<% end %>
 				</table>
 
-		<div class="pagination"<%= will_paginate @movies %></div></br>
+		<div class="pagination"> <%= will_paginate @movies %> </div></br>
 	</div>
-</div>
+	<div id="eyeball"></div>
+	<div id="dynamite"><img src="/images/movies/dynamite.gif" /></div>
+	
+

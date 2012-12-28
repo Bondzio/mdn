@@ -1,4 +1,4 @@
-<head>
+
   <meta charset="utf-8" />
 
   <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
@@ -14,12 +14,18 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />   -->
 
 <!-- Add jQuery library -->
-
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-  <%= stylesheet_link_tag "1reset.css", "scaffold.css", "menu.css", "index.css", "pushup.css", "jquery.marquee.css", "jquery.fancybox.css, desktop.css" %>
-  <%= javascript_include_tag "jquery.marquee.js", "jquery.fancybox.pack.js", "cycle.js" %>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+  <%= stylesheet_link_tag "1reset.css", "scaffold.css", "menu.css", "pushup.css", "jquery.fancybox.css", "desktop.css", "jquery.marquee.css" %> 
+  <%= javascript_include_tag "jquery.marquee.js", "jquery.fancybox.pack.js", "cycle.js", "pickle.js" %>
   <%= csrf_meta_tag %>
 
+<!-- Pickle player -->
+<script src="/javascripts/pickle.js" language="JavaScript"></script>
+<link href="/images/skins/default/_stylesheet.css" rel="stylesheet" type="text/css">
+
+<!-- Insert Fonts Here -->
+<link href='http://fonts.googleapis.com/css?family=Stardos+Stencil:400,700' rel='stylesheet' type='text/css'>
+	  
 <!-- Google Analytics - Start -->
 <script type="text/javascript">
   var _gaq = _gaq || [];
@@ -56,9 +62,16 @@ window.location.replace("http://192.168.0.181:3000/pages/browserupdate.html") --
 <link rel="stylesheet" media="screen and (max-device-width: 800px) and (min-device-width: 600px)" href="tablet.css" >
 <link rel="stylesheet" media="screen and (min-device-width: 1024px)" href="/stylesheets/desktop.css" >
 -->
-<link rel="stylesheet" media="screen" href="/stylesheets/desktop.css" >
 
 
+<script type="text/javascript">
+		jQuery(document).ready(function() {
+			$(".fancybox").fancybox({
+				openEffect	: 'none',
+				closeEffect	: 'none'
+			});
+		});
+</script>
 
 
 <!-- see: http://www.givainc.com/labs/marquee_jquery_plugin.htm> for more info -->
@@ -68,9 +81,9 @@ $(document).ready(function (){
 
 }); 
 </script>
+
 <!-- sharethis.com scripts -->
 <script type="text/javascript">var switchTo5x=true;</script>
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "cd9e2436-a5bd-4214-9f43-909c737b6bc7"}); </script>
 
-</head>

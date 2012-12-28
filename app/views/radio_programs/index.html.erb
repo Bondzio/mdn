@@ -1,7 +1,5 @@
 <h1>Listing of Radio Programs</h1>
-</br>
-<%= button_to 'New Radio Program', :action => "new" %>
-<div class="pagination"<%= will_paginate @radio_programs %> </div></br>
+<div class="pagination"><%= will_paginate @radio_programs %> </div></br>
 <table>
   <tr>
   	<th>Episode</th>
@@ -28,7 +26,6 @@
   </tr>
 <% end %>
 </table>
-<div class="pagination"<%= will_paginate @radio_programs %> </div></br>
-<br />
+<div class="pagination"><%= will_paginate @radio_programs %> </div></br>
 
-<%= button_to 'New Radio Program', :action => "new" %>
+<div class="button_lft"> <%= button_to 'New Radio Program', { :action => "new", :class => "button_lft" } %></div>
