@@ -804,9 +804,10 @@ background-repeat:no-repeat; z-index: 105; }
 	font-size: 14px;
 	font-family: Arial;
 	position: relative;
-	top: -43px;
+	top:25px;
 	left: 50px;
 	color: #F0F0F0;
+	height:50px;
 }
 /* General Styling */
 
