@@ -1,17 +1,10 @@
 source 'http://rubygems.org'
 
-gem 'rails'
+gem 'rails', '3.1.0'
 gem 'mysql2', '0.2.7'
-gem 'rake', '0.8.7'
+gem 'rake'
 gem 'jquery-rails', '>= 1.0.12'
-
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
-
-# Use unicorn as the web server
-# gem 'unicorn'
+gem 'sqlite3', '1.3.4', :require => 'sqlite3'
 
 # Deploy with Capistrano
 gem 'capistrano'
@@ -21,14 +14,10 @@ gem 'capistrano'
 # gem 'ruby-debug19'
 
 # Bundle the extra gems:
-# gem 'bj'
-# gem 'nokogiri'
-# gem 'sqlite3-ruby', :require => 'sqlite3'
-# gem 'aws-s3', :require => 'aws/s3'
 gem 'haml'
 gem 'devise'
 gem 'cells'
-gem 'rack', '1.2.1'
+gem 'rack'
 gem 'will_paginate'
 gem 'paperclip', "~>2.7"
 gem "profanity_filter"
