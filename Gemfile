@@ -1,10 +1,10 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0'
+gem 'rails', '3.2.0'
 gem 'mysql2', '0.2.7'
 gem 'rake'
-gem 'jquery-rails', '>= 1.0.12'
-gem 'sqlite3', '1.3.4', :require => 'sqlite3'
+gem 'jquery-rails'
+gem 'sqlite3'
 
 # Deploy with Capistrano
 gem 'capistrano'
@@ -22,9 +22,11 @@ gem 'will_paginate'
 gem 'paperclip', "~>2.7"
 gem "profanity_filter"
 
-#gem "bcrypt-ruby", :require => "bcrypt"
-#Deploy Mongrel
-# gem 'mongrel'
+group :assets do
+  gem 'sass-rails', "~> 3.2.3"
+  gem 'coffee-rails', "~> 3.2.1"
+  gem 'uglifier', ">= 1.0.3"
+end
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
