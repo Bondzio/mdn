@@ -1,9 +1,7 @@
 class PrayersController < ApplicationController
   # before_filter :authenticate_user!, :except => [:edit, :update]
   before_filter :authenticate_admin!, :only => [:edit, :update, :moderate, :index, :destroy, :moderate, :review]
-  
-  #SMC - This specifies the layout to use: views/layouts/static.html.erb
-  layout Proc.new{ ['edit', 'new', 'create', 'index'].include?(action_name) ? 'no_side' : 'interior' }
+  layout "no_side", :only => [:index]
   
   #SMC - This forces authentication when the actions in brackets are called.
   # before_filter :authenticate_admin!, :only => [:index, :update,]

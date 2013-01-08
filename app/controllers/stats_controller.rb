@@ -1,5 +1,5 @@
 class StatsController < ApplicationController
-  layout Proc.new{ ['edit', 'new', 'create', 'index'].include?(action_name) ? 'no_side' : 'interior' }
+  layout "no_side", :only => [:edit, :new, :create, :index]
   # GET /stats
   # GET /stats.xml
   def index

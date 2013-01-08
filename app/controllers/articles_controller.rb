@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
   before_filter :authenticate_admin!, :only => [:edit, :update, :index, :destroy, :moderate]
-  
+  layout "no_side", :only => [:edit, :new, :create, :index]
   #SMC - This specifies the layout to use: views/layouts/prayer.html.erb
   layout Proc.new{ ['edit', 'new', 'create', 'index'].include?(action_name) ? 'no_side' : 'interior' }
   

@@ -1,6 +1,5 @@
 class PagesController < ApplicationController
   #SMC - This specifies the layout to use: views/layouts/prayer.html.erb
-  layout 'interior'
  
   def contact
   end

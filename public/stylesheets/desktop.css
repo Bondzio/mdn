@@ -130,31 +130,31 @@ box-shadow:0px 10px 10px 3px #100707;
 	margin: 30px 0 10px 60px;
 }
 .on_white a {
-	display: block;
+	display: inline;
 	color: #660000;
 	text-decoration: none;
 }
 
 .on_white a:link {
-	display: block;
+	display: inline;
 	color: #660000;
 	text-decoration: none;
 }
 
 .on_white a:visited {
-	display: block;
+	display: inline;
 	color: #660000;
 	text-decoration: none;
 }
 
 .on_white a:hover {
-	display: block;
+	display: inline;
 	color: #F3F781;
 	text-decoration: none;
 }
 
 .on_white:active {
-	display: block;
+	display: inline;
 	color: #F3F781;
 	text-decoration: none;
 }
@@ -935,17 +935,16 @@ ul.marquee li {
 .pagination {
 /*  background: #F1F1F1;
   border: 1px solid #e5e5e5; */
-  width: 75%;
+  width: 90%;
   background: #FFFFFF;
   border: none;
   text-align: center;
-  padding: 1em;
+  padding: 0.1em;
   cursor: default; }
-  .pagination a, .pagination span {
-    padding: 0.2em 0.3em; }
-  .pagination .disabled {
-    color: #aaaaaa; }
-  .pagination .current {
+  
+.pagination a, .pagination span {padding: 0.2em 0.1em; }
+.pagination .disabled {color: #aaaaaa; }
+.pagination .current {
     font-style: normal;
     font-weight: bold;
     background-color: #bebebe;
@@ -957,11 +956,11 @@ ul.marquee li {
     -webkit-border-radius: 1em;
     border-radius: 1em;
     text-shadow: rgba(255, 255, 255, 0.8) 1px 1px 1px; }
-  .pagination a {
+.pagination a {
     text-decoration: none;
-    color: black; }
-    .pagination a:hover, .pagination a:focus {
-      text-decoration: underline; }
+    color: black;
+}
+.pagination a:hover, .pagination a:focus {text-decoration: underline; }
 
 em {font-weight: bold;}
 
