@@ -2,8 +2,11 @@
 require "bundler/capistrano"
 
 set :application, "MDN Website"
-set :repository,  "turn2god@turn2god.net:/home/turn2god/git/MDN.git"
+#set :repository,  "turn2god@turn2god.net:/home/turn2god/git/MDN.git"
 #set :repository,  "ssh://git@github.com:scervera/MDN-Website.git"
+set :repository,  "file:///opt/git/MDN.git"
+set :local_repository, "adm1n@railroad.thecerveras.com:/opt/git/MDN.git"
+set:deploy_via,:copy
 
 set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
