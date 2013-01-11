@@ -9,8 +9,8 @@ set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
 #this is the location where Capistrano will deploy to on the web server
-set :deploy_to, "/home/coach/mdn/"
-set :user, "coach"
+set :deploy_to, "/home/adm1n/www/mdn/"
+set :user, "adm1n"
 set :use_sudo, false
 
 #this is necessary to properly connect to the web server
@@ -20,9 +20,9 @@ ssh_options[:forward_agent] = true
 set :scm_command, "/usr/bin/git"
 # set :local_scm_command, 
 
-role :web, "www.mensdiscipleshipnetwork.com"                          # Your HTTP server, Apache/etc
-role :app, "www.mensdiscipleshipnetwork.com"                          # This may be the same as your `Web` server
-role :db,  "www.mensdiscipleshipnetwork.com", :primary => true # This is where Rails migrations will run
+role :web, "railroad.thecerveras.com"                          # Your HTTP server, Apache/etc
+role :app, "railroad.thecerveras.com"                          # This may be the same as your `Web` server
+role :db,  "railroad.thecerveras.com", :primary => true # This is where Rails migrations will run
 # role :db,  "your slave db-server here"
 
 #SMC You need to tell cap the branch to checkout during deployment:

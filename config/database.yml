@@ -22,6 +22,9 @@ production:
     database: coach_mdndata
     username: coach_access
     password: 0708SMClfq!
-    socket: /tmp/mysql.sock
+#   When running on the Site5 server use this socket
+#   socket: /tmp/mysql.sock
+#   When running on Ubuntu production server use this socket
+    socket: /var/run/mysqld/mysqld.sock
     pool: 5
     timeout: 5000
