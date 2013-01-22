@@ -1,47 +1,37 @@
-#This will cause bundler to run after deployment, to make sure that Gems are installed after each upload
-require "bundler/capistrano"
-
-set :application, "MDN Website"
-#set :repository,  "turn2god@turn2god.net:/home/turn2god/git/MDN.git"
-#set :repository,  "ssh://git@github.com:scervera/MDN-Website.git"
-set :repository,  "file:///opt/git/MDN.git"
-set :local_repository, "adm1n@railroad.thecerveras.com:/opt/git/MDN.git"
-set:deploy_via,:copy
-
+require 'bundler/capistrano'
+set :application, "mdnapp"
 set :scm, :git
-# Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
-
-#this is the location where Capistrano will deploy to on the web server
-set :deploy_to, "/home/adm1n/www/mdn/"
-set :user, "adm1n"
+#set :repository, "git://github.com/deployingrails/massiveapp.git"
+set :repository,  "git://github.com/scervera/mdn.git"
+#set :local_repository, "adm1n@railroad.thecerveras.com:/opt/git/MDN.git"
+server "localhost", :web, :app, :db, :primary => true
+ssh_options[:port] = 2222
+ssh_options[:keys] = "~/.vagrant.d/insecure_private_key"
+set :user, "vagrant"
+set :group, "vagrant"
+set :deploy_to, "/var/mdnapp"
 set :use_sudo, false
+set :deploy_via, :copy
+set :copy_strategy, :export
 
-#this is necessary to properly connect to the web server
-ssh_options[:forward_agent] = true
+namespace :deploy do
+  task :start do ; end
+  task :stop do ; end
 
-#SMC - Need this to avoid an error saying that git can't be located
-set :scm_command, "/usr/bin/git"
-# set :local_scm_command, 
-
-role :web, "railroad.thecerveras.com"                          # Your HTTP server, Apache/etc
-role :app, "railroad.thecerveras.com"                          # This may be the same as your `Web` server
-role :db,  "railroad.thecerveras.com", :primary => true # This is where Rails migrations will run
-# role :db,  "your slave db-server here"
-
-#SMC You need to tell cap the branch to checkout during deployment:
-set :branch, "master"
-
-# In most cases you want to use this option, otherwise each deploy will do a full repository clone every time.
-set :deploy_via, :remote_cache
-
-# if you're still using the script/reaper helper you will need
-# these http://github.com/rails/irs_process_scripts
-
-# If you are using Passenger mod_rails uncomment this:
- namespace :deploy do
-   task :start do ; end
-   task :stop do ; end
-   task :restart, :roles => :app, :except => { :no_release => true } do
-     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
-   end
- end
+  desc "Copy the database.yml file into the latest release"
+  task :copy_in_database_yml do
+    run "cp #{shared_path}/config/database.yml #{latest_release}/config/"
+  end
+  desc "Create symlink from public folder to current/public"
+  task :symlink_to_public do
+    run "ln -sf #{current_path}/public/ #{deploy_to}"
+  end
+  
+  desc "Restart the application"
+  task :restart, :roles => :app, :except => { :no_release => true } do
+    #run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
+    run "#{try_sudo} touch #{File.join(latest_release,'tmp','restart.txt')}"
+  end
+end
+before "deploy:assets:precompile", "deploy:copy_in_database_yml"
+after "deploy:update_code","deploy:copy_in_database_yml", "deploy:symlink_to_public", "deploy:restart"
