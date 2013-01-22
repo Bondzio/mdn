@@ -1,9 +1,7 @@
 require 'bundler/capistrano'
 set :application, "mdnapp"
 set :scm, :git
-#set :repository, "git://github.com/deployingrails/massiveapp.git"
 set :repository,  "git://github.com/scervera/mdn.git"
-#set :local_repository, "adm1n@railroad.thecerveras.com:/opt/git/MDN.git"
 server "localhost", :web, :app, :db, :primary => true
 ssh_options[:port] = 2222
 ssh_options[:keys] = "~/.vagrant.d/insecure_private_key"
