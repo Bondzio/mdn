@@ -124,8 +124,8 @@ STATIC_LIB =
 
 BINDIR        = $(bindir)
 RUBYCOMMONDIR = $(sitedir)$(target_prefix)
-RUBYLIBDIR = /Users/scervera/Sites/MDN/vendor/bundle/ruby/1.9.1/gems/sqlite3-1.3.6/lib$(target_prefix)
-RUBYARCHDIR = /Users/scervera/Sites/MDN/vendor/bundle/ruby/1.9.1/gems/sqlite3-1.3.6/lib$(target_prefix)
+RUBYLIBDIR = /Users/scervera/Sites/MDN_local/vendor/bundle/ruby/1.9.1/gems/sqlite3-1.3.6/lib$(target_prefix)
+RUBYARCHDIR = /Users/scervera/Sites/MDN_local/vendor/bundle/ruby/1.9.1/gems/sqlite3-1.3.6/lib$(target_prefix)
 HDRDIR        = $(rubyhdrdir)/ruby$(target_prefix)
 ARCHHDRDIR    = $(rubyhdrdir)/$(arch)/ruby$(target_prefix)
 
