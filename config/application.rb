@@ -38,5 +38,8 @@ module DBC
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+    
+    # SMC - Enable or disable precompile
+    config.assets.initialize_on_precompile = false
   end
 end

@@ -23,6 +23,9 @@ gem 'will_paginate'
 gem 'paperclip', "~>2.7"
 gem "profanity_filter"
 
+#Javascript runtime
+gem 'execjs'
+
 group :assets do
   gem 'sass-rails', "~> 3.2.0"
   gem 'coffee-rails', "~> 3.2.0"

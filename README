@@ -1,20 +1,2 @@
-This is the Men's Discipleship Network website.
-
-
-When switching back and forth to the turn2god.net staging server need to do the following:
-
-1) Change the .htaccess file to point to the appropriate home folder.
-2) Make sure that there is a restart.txt file in ~/mdn/current/tmp
-3) Make sure you use the deploy.rb script for the correct server
-
-
-Items To Do:
-
-1) Change WEAPONS video for the commercial that has a generic location at the end.
-2) Create CRUD for Announcements page
-3) Create CRUD for videos of Manhood Minute videos.
-
-
-
--Steve
+This is the Men's Discipleship Network website
 
