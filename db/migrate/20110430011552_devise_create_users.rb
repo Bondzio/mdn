@@ -1,6 +1,5 @@
 class DeviseCreateUsers < ActiveRecord::Migration
-  def self.up
-    create_table(TABLE_NAME) do |t|
+  create_table(TABLE_NAME) do |t|
   ## Database authenticatable
   t.string :email,              :null => false, :default => ""
   t.string :encrypted_password, :null => false, :default => ""
@@ -40,10 +39,5 @@ class DeviseCreateUsers < ActiveRecord::Migration
   # t.string :invitation_token
 
   t.timestamps
-  end
-
-
-  def self.down
-    drop_table :users
-  end
 end
+
