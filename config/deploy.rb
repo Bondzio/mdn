@@ -1,8 +1,12 @@
 require 'bundler/capistrano'
+set :stages, %w(beta production)
+set :default_stage, "beta"
+require 'capistrano/ext/multistage'
+'
 set :application, "mdnapp"
 set :scm, :git
 set :repository,  "git://github.com/scervera/mdn.git"
-server "localhost", :web, :app, :db, :primary => true
+# server "localhost", :web, :app, :db, :primary => true
 ssh_options[:port] = 2222
 ssh_options[:keys] = "~/.vagrant.d/insecure_private_key"
 set :user, "vagrant"
@@ -27,7 +31,7 @@ namespace :deploy do
   
   desc "Restart the application"
   task :restart, :roles => :app, :except => { :no_release => true } do
-    #run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
+
     run "#{try_sudo} touch #{File.join(latest_release,'tmp','restart.txt')}"
   end
 end
