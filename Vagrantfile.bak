@@ -8,7 +8,7 @@ Vagrant::Config.run do |config|
 
   config.vm.define :web do |web_config|
 	web_config.vm.customize ["modifyvm", :id, "--name", "web", "--memory", "512"]
-	web_config.vm.box = "ubuntu1204_ruby193_puppetmasterd"
+	web_config.vm.box = "ubuntu1204_ruby193"
 	web_config.vm.host_name = "web"
 	web_config.vm.forward_port 22, 2222, :auto => true
 	web_config.vm.forward_port 80, 4567, :auto => true
@@ -16,14 +16,14 @@ Vagrant::Config.run do |config|
 	web_config.vm.share_folder "puppet", "/etc/puppet", "../mdn_ops"
   end
 
-#  config.vm.define :stage do |stage_config|
-#	stage_config.vm.customize ["modifyvm", :id, "--name", "stage", "--memory", "512"]
-#	stage_config.vm.box = "ubuntu1204_ruby193"
-#	stage_config.vm.host_name = "stage"
-#	stage_config.vm.forward_port 22, 2222, :auto => true
-#	stage_config.vm.network :bridged, :bridge => "en0: Ethernet"
-#	stage_config.vm.share_folder "puppet", "/etc/puppet", "../mdn_ops"
- # end
+  config.vm.define :stage do |stage_config|
+	stage_config.vm.customize ["modifyvm", :id, "--name", "stage", "--memory", "512"]
+	stage_config.vm.box = "ubuntu1204_ruby193"
+	stage_config.vm.host_name = "stage"
+	stage_config.vm.forward_port 22, 2222, :auto => true
+	stage_config.vm.network :bridged, :bridge => "en0: Ethernet"
+	stage_config.vm.share_folder "puppet", "/etc/puppet", "../mdn_ops"
+  end
 
 
 end
