@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email = ["apotonick@gmail.com"]
   s.homepage = "http://cells.rubyforge.org"
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.24"
+  s.rubygems_version = "1.8.25"
   s.summary = "View Components for Rails."
 
   if s.respond_to? :specification_version then

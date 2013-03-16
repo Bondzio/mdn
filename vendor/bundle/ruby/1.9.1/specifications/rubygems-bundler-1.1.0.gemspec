@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.files = ["bin/rubygems-bundler-uninstaller"]
   s.homepage = "http://mpapis.github.com/rubygems-bundler"
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.24"
+  s.rubygems_version = "1.8.25"
   s.summary = "Stop using bundle exec"
 
   if s.respond_to? :specification_version then

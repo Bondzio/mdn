@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/bdurand/ref"
   s.rdoc_options = ["--charset=UTF-8", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.24"
+  s.rubygems_version = "1.8.25"
   s.summary = "Library that implements weak, soft, and strong references in Ruby."
 
   if s.respond_to? :specification_version then
