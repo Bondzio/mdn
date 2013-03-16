@@ -21,7 +21,11 @@ gem 'cells'
 gem 'rack'
 gem 'will_paginate'
 gem 'paperclip', "~>2.7"
-gem "profanity_filter"
+gem 'profanity_filter'
+gem 'rmagick', '2.13.2', :git=>'http://github.com/rmagick/rmagick.git'# gem 'mini_magick'
+gem 'carrierwave'
+gem 'mime-types'
+
 
 #Javascript runtime
 gem 'execjs'

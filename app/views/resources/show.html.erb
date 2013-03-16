@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @resource.title %>
+</p>
+
+<p>
+  <b>Subtitle:</b>
+  <%= @resource.subtitle %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @resource.description %>
+</p>
+
+<p>
+  Thumbnail Image:<br>
+<%= image_tag @resource.image_url(:thumb).to_s %>
+</p>
+<p>
+	<div id="attachments">
+		<%= link_to 'Download Video', :action => 'download_video', :id => @resource.id %>
+		<%= link_to 'Download Document', :action => 'download_file', :id => @resource.id %></div>
+</p>
+
+<%= link_to 'Edit', edit_resource_path(@resource) %> |
+<%= link_to 'Back', resources_path %>
