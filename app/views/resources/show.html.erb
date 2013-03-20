@@ -15,14 +15,21 @@
   <%= @resource.description %>
 </p>
 
-<p>
-  Thumbnail Image:<br>
-<%= image_tag @resource.image_url(:thumb).to_s %>
-</p>
+<% if resource.image? %>
+	<p>
+	  Thumbnail Image:<br>
+	<%= image_tag @resource.image_url(:thumb).to_s %>
+	</p>
+<% end %>
 <p>
 	<div id="attachments">
-		<%= link_to 'Download Video', :action => 'download_video', :id => @resource.id %>
-		<%= link_to 'Download Document', :action => 'download_file', :id => @resource.id %></div>
+		<% if resource.document? %>
+			<p>Get the resource:<%= link_to 'Download File', :action => 'download_file', :id => resource.id %></p>
+		<% end %>
+		<% if resource.video? %>
+			<p>Get the video:<%= link_to 'Download Video', :action => 'download_video', :id => resource.id %></p>
+		<% end %>
+	</div>
 </p>
 
 <%= link_to 'Edit', edit_resource_path(@resource) %> |

@@ -8,7 +8,7 @@ Vagrant::Config.run do |config|
 
   config.vm.define :web do |web_config|
 	web_config.vm.customize ["modifyvm", :id, "--name", "web", "--memory", "512"]
-	web_config.vm.box = "ubuntu1204_ruby193_puppetmasterd"
+	web_config.vm.box = "ubuntu1204_ruby193_puppetmasterd_v1.1"
 	web_config.vm.host_name = "web"
 	web_config.vm.forward_port 22, 2222, :auto => true
 	web_config.vm.forward_port 80, 4567, :auto => true

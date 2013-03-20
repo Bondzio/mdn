@@ -4,17 +4,28 @@
 		<h1>Men's Ministry Resources</h1>
 	</div>
 
-	<% @resources.each do |resource| %>
+	<% if @resources.empty? %>
+		<p>There are no resources available at this time.</p>
+			
+	<% else %>
+		<% @resources.each do |resource| %>
 
-	<div class="resource_wrap clearfix">
-			<h1><%= resource.title.html_safe %></h1><h2><%= resource.subtitle.html_safe %></h2>
-		<p><%= image_tag resource.image_url(:wallet).to_s %><%= resource.description.html_safe %></p>
+		<div class="resource_wrap clearfix">
+				<h1><%= resource.title.html_safe %></h1><h2><%= resource.subtitle.html_safe %></h2>
+			<p><%= image_tag resource.image_url(:wallet).to_s %><%= resource.description.html_safe %></p>
 		
-		<div id="attachments"><p>Get the training resource:<%= link_to 'Download File', :action => 'download_file', :id => resource.id %></p>
-			<p>Get the training video:<%= link_to 'Download Video', :action => 'download_video', :id => resource.id %></p>
+			<div id="attachments">
+				<% if resource.document? %>
+					<p>Get the resource:<%= link_to 'Download File', :action => 'download_file', :id => resource.id %></p>
+				<% end %>
+				<% if resource.video? %>
+					<p>Get the video:<%= link_to 'Download Video', :action => 'download_video', :id => resource.id %></p>
+				<% end %>
+			</div>
 		</div>
-	</div>
+		<% end %>
 	<% end %>
+	
 </div>
 <div class="pagination"<%= will_paginate @prayers %></div>
 
