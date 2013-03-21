@@ -15,7 +15,7 @@
   <%= @resource.description %>
 </p>
 
-<% if resource.image? %>
+<% if @resource.image? %>
 	<p>
 	  Thumbnail Image:<br>
 	<%= image_tag @resource.image_url(:thumb).to_s %>
@@ -23,11 +23,11 @@
 <% end %>
 <p>
 	<div id="attachments">
-		<% if resource.document? %>
-			<p>Get the resource:<%= link_to 'Download File', :action => 'download_file', :id => resource.id %></p>
+		<% if @resource.document? %>
+			<p>Get the resource:<%= link_to 'Download File', :action => 'download_file', :id => @resource.id %></p>
 		<% end %>
-		<% if resource.video? %>
-			<p>Get the video:<%= link_to 'Download Video', :action => 'download_video', :id => resource.id %></p>
+		<% if @resource.video? %>
+			<p>Get the video:<%= link_to 'Download Video', :action => 'download_video', :id => @resource.id %></p>
 		<% end %>
 	</div>
 </p>
