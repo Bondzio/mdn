@@ -1,5 +1,5 @@
 require 'bundler/capistrano'
-set :stages, %w(beta web)
+set :stages, %w(beta web dev)
 set :default_stage, "beta"
 require 'capistrano/ext/multistage'
 
@@ -16,6 +16,7 @@ set :deploy_to, "/var/mdnapp"
 set :use_sudo, false
 set :deploy_via, :copy
 set :copy_strategy, :export
+set :shared_children, shared_children + %w{public/uploads}
 
 namespace :deploy do
   task :start do ; end
