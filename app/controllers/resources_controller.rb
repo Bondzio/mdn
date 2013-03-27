@@ -96,8 +96,9 @@ class ResourcesController < ApplicationController
   def download_file
       @resource = Resource.find(params[:id])
       send_file(@resource.document.path,
+            
             :type => 'application/pdf',
-            :disposition => 'attachment',
+            :disposition => 'inline',
             :url_based_filename => true)
   end
   
