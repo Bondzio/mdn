@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130310222842) do
+ActiveRecord::Schema.define(:version => 20130328180024) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                                 :default => "", :null => false
@@ -241,6 +241,7 @@ ActiveRecord::Schema.define(:version => 20130310222842) do
     t.string   "document"
     t.string   "image"
     t.string   "video"
+    t.string   "audio"
   end
 
   create_table "stats", :force => true do |t|

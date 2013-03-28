@@ -108,4 +108,11 @@ class ResourcesController < ApplicationController
             :disposition => 'attachment',
             :url_based_filename => false)
   end
+  
+  def download_audio
+      @resource = Resource.find(params[:id])
+      send_file(@resource.audio.path,
+            :disposition => 'attachment',
+            :url_based_filename => false)
+  end
 end
