@@ -8,16 +8,21 @@ set :scm, :git
 set :repository,  "git://github.com/scervera/mdn.git"
 # server "localhost", :web, :app, :db, :primary => true
 #ssh_options[:port] = 2222
-ssh_options[:port] = 22
+ssh_options[:forward_agent] = true
+#ssh_options[:port] = 22
 #ssh_options[:keys] = "~/.vagrant.d/insecure_private_key"
 set :user, "adm1n"
 set :group, "adm1n"
 set :deploy_to, "/var/mdnapp"
 set :use_sudo, false
 #set :deploy_via, :copy
+# In most cases you want to use this option, otherwise each deploy will do a full repository clone every time.
 set :deploy_via, :remote_cache
 #set :copy_strategy, :export
 set :shared_children, shared_children + %w{public/uploads}
+
+#SMC You need to tell cap the branch to checkout during deployment:
+set :branch, "master"
 
 namespace :deploy do
   task :start do ; end
