@@ -14,8 +14,9 @@ set :user, "adm1n"
 set :group, "adm1n"
 set :deploy_to, "/var/mdnapp"
 set :use_sudo, false
-set :deploy_via, :copy
-set :copy_strategy, :export
+#set :deploy_via, :copy
+set :deploy_via, :remote_cache
+#set :copy_strategy, :export
 set :shared_children, shared_children + %w{public/uploads}
 
 namespace :deploy do
