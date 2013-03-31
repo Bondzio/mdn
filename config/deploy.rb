@@ -7,10 +7,8 @@ set :application, "mdnapp"
 set :scm, :git
 set :repository,  "git://github.com/scervera/mdn.git"
 # server "localhost", :web, :app, :db, :primary => true
-#ssh_options[:port] = 2222
-ssh_options[:forward_agent] = true
+ssh_options, {:forward_agent = true}
 #ssh_options[:port] = 22
-#ssh_options[:keys] = "~/.vagrant.d/insecure_private_key"
 set :user, "adm1n"
 set :group, "adm1n"
 set :deploy_to, "/var/mdnapp"
