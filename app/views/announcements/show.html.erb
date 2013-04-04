@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @announcement.title %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%= @announcement.date %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @announcement.description %>
+</p>
+
+<% if @announcement.image? %>
+	<p>
+	  Thumbnail Image:<br>
+	<%= image_tag @announcement.image_url(:thumb).to_s %>
+	</p>
+<% end %>
+
+
+<%= link_to 'Edit', edit_announcement_path(@announcement) %> |
+<%= link_to 'Back', announcements_path %>

@@ -1,0 +1,22 @@
+<div id="top-image">
+	<img src="../images/announcements/announcements_top_image.jpg" width="730" height="295" alt="">
+</div>
+</br>
+<div id="announce-1" class="news">
+	<% if @announcements.empty? %>
+		<div class="resource_wrap clearfix">
+			<p>There are no announcements available at this time.</p>
+		</div>
+			
+	<% else %>
+		<% @announcements.each do |announcement| %>
+
+		<div class="resource_wrap clearfix">
+				<h2><%= announcement.title.html_safe %></h2><h3><%= announcement.date %></h3>
+			<p><%= image_tag announcement.image_url(:wallet).to_s %><%= announcement.description.html_safe %></p>
+		</div>
+		<% end %>
+	<% end %>
+</div>
+
+<div class="pagination"<%= will_paginate @prayers %></div>
