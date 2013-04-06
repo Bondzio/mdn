@@ -6,7 +6,8 @@ require 'capistrano/ext/multistage'
 set :application, "mdnapp"
 set :scm, :git
 default_run_options[:pty] = true
-set :ssh_options, { :forward_agent => true }
+#set :ssh_options, { :forward_agent => true }
+ssh_options[:forward_agent] = true
 set :repository,  "git://github.com/scervera/mdn.git"
 
 ssh_options[:port] = 22
