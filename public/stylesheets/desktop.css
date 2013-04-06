@@ -1577,6 +1577,10 @@ h2 {
 	z-index: -10;
 }
 
+.resource_wrap ul {
+	margin-left: 2em;
+}
+
 .resource_wrap h2 {
 	color: #000000;
 }
