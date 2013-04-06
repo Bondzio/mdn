@@ -8,8 +8,8 @@ set :scm, :git
 default_run_options[:pty] = true
 set :ssh_options, { :forward_agent => true }
 #ssh_options[:forward_agent] = true
-#set :repository,  "git://github.com/scervera/mdn.git"
-set :repository,  "ssh://git@github.com:scervera/mdn.git"
+set :repository,  "git://github.com/scervera/mdn.git"
+#set :repository,  "git@github.com/scervera/mdn.git"
 #ssh_options[:port] = 22
 set :user, "adm1n"
 set :group, "adm1n"
