@@ -8,7 +8,7 @@ set :scm, :git
 set :repository,  "git://github.com/scervera/mdn.git"
 # server "localhost", :web, :app, :db, :primary => true
 #ssh_options, {:forward_agent = true}
-#ssh_options[:port] = 22
+ssh_options[:port] = 22
 set :user, "adm1n"
 set :group, "adm1n"
 set :deploy_to, "/var/mdnapp"
