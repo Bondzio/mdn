@@ -16,6 +16,7 @@ set :use_sudo, false
 # In most cases you want to use this option, otherwise each deploy will do a full repository clone every time.
 set :deploy_via, :remote_cache
 #set :copy_strategy, :export
+set :copy_exclude, ".git/*"
 
 default_run_options[:pty] = true
 set :ssh_options, { :forward_agent => true }
