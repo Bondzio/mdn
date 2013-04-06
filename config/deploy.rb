@@ -5,6 +5,8 @@ require 'capistrano/ext/multistage'
 
 set :application, "mdnapp"
 set :scm, :git
+default_run_options[:pty] = true
+set :ssh_options, { :forward_agent => true }
 set :repository,  "git://github.com/scervera/mdn.git"
 
 ssh_options[:port] = 22
@@ -15,11 +17,8 @@ set :use_sudo, false
 #set :deploy_via, :copy
 # In most cases you want to use this option, otherwise each deploy will do a full repository clone every time.
 set :deploy_via, :remote_cache
-
 #set :copy_strategy, :export
 
-default_run_options[:pty] = true
-set :ssh_options, { :forward_agent => true }
 
 set :shared_children, shared_children + %w{public/uploads}
 
