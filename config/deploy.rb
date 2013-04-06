@@ -5,7 +5,7 @@ require 'capistrano/ext/multistage'
 
 set :application, "mdnapp"
 set :scm, :git
-default_run_options[:pty] = true
+#default_run_options[:pty] = true
 #set :ssh_options, { :forward_agent => true }
 ssh_options[:forward_agent] = true
 set :repository,  "git://github.com/scervera/mdn.git"
@@ -19,12 +19,9 @@ set :use_sudo, false
 # In most cases you want to use this option, otherwise each deploy will do a full repository clone every time.
 set :deploy_via, :remote_cache
 #set :copy_strategy, :export
-
-
-set :shared_children, shared_children + %w{public/uploads}
-
 #SMC You need to tell cap the branch to checkout during deployment:
 set :branch, "master"
+set :shared_children, shared_children + %w{public/uploads}
 
 namespace :deploy do
   task :start do ; end
