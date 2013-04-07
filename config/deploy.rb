@@ -8,6 +8,7 @@ set :scm, :git
 set :repository,  "git://github.com/scervera/mdn.git"
 # server "localhost", :web, :app, :db, :primary => true
 set :ssh_options, { :forward_agent => true }
+default_run_options[:pty] = true
 ssh_options[:port] = 22
 set :user, "adm1n"
 set :group, "adm1n"
