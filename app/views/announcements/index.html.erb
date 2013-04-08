@@ -1,11 +1,10 @@
-<h1>Listing announcements</h1>
+<h1>Listing of Announcements</h1>
 
 <table>
   <tr>
     <th>Title</th>
     <th>Date</th>
     <th>Description</th>
-    <th>Image</th>
     <th></th>
     <th></th>
     <th></th>
@@ -16,7 +15,6 @@
     <td><%= announcement.title %></td>
     <td><%= announcement.date %></td>
     <td><%= announcement.description %></td>
-    <td><%= announcement.image %></td>
     <td><%= link_to 'Show', announcement %></td>
     <td><%= link_to 'Edit', edit_announcement_path(announcement) %></td>
     <td><%= link_to 'Destroy', announcement, method: :delete, data: { confirm: 'Are you sure?' } %></td>
