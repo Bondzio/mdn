@@ -21,6 +21,10 @@ DBC::Application.routes.draw do
     get 'list', :on => :collection
   end
   
+  resources :announcements do
+    get 'announcements', :on => :collection
+  end
+  
   resources :movies do
     get 'browser', :on => :collection
   end
