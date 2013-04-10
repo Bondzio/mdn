@@ -994,12 +994,19 @@ em {font-weight: bold;}
 }
 .about {
 	position: relative;
-	margin: 0px 0px 20px 0px;
-	line-height: 140%;
+	margin: 0px 0px 0px 0px;
+	line-height: 120%;
+}
+.about p {
+	margin: 0px 0px 10px 30px;
+	font-size: 14px;
+}
+.about h1 {
+	margin: 0px 0px 10px 30px;
+	font-size: 12px;
 }
 .about h2 {
-	margin: 0px 0px 10px 30px;
-
+	margin: 0px 0px 2px 20px;
 }
 /* about.html.erb CSS ENDS Here*/
 
