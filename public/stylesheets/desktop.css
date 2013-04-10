@@ -1012,16 +1012,46 @@ em {font-weight: bold;}
 /* pages controller content CSS ENDS Here*/
 
 /* announcements.html.erb CSS STARTS Here*/
-#announce-1 {
-	float: left;
-	margin: 20px auto;
-}
 
-#announce-1-photo {
-	margin-right: 4px;
+#announcements_header h1 {
+	font-family: arial;
+	font-style: bold;
+	font-size: 28px;
 	text-align: center;
 }
+.announcements_wrap {
+	background: none;
+	float: left;
+	width: 90%;
+	margin: 5px 20px 0px 25px;
+	padding: 10px;
+	z-index: -10;
+}
 
+.announcements_wrap p {
+	font-size: 13px;
+	float:right;
+}
+
+.announcements_wrap ul {
+	margin-left: 2em;
+}
+
+.announcements_wrap h2 {
+	color: #000000;
+	font-size:13px;
+	line-height: 80%;
+}
+
+.announcements_wrap h3 {
+	font-size:12px;
+	line-height: 80%;
+}
+
+.announcements_wrap img {
+	float:right;
+	margin: 0 0 7px 7px;
+}
 
 /* announcements.html.erb CSS ENDS Here*/
 /* curriculum.html.erb CSS STARTS Here*/

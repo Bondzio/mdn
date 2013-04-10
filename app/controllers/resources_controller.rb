@@ -13,7 +13,6 @@ class ResourcesController < ApplicationController
   end
 
   def resources
-#    @resources = Resource.all
     @resources = Resource.page(params[:page]).order('created_at DESC').limit(3)
     
     respond_to do |format|

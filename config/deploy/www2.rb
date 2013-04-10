@@ -1,0 +1,1 @@
+server "www2", :web, :app, :db, :primary => true

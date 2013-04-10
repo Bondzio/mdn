@@ -1,6 +1,9 @@
 <div id="top-image">
 	<img src="../images/announcements/announcements_top_image.jpg" width="730" height="295" alt="">
 </div>
+<div id="announcements_header">
+	<h1>MDN News & Announcements</h1>
+</div>
 </br>
 <div id="announce-1" class="news">
 	<% if @announcements.empty? %>
@@ -11,7 +14,7 @@
 	<% else %>
 		<% @announcements.each do |announcement| %>
 
-		<div class="resource_wrap clearfix">
+		<div class="announcements_wrap clearfix">
 				<h2><%= announcement.title.html_safe %></h2><h3><%= announcement.date %></h3>
 			<p><%= image_tag announcement.image_url(:wallet).to_s %><%= announcement.description.html_safe %></p>
 		</div>

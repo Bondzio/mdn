@@ -4,7 +4,8 @@ class GalleriesController < ApplicationController
   before_filter :authenticate_admin!, :only => [:edit, :update, :index, :destroy, :moderate]
   
    def list
-     @galleries = Gallery.all
+#     @galleries = Gallery.all
+      @galleries = Gallery.page(params[:page]).order('created_at DESC').limit(3)
 
      respond_to do |format|
        format.html # index.html.erb

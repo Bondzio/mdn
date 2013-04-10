@@ -14,7 +14,7 @@ class AnnouncementsController < ApplicationController
   
   def announcements
 #    @announcements = Announcement.all
-    @announcements = Announcement.page(params[:page]).order('created_at DESC').limit(20)
+    @announcements = Announcement.page(params[:page]).order('created_at DESC').limit(5)
     
     respond_to do |format|
       format.html # index.html.erb

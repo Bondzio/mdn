@@ -1,0 +1,1 @@
+1. Need to change order of listing of announcements and photo galleries to Descend and add pagination to the views.
