@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jamis Buck"]
-  s.date = "2011-04-30"
+  s.date = "2011-04-29"
   s.description = "A simple library to assist in establishing tunneled Net::SSH connections"
   s.email = "net-ssh-gateway@solutious.com"
   s.extra_rdoc_files = ["CHANGELOG.rdoc", "lib/net/ssh/gateway.rb", "README.rdoc"]
