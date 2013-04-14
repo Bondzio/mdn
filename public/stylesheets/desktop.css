@@ -441,6 +441,7 @@ background-repeat:no-repeat; z-index: 105; }
 	height: 290px;
 	overflow: hidden;
 }
+
 #spacer {
 /*	position:absolute;
 	left:630px;
@@ -1420,6 +1421,36 @@ h2 {
 
 #parables h2 {
 	margin: 0 0 10px 20px;
+}
+
+#parables a {
+	display: inline;
+	color: #8E1111;
+	text-decoration: none;
+}
+
+#parables a:link {
+	display: inline;
+	color: #8E1111;
+	text-decoration: none;
+}
+
+#parables a:visited {
+	display: inline;
+	color: #8E1111;
+	text-decoration: none;
+}
+
+#parables a:hover {
+	display: inline;
+	color: #70735C;
+	text-decoration: none;
+}
+
+#parables a:active {
+	display: inline;
+	color: #70735C;
+	text-decoration: none;
 }
 /*--parable.html.erb-- start*/
 /*--radio.html.erb-- start*/
