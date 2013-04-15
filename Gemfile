@@ -20,7 +20,7 @@ gem 'devise'
 gem 'cells'
 gem 'rack'
 gem 'will_paginate'
-gem 'paperclip', "~>2.7"
+gem 'paperclip'
 gem 'profanity_filter'
 gem 'rmagick', '2.13.2', :git=>'http://github.com/rmagick/rmagick.git'# gem 'mini_magick'
 gem 'carrierwave'
