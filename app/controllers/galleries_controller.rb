@@ -39,7 +39,7 @@ class GalleriesController < ApplicationController
   # GET /galleries/new.xml
   def new
     @gallery = Gallery.new
-    5.times { @gallery.assets.build }
+    8.times { @gallery.assets.build }
 
     # respond_to do |format|
     #  format.html # new.html.erb
@@ -50,7 +50,7 @@ class GalleriesController < ApplicationController
   # GET /galleries/1/edit
   def edit
     @gallery = Gallery.find(params[:id])
-    5.times { @gallery.assets.build }
+    8.times { @gallery.assets.build }
   end
 
   # POST /galleries

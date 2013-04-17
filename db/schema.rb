@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130404020629) do
+ActiveRecord::Schema.define(:version => 20130416201142) do
 
   create_table "admins", :force => true do |t|
     t.string   "email",                                 :default => "", :null => false
@@ -151,6 +151,7 @@ ActiveRecord::Schema.define(:version => 20130404020629) do
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "photo"
   end
 
   create_table "gallery_images", :force => true do |t|
@@ -177,6 +178,14 @@ ActiveRecord::Schema.define(:version => 20130404020629) do
     t.integer  "attach_file_size"
     t.datetime "attach_updated_at"
     t.boolean  "carousel"
+  end
+
+  create_table "photos", :force => true do |t|
+    t.string   "photo_file"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.integer  "gallery_id"
+    t.boolean  "featured"
   end
 
   create_table "prayers", :force => true do |t|
@@ -278,7 +287,6 @@ ActiveRecord::Schema.define(:version => 20130404020629) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.boolean  "admin"
     t.string   "first_name"
     t.string   "last_name"
     t.text     "city"
@@ -287,6 +295,8 @@ ActiveRecord::Schema.define(:version => 20130404020629) do
     t.string   "provider"
     t.string   "uid"
     t.string   "username"
+    t.string   "role"
+    t.boolean  "admin"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

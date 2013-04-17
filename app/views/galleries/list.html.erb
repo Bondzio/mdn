@@ -14,7 +14,7 @@
 			<div id="gallery_rt">
 				<div id="gallery_featured">
 					<% for asset in gallery.assets.featured %>
-					  <%= link_to( image_tag(asset.image.url(:medium)), asset.image.url(:large), :class => "fancybox", :rel => gallery.id ) %>
+					  <%= link_to( image_tag(asset.image.url(:thumb)), asset.image.url(:large), :class => "fancybox", :rel => gallery.id ) %>
 					<% end %>
 				</div>
 				<div id="gallery_photos">	

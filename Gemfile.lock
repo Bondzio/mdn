@@ -170,7 +170,7 @@ DEPENDENCIES
   jquery-rails
   mime-types
   mysql2 (~> 0.3.11)
-  paperclip
+  paperclip (~> 3.0)
   profanity_filter
   rack
   rails (= 3.2.11)

@@ -334,7 +334,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 	width: 1000px;
 	height: 175px;
 	background-color: #660000;
-	z-index: 10000;
+	z-index: 7000;
 }
 
 #top-nav {
@@ -1551,14 +1551,14 @@ h2 {
 /*--radio.html.erb-- end*/
 /*--gallery.html.erb-- start*/
 .gallery_wrap {
-	background: #A1926F;
+	background: #EAEAE3;
 	float: left;
 	clear: both;
 	text-align: center;
 	width: 90%;
 	height: auto;
 	border: 1px solid #000000;
-	margin: 5px 0 0px 25px;
+	margin: 10px 0 10px 25px;
 	padding: 10px;
 	box-shadow: 5px 5px 10px #888;
 	-moz-box-shadow: 5px 5px 10px #888;
@@ -1571,15 +1571,16 @@ h2 {
 }
 
 #gallery_footer {
-	background: #A1926F;
+	background: #EAEAE3;
 	float: left;
 	clear: both;
 	text-align: center;
+	vertical-align: middle;
 	width: 90%;
-	height: 30px;
+	height: 60px;
 	border: 1px solid #000000;
 	margin: 10px 0 10px 25px;
-	padding: 10px;
+	padding: 5px 15px 5px 5px;
 	box-shadow: 5px 5px 10px #888;
 	-moz-box-shadow: 5px 5px 10px #888;
 	-webkit-box-shadow: 5px 5px 10px #888;
@@ -1587,7 +1588,7 @@ h2 {
 }
 
 #gallery_header {
-	background: #A1926F;
+	background: #EAEAE3;
 	float: left;
 	clear: both;
 	text-align: center;
@@ -1605,18 +1606,19 @@ h2 {
 
 #gallery_left {
 	float: left;
-	width: 45%;
+	width: 65%;
 	padding: 10px 0px 10px 20px;
 	line-height: 130%;	
 }
 
 #gallery_desc {
 	text-align: left;
+	font-size: 12px;
 }
 #gallery_rt {
 	float: left;
 	margin: 10px 10px 10px 0px;
-	width: 50%;
+	width: 30%;
 	height: 250px;
 	vertical-align: middle;
 }
@@ -1632,6 +1634,9 @@ h2 {
 	vertical-align: middle;
 	margin: 30px 5px 5px 5px;
 }
+
+#paperclip_new {height: 40px; width: 990px;}
+.paperclip {float:left;clear:right;margin: 10px;width: 990px;}
 
 /*--gallery.html.erb-- end*/
 /*--resource.html.erb-- start*/

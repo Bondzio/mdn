@@ -5,8 +5,9 @@ class Asset < ActiveRecord::Base
     :styles => {
       :thumb => '150x150#',
       :medium => '300x300>',
-      :large => '800x600>'
-    }
+      :large => '800x600>'},
+    :path => ":rails_root/public/system/:attachment/:id/:style/:filename",
+    :url => "/system/:attachment/:id/:style/:filename"
     
   def self.featured
     where( :featured => true ).limit(1)

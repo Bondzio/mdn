@@ -20,34 +20,27 @@
     <%= f.text_area :description %>
   </div>
 
-  <div class="paperclip_new">
-	<% f.fields_for :assets do |asset| %>
+  <div id="paperclip_new" class="paperclip">
+	<%= f.fields_for :assets do |asset| %>
 	  <% if asset.object.new_record? %>
-
 	    <%= asset.file_field :image %>
-
-	  <% end %>
-		
+	  <% end %>	
 	<% end %>
   </div>
 
-  <div class="paperclip_existing">
-	<% f.fields_for :assets do |asset| %>
-	
+  <div id="paperclip_existing" class="paperclip">
+	<%= f.fields_for :assets do |asset| %>
 	  <% unless asset.object.new_record? %>
-	
 		<div class="existing_image">
 	    <%= link_to( image_tag(asset.object.image.url(:thumb)), asset.object.image.url(:original)) %>
 		<%= asset.check_box :_destroy %><%= f.label :Delete %>
         <%= asset.check_box :featured %><%= f.label :Display_on_coverpage? %>
-		
 	    </div>
-
       <% end %>
 	<% end %>
   </div>
   </br>
-  <div class="actions">
+  <div class="actions paperclip">
     <%= f.submit %>
   </div>
 <% end %>

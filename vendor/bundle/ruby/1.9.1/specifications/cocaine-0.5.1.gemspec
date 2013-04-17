@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jon Yurek"]
-  s.date = "2013-01-11"
+  s.date = "2013-01-12"
   s.description = "A small library for doing (command) lines"
   s.email = "jyurek@thoughtbot.com"
   s.homepage = "http://github.com/thoughtbot/cocaine"
