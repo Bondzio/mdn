@@ -756,14 +756,16 @@ background-repeat:no-repeat; z-index: 105; }
 	width:1000px;
 	height:191px;
 }
-
-#god4me img {
+#footer_badge_lft h2 {text-align:center;}
+#footer_badge_lft {
 	position: absolute;
 	left:100px;
-	top: 40px;
+	top: 20px;
 	width: 166px;
-	height: 124px;
+	height: auto;
 	z-index: 20;
+	text-align:center;
+
 }
 #facebook {
 	position: absolute;
