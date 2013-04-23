@@ -1,3 +1,4 @@
+.sass-cache/
 public/uploads
 vendor/bundle/ruby/1.9.1/bundler/gems/rmagick-*
 database.yml

@@ -61,4 +61,13 @@ DBC::Application.configure do
     :authentication       => 'login',
 #    :openssl_verify_mode => 'none',
     :enable_starttls_auto => false  }
+    
+    # Compress JavaScript and CSS
+    config.assets.compress = true
+
+    # Don't fallback to assets pipeline
+    config.assets.compile = false
+
+    # Generate digests for assets URLs
+    config.assets.digest = true
 end
