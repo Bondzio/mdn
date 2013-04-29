@@ -1,5 +1,6 @@
 class AnnouncementsController < ApplicationController
-  before_filter :authenticate_admin!, :only => [:edit, :update, :new, :index, :destroy, :show]
+#  before_filter :authenticate_admin!, :only => [:edit, :update, :new, :index, :destroy, :show]
+  load_and_authorize_resource :except => [:announcements]
   layout "no_side", :only => [:edit, :new, :create, :index]
   # GET /announcements
   # GET /announcements.json

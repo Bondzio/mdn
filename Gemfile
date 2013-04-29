@@ -25,6 +25,7 @@ gem 'profanity_filter'
 gem 'rmagick', '2.13.2', :git=>'http://github.com/rmagick/rmagick.git'# gem 'mini_magick'
 gem 'carrierwave'
 gem 'mime-types'
+gem 'cancan'
 
 
 #Javascript runtime

@@ -69,9 +69,9 @@ box-shadow:0px 10px 10px 3px #100707;
 
 #full_width_content h1 {margin: 10px 0 10px 20px; font-size: 28px;}
 
-#full_width_content p {margin: 0px 0 0px 20px;}
+#full_width_content p {margin: 0px 20px 0px 20px;}
 
-#full_width_content table {margin: 10px 20px 10px 20px; }
+#full_width_content table {margin: 10px 20px 10px 20px; width:950px;}
 
 #full_width_content form {margin: 20px 20px 10px 20px; z-index: 5000000000; }
 
@@ -379,7 +379,8 @@ background-repeat:no-repeat; z-index: 105; }
 
 #user_nav a {
 	display: inline;
-
+	margin-right: 5px;
+	margin-left:5px;
 }
 
 /*#user_nav ul {
@@ -815,31 +816,31 @@ background-repeat:no-repeat; z-index: 105; }
 /* General Styling */
 
 a {
-	display: block;
+	display: inline;
 	color: white;
 	text-decoration: none;
 }
 
 a:link {
-	display: block;
+	display: inline;
 	color: white;
 	text-decoration: none;
 }
 
 a:visited {
-	display: block;
+	display: inline;
 	color: white;
 	text-decoration: none;
 }
 
 a:hover {
-	display: block;
+	display: inline;
 	color: #7E2217;
 	text-decoration: none;
 }
 
 a:active {
-	display: block;
+	display: inline;
 	color: #7E2217;
 	text-decoration: none;
 }
@@ -887,7 +888,7 @@ ul.marquee li {
 /* *****************************Interior page styling*********************************************** */
 
 
- 
+/* These nav anchor tags must be set to display:block for the menu to work properly */ 
 .nav a {
 	display: block;
 	color: white;
@@ -1698,6 +1699,7 @@ h2 {
 	height: 100px;
 	margin: 10px 0 0 0;
 }
+
 
 /*--request.html.erb-- end*/
 /*--theater.html.erb-- start*/

@@ -3,7 +3,8 @@ class RadioProgramsController < ApplicationController
 #  layout 'interior'
   layout "no_side", :only => [:edit, :new, :create, :index]
  # layout Proc.new{ ['edit', 'new', 'create', 'index'].include?(action_name) ? 'no_side' : 'interior' }
-  before_filter :authenticate_admin!, :only => [:edit, :update, :index, :new, :destroy, :moderate]
+#  before_filter :authenticate_admin!, :only => [:edit, :update, :index, :new, :destroy, :moderate]
+  load_and_authorize_resource :only => [:edit, :update, :new, :index, :destroy]
   
   # GET /radio_programs
   # GET /radio_programs.xml

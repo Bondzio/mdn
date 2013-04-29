@@ -1,6 +1,6 @@
 class PrayersController < ApplicationController
-  # before_filter :authenticate_user!, :except => [:edit, :update]
-  before_filter :authenticate_admin!, :only => [:edit, :update, :moderate, :index, :destroy, :moderate, :review]
+#  before_filter :authenticate_admin!, :only => [:edit, :update, :moderate, :index, :destroy, :moderate, :review]
+  load_and_authorize_resource :only => [:edit, :update, :new, :index, :destroy]
   layout "no_side", :only => [:index]
   
   #SMC - This forces authentication when the actions in brackets are called.

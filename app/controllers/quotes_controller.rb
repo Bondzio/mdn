@@ -1,5 +1,6 @@
 class QuotesController < ApplicationController
-  before_filter :authenticate_admin!
+#  before_filter :authenticate_admin!
+  load_and_authorize_resource :only => [:edit, :update, :new, :index, :destroy]
   layout "no_side", only: [:edit, :new, :create, :index]
   
   # GET /quotes

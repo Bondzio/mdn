@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  #SMC - This specifies the layout to use: views/layouts/prayer.html.erb
+
  
   def contact
   end
@@ -50,6 +50,9 @@ class PagesController < ApplicationController
   end
   
   def bof
+  end
+  
+  def acknowledgement
   end
 
 end

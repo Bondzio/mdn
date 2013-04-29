@@ -1,5 +1,6 @@
 class MoviesController < ApplicationController
-  before_filter :authenticate_admin!, :only => [:edit, :update, :moderate, :destroy, :index]
+#  before_filter :authenticate_admin!, :only => [:edit, :update, :moderate, :destroy, :index]
+  load_and_authorize_resource :only => [:edit, :update, :new, :index, :destroy]
   layout "no_side", :only => [:edit, :new, :create, :index]
   # layout 'static_no_head'
    
