@@ -1,5 +1,8 @@
 DBC::Application.routes.draw do
 
+  resources :streams
+
+
     #SMC - This directs the user to a default web page
   root :to => "home#index"
   get "home/index"

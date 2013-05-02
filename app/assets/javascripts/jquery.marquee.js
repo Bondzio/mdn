@@ -242,7 +242,7 @@
 	$.Marquee.defaults = {
 		  yScroll: "top"                          // the position of the marquee initially scroll (can be either "top" or "bottom")
 		, showSpeed: 850                          // the speed of to animate the initial dropdown of the messages
-		, scrollSpeed: 12                         // the speed of the scrolling (keep number low)
+		, scrollSpeed: 1                         // the speed of the scrolling (keep number low)
 		, pauseSpeed: 5000                        // the time to wait before showing the next message or scrolling current message
 		, pauseOnHover: true                      // determine if we should pause on mouse hover
 		, loop: -1                                // determine how many times to loop through the marquees (#'s < 0 = infinite)

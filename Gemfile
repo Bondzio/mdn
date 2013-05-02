@@ -4,6 +4,7 @@ gem 'rails', '3.2.11'
 gem 'mysql2', '~> 0.3.11'
 gem 'rake'
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 gem 'sqlite3'
 gem 'rubygems-bundler'
 

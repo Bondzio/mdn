@@ -4,7 +4,6 @@
 *= require jquery.fancybox.css
 *= require pushup
 *= require menu
-
 *= require pickle/_stylesheet.css
 *= require_self
 *= require_tree .

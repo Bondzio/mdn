@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @stream.content %>
+</p>
+
+<p>
+  <b>Link:</b>
+  <%= @stream.link %>
+</p>
+
+
+<%= link_to 'Edit', edit_stream_path(@stream) %> |
+<%= link_to 'Back', streams_path %>

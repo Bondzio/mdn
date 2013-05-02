@@ -22,7 +22,7 @@
 /* General Site Classes */
 
 body {
-		background: #A1926F;
+	background: #A1926F;
 }
 
 .homepage_content {
@@ -458,18 +458,18 @@ background-repeat:no-repeat; z-index: 105; }
 	z-index: 100;
 }
 
-#prayer-request {
+#mdn_news_ticker {
 	float: left;
 	width:303px;
 	height:43px;
 	z-index: 40;
 }
-#prayer-request img {
+#mdn_news_ticker img {
 	position: relative;
-	left: -20px;
+	left: 0px;
 }
 
-#prayer-strip {
+#ticker-strip {
 	float: left;
 	background: #660000;
 	width:697px;
@@ -477,7 +477,37 @@ background-repeat:no-repeat; z-index: 105; }
 	z-index: 400;
 }
 
-#prayerstream {z-index: 20000; position:absolute; top: 465px; }
+.ticker a {
+	display: inline;
+	color: white;
+	text-decoration: none;
+}
+
+.ticker a:link {
+	display: inline;
+	color: white;
+	text-decoration: none;
+}
+
+.ticker a:visited {
+	display: inline;
+	color: white;
+	text-decoration: none;
+}
+
+.ticker a:hover {
+	display: inline;
+	color: #dcddac;
+	text-decoration: none;
+}
+
+.ticker a:active {
+	display: inline;
+	color: #dcddac;
+	text-decoration: none;
+}
+
+#ticker {z-index: 20000; position:absolute; top: 465px; color:white; }
 
 
 #middle-content {

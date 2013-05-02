@@ -1,9 +1,8 @@
 //
 //= require jquery
+//= require jquery.marquee.js
 //= require jquery_ujs
-
-//= require jquery.cycle.all.js
-//= require pickle
+//= require jquery-ui
 //= require_self
 //= require_tree .
 
