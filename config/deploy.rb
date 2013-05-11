@@ -21,7 +21,7 @@ set :deploy_via, :copy
 set :shared_children, shared_children + %w{public/uploads}
 
 #SMC You need to tell cap the branch to checkout during deployment:
-set :branch, "master"
+set :branch, "asset_pipeline" #master
 
 namespace :deploy do
   task :start do ; end
