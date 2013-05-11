@@ -11,9 +11,6 @@
     clear:both;
 }
 
-/*<!--[if lt IE 8]> */
-<style>
-/* For IE < 8 (trigger hasLayout) */
 .clearfix {
     zoom:1;
 }
@@ -1770,7 +1767,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccccad', end
 #theater_middle {
 	width: 640px;
 	height: 300px;
-	min-height 100px;
+	min-height:100px;
 	clear: both;
 	border: 1px solid #000000;
 	margin: 50px auto;
