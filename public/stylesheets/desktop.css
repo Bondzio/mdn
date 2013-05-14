@@ -294,9 +294,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 
 #promo3 {
 	position: relative;
-	background-image: url("/images/announcements/WEAPONS_sidebar.gif");
+	background-image: url("/images/announcements/weapons_advance.gif");
 	background-repeat:no-repeat;	
-	margin: 0 auto;
+	margin: 30px auto 10px;
 	height: 275px;
 	width: 230px;
 }
@@ -304,7 +304,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 	position:relative;
 	background-image: url("/images/ads/covenanteyes.gif");
 	background-repeat:no-repeat;	
-	margin: 0 auto;	
+	margin: 30px auto 10px;
 	width: 230px;
 	height: 50px;
 
