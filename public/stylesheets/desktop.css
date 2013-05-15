@@ -1297,7 +1297,9 @@ h2 {
 
 /*--mannerisms.html.erb-- start*/
 #mannerisms li {
-	line-height: 120%;	
+	line-height: 110%;
+	margin:10px 0 5px 0;
+	font-size: 14px;	
 }
 
 #mannerisms ul {
@@ -1305,7 +1307,6 @@ h2 {
 	list-style-position: outside;
 	padding: 1em;
 	font-family: verdana, arial, helvetica, sans-serif;
-	font-style: italic;
 	margin: 0 0 0 20px;
 }
 .definition p {
@@ -1318,6 +1319,7 @@ h2 {
 
 .citation {
 	font-size: 9pt;
+	font-style: italic;
 }
 
 #notes {
