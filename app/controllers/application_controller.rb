@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   
   #This rescues a user from an access denied message from cancan if they have accessed a page they don't have privileges to.
   rescue_from CanCan::AccessDenied do |exception|
-    redirect_to root_url, :alert => exception.message
+    redirect_to "/users/sign_in", :alert => exception.message
   end
 
   protected
