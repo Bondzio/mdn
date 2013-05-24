@@ -31,7 +31,7 @@ var defaults = {
 	pauseOnHover: true, //autoMode = loop|bounce only
 	pauseOnTouch: true, //" touch device only
 	pauseButton: false, //" generates an extra element to allow manual pausing 
-	startOnLoad: false //use this to delay starting of plugin until all page assets have loaded
+	startOnLoad: true //use this to delay starting of plugin until all page assets have loaded
 };
 	
 $.simplyScroll = function(el,options) {

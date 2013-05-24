@@ -5,7 +5,7 @@ class TickerCell < Cell::Rails
     def display(stream)
      #modified the record return so that the array is sorted randomly
      #this ensures that when the home page is refreshed, the order the prayers are displayed in changes
-      @streams = Stream.all
+      @streams = Stream.all.sort_by{rand}
       
     render
 
