@@ -4,6 +4,7 @@ gem 'rails', '3.2.11'
 gem 'mysql2', '~> 0.3.11'
 gem 'rake'
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 gem 'sqlite3'
 gem 'rubygems-bundler'
 
@@ -25,6 +26,7 @@ gem 'profanity_filter'
 gem 'rmagick', '2.13.2', :git=>'http://github.com/rmagick/rmagick.git'# gem 'mini_magick'
 gem 'carrierwave'
 gem 'mime-types'
+gem 'cancan'
 
 
 #Javascript runtime

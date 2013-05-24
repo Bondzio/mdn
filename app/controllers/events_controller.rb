@@ -1,5 +1,6 @@
 class EventsController < ApplicationController
-  before_filter :authenticate_admin!, :only => [:edit, :update, :new, :index, :destroy]
+#  before_filter :authenticate_admin!, :only => [:edit, :update, :new, :index, :destroy]
+  load_and_authorize_resource :only => [:edit, :update, :new, :index, :destroy]
   layout "no_side", :only => [:edit, :new, :create, :index]
   # GET /events
   # GET /events.xml

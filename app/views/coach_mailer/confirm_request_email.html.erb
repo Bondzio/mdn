@@ -4,12 +4,9 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
   </head>
   <body>
-    <h1>Thank you for requesting an MDN Coach, <%= @request.first_name %></h1>
-    <p>
-      A key part of Mens Discipleship Network's 4 Phase system of discipleship is assisting pastors and men's leaders at the local church. Depending upon availability, MDN can supply a certified Coach to train your men's leader to minister to your men.<br/>
-    </p>
-    <p>
-     Please give us 48 hours to contact you to explore how we can work together to "transform families one man at a time". You provided the following contact info: <br />
+    <h2>Thank you for requesting an MDN Coach!</h2>
+    <p><%= @request.first_name %>, a key part of Mens Discipleship Network's Four Phase system of discipleship is assisting pastors and men's leaders at the local church. Depending upon availability, MDN can supply a certified Coach to train your men's leader to minister to your men.<br/></p>
+    <p>Please give us 48 hours to contact you to explore how we can work together to "transform families one man at a time". You provided the following contact info: <br />
      <%= @request.first_name %> <%= @request.last_name %><br />
      <%= @request.email %><br />
      <%= @request.phone %><br />

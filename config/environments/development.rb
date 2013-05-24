@@ -49,5 +49,10 @@ DBC::Application.configure do
   #Configuration of Paperclip
   Paperclip.options[:command_path] = "/usr/local/bin/"
   
+  # Do not compress assets
+    config.assets.compress = false
+
+    # Expands the lines which load the assets
+    config.assets.debug = true
 end
 

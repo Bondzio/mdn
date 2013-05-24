@@ -1,4 +1,5 @@
 class StatsController < ApplicationController
+#  load_and_authorize_resource :only => [:edit, :update, :new, :index, :destroy]
   layout "no_side", :only => [:edit, :new, :create, :index]
   # GET /stats
   # GET /stats.xml

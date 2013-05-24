@@ -1,6 +1,7 @@
 class RequestsController < ApplicationController
   
-  before_filter :authenticate_admin!, :only => [:edit, :update, :index, :destroy, :moderate, :review]
+#  before_filter :authenticate_admin!, :only => [:edit, :update, :index, :destroy, :moderate, :review]
+  load_and_authorize_resource
   layout "no_side", :only => [:edit, :new, :create, :index]
   
   # GET /requests
@@ -53,8 +54,9 @@ class RequestsController < ApplicationController
         # Tell the UserMailer to send a welcome Email after save
         CoachMailer.confirm_request_email(@request).deliver
          
-        format.html { redirect_to(@request, :notice => 'Request was successfully created.') }
-        format.xml  { render :xml => @request, :status => :created, :location => @request }
+#        format.html { redirect_to(@request, :notice => 'Request was successfully created.') }
+#        format.xml  { render :xml => @request, :status => :created, :location => @request }
+        format.html { redirect_to "/requests/acknowledge", :notice => 'Request was successfully sent.' }
       else
         format.html { render :action => "new" }
         format.xml  { render :xml => @request.errors, :status => :unprocessable_entity }
@@ -88,5 +90,9 @@ class RequestsController < ApplicationController
       format.html { redirect_to(requests_url) }
       format.xml  { head :ok }
     end
+  end
+  
+  def acknowledge
+   
   end
 end

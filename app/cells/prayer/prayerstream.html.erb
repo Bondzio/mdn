@@ -4,14 +4,14 @@
 
 <div id="prayers">
 <!-- this loop is necessary to iterate through the array passed in @prayers -->
-		<ul id="marquee" class="marquee">
+		<ul id="scroller">
 		<% @prayers.each do |prayer| %>
 		  
-		    <li><%= prayer.first_name %> from <%= prayer.city %> prays: "<%= prayer.request %>"</li>
+		    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a ><%= prayer.first_name %> from <%= prayer.city %> prays: "<%= prayer.request %>".....</a></li>
 		
 		<% end %>
 		
-		<li>This is a scrolling prayer. Check it out</li>
+		<li>This is a scrolling prayer stream. Check it out</li>
 		</ul>
 </div>
 

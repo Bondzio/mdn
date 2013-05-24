@@ -7,21 +7,15 @@
 
   <title>Men's Discipleship Network</title>
 
-  <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
   <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
 <!--  <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />   -->
 
-<!-- Add jQuery library -->
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-  <%= stylesheet_link_tag "1reset.css", "scaffold.css", "menu.css", "pushup.css", "jquery.fancybox.css", "desktop.css", "jquery.marquee.css" %> 
-  <%= javascript_include_tag "jquery.marquee.js", "jquery.fancybox.pack.js", "cycle.js", "pickle.js" %>
-  <%= csrf_meta_tag %>
-
-<!-- Pickle player -->
-<script src="/javascripts/pickle.js" language="JavaScript"></script>
-<link href="/images/skins/default/_stylesheet.css" rel="stylesheet" type="text/css">
+	<%= stylesheet_link_tag "application" %>
+	<%= javascript_include_tag "application" %>
+  	<%= csrf_meta_tag %>
 
 <!-- Insert Fonts Here -->
 <link href='http://fonts.googleapis.com/css?family=Stardos+Stencil:400,700' rel='stylesheet' type='text/css'>
@@ -51,18 +45,7 @@ var browser_type=navigator.appName
 var browser_version=parseInt(navigator.appVersion)
 if (browser_type=="Microsoft Internet Explorer"&&browser_version<9)
 	alert ("Please update your browser to enjoy all the features of the Men's Discipleship Network web site. We recommend Firefox, Safari, or Internet Explorer 9.");
-	
-
-window.location.replace("http://192.168.0.181:3000/pages/browserupdate.html") -->
-
-
 </script>
-<!-- change this when all the new CSS is ready 
-<link rel="stylesheet" media="screen and (max-device-width: 480px) and (min-device-width: 320px)" href="phone.css" >
-<link rel="stylesheet" media="screen and (max-device-width: 800px) and (min-device-width: 600px)" href="tablet.css" >
-<link rel="stylesheet" media="screen and (min-device-width: 1024px)" href="/stylesheets/desktop.css" >
--->
-
 
 <script type="text/javascript">
 		jQuery(document).ready(function() {
@@ -71,15 +54,6 @@ window.location.replace("http://192.168.0.181:3000/pages/browserupdate.html") --
 				closeEffect	: 'none'
 			});
 		});
-</script>
-
-
-<!-- see: http://www.givainc.com/labs/marquee_jquery_plugin.htm> for more info -->
-<script type="text/javascript">
-$(document).ready(function (){
-  $("#marquee").marquee();
-
-}); 
 </script>
 
 <!-- sharethis.com scripts -->

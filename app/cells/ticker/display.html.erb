@@ -1,0 +1,10 @@
+<div>
+<!-- this loop is necessary to iterate through the array passed in @prayers -->
+		<ul id="scroller" class="ticker">
+		<% @streams.each do |stream| %>
+		  
+		    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= stream.link %>", target=blank><%= stream.content %> .....</a></li>
+		
+		<% end %>
+		</ul>
+</div>

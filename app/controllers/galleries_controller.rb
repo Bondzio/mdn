@@ -1,7 +1,10 @@
 class GalleriesController < ApplicationController
+
+#  before_filter :authenticate_admin!, :only => [:edit, :update, :index, :destroy, :moderate]
+  load_and_authorize_resource :except => [:list]
+  
   #SMC - This specifies the layout to use: views/layouts/prayer.html.erb
   layout "no_side", :only => [:edit, :new, :create, :index]
-  before_filter :authenticate_admin!, :only => [:edit, :update, :index, :destroy, :moderate]
   
    def list
 #     @galleries = Gallery.all

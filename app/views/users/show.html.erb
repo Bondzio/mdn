@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<div class="interior-content">
+  <p>First Name:<%= @user.first_name%></p>
+  <p>Last Name:<%= @user.last_name%></p>
+  <p>Email:<%= @user.email%></p>
+  <p>Roles:</p>
+  <div class="field">
+	<% for role in User::ROLES %>
+	  <%= check_box_tag "user[roles][#{role}]", role, @user.roles.include?(role), {:name => "user[roles][]"}%>
+	  <%= label_tag "user_roles_#{role}", role.humanize %><br />
+	<% end %>
+  </div>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

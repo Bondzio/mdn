@@ -1,5 +1,8 @@
 DBC::Application.routes.draw do
 
+  resources :streams
+
+
     #SMC - This directs the user to a default web page
   root :to => "home#index"
   get "home/index"
@@ -13,8 +16,10 @@ DBC::Application.routes.draw do
   end
   
   resources :events
-  resources :requests
-
+  resources :requests do
+    get 'acknowledge', :on => :collection
+  end
+  
   resources :customers
 
   resources :galleries do
@@ -64,6 +69,8 @@ DBC::Application.routes.draw do
   get "pages/bootcamp"
   
   get "pages/browserupdate"
+  
+
 
   resources :quotes
 
@@ -75,9 +82,9 @@ DBC::Application.routes.draw do
 
   resources :articles
   
-  devise_for :admins
-
   devise_for :users
+  
+  resources :users
 
   #SMC - This provides a route for users to login and create a new session. We have "users" and "admins"
   # this login goes to /users/login.html
