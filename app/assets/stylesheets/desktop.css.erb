@@ -280,9 +280,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 }
 #promo2 {
 	position: relative;
-	background-image: url("/images/donate/Sow_Donate_badge_sm.gif");
+	background-image: url(<%= asset_path 'donate/Sow_Donate_badge_sm.gif' %>);
 	background-repeat:no-repeat;
-	margin: 30px 30px 10px 10px;
+	margin: 30px auto 10px;
 	text-align: center;
 	height: 140px;
 	width: 230px;
@@ -290,7 +290,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 
 #promo3 {
 	position: relative;
-	background-image: url("/images/announcements/weapons_advance.gif");
+	background-image: url(<%= asset_path 'announcements/weapons_advance.gif' %>);
 	background-repeat:no-repeat;	
 	margin: 30px auto 10px;
 	height: 275px;
@@ -298,7 +298,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 }
 #promo4 {
 	position:relative;
-	background-image: url("/images/ads/covenanteyes.gif");
+	background-image: url(<%= asset_path 'ads/covenanteyes.gif' %>);
 	background-repeat:no-repeat;	
 	margin: 30px auto 10px;
 	width: 230px;
