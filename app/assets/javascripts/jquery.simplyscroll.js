@@ -26,7 +26,7 @@ var defaults = {
 	orientation: 'horizontal', //'horizontal or 'vertical' - not to be confused with device orientation
 	auto: true,
 	autoMode: 'loop', //auto = true, 'loop' or 'bounce',
-	manualMode: 'end', //auto = false, 'loop' or 'end'
+	manualMode: 'loop', //auto = false, 'loop' or 'end'
 	direction: 'forwards', //'forwards' or 'backwards'.
 	pauseOnHover: true, //autoMode = loop|bounce only
 	pauseOnTouch: true, //" touch device only
