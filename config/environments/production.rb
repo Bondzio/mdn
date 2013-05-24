@@ -51,7 +51,7 @@ DBC::Application.configure do
     
   # SMTP configurations for Action Mailer
   config.action_mailer.delivery_method = :smtp
-#  config.action_mailer.raise_delivery_errors = true
+  #  config.action_mailer.raise_delivery_errors = true
   config.action_mailer.smtp_settings = {
     :address              => "smtp.mensdiscipleshipnetwork.com",
     :domain               => 'mensdiscipleshipnetwork.com',
@@ -59,15 +59,17 @@ DBC::Application.configure do
     :password             => 'Psalm344',
     :port                 => 587,
     :authentication       => 'login',
-#    :openssl_verify_mode => 'none',
+  #    :openssl_verify_mode => 'none',
     :enable_starttls_auto => false  }
     
-    # Compress JavaScript and CSS
-    config.assets.compress = true
+  config.action_mailer.default_url_options = { :host => "www.thecerveras.com" }
+    
+  # Compress JavaScript and CSS
+  config.assets.compress = true
 
-    # Don't fallback to assets pipeline
-    config.assets.compile = false
+  # Don't fallback to assets pipeline
+  config.assets.compile = false
 
-    # Generate digests for assets URLs
-    config.assets.digest = true
+  # Generate digests for assets URLs
+  config.assets.digest = true
 end
