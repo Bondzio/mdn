@@ -1,10 +1,9 @@
-<div>
+<div class='marquee'>
 <!-- this loop is necessary to iterate through the array passed in @streams -->
-		<ul id="scroller" class="ticker">
+<!-- Using jquery plugin for scrolling ticker: http://aamirafridi.com/jquery/jquery-marquee-plugin -->
 		<% @streams.each do |stream| %>
-		    <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= stream.link %>", target=blank><%= stream.content %> .....</a></li>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<%= stream.link %>", target=blank><%= stream.content %> .....</a>
 		<% end %>
 
-		</ul>
 </div>
 
