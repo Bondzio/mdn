@@ -62,7 +62,7 @@ DBC::Application.configure do
   #    :openssl_verify_mode => 'none',
     :enable_starttls_auto => false  }
     
-  config.action_mailer.default_url_options = { :host => "www.thecerveras.com" }
+  config.action_mailer.default_url_options = { :host => "www.mensdiscipleshipnetwork.com" }
     
   # Compress JavaScript and CSS
   config.assets.compress = true
