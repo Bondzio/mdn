@@ -21,7 +21,7 @@
 					<p>Get the resource:<%= link_to 'Download File', :action => 'download_file', :id => resource.id %></p>
 				<% end %>
 				<% if resource.video? %>
-					<p>Get the video:<%= link_to 'Download Video', :action => 'download_video', :id => resource.id %></p>
+					<p>Download the video:<%= link_to 'Download Video', :action => 'download_video', :id => resource.id %></p>
 				<% end %>
 				<% if resource.audio? %>
 					<p>Get the audio:<%= link_to 'Download Audio', :action => 'download_audio', :id => resource.id %></p>
