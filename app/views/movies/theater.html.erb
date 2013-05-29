@@ -1,7 +1,7 @@
 
 <div id="theater" class="clearfix">
 	<h1 class="content_title">MDN Theater</h1>
-		<section id="theater_upper" class="clearfix">
+		<section id="theater_upper" class="clearfix gallery_wrap">
 			
 			<div id="theater_caption"><caption><h1><%= @movie.title %></h1></caption></div>
 			<div id="target_video">
@@ -14,7 +14,7 @@
 		<!-- Display properties for the carousel determined by css and in variable values in jquery.roundabout.js file -->
 		<section id="theater_middle" class="clearfix">
 			<div id="carousel" class="clearfix">
-				<h1>View More Videos From MDN</h1>
+				<h1>More Videos From MDN</h1>
 					<ul>
 						<%= render_cell :carousel, :display, :movies => @movies %>
 				    </ul>
