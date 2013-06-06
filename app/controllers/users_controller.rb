@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
-    @users = User.page(params[:page]).order('created_at DESC').limit(5)
+    @users = User.page(params[:page]).order('created_at DESC').limit(20)
 #    @users = User.all
 
     respond_to do |format|
