@@ -55,4 +55,6 @@ class PagesController < ApplicationController
   def acknowledgement
   end
 
+  def knockknock
+  end
 end

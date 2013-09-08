@@ -7,19 +7,7 @@
         <!-- <div id="donate-badge"> <a href="/pages/donate"><img src="/images/donate/donate-badge.gif"> </a></div> -->
         <!-- Once all the logic is complete, remove this comment to activate user login links -->
         
-
-        <div id="user_nav">
-			<p id="header_notice"><%= notice %></p>
-   			<% if user_signed_in? %>
-     		 		<p>Logged in as: <strong><%= current_user.username %></strong></p>
-      				<%= link_to 'Edit profile', edit_user_registration_path %>   |
-      				<%= link_to("Logout", destroy_user_session_path, :method => :delete ) %>
-    		<% else %>
-      				<%= link_to "Sign up", new_user_registration_path %>   | 
-      				<%= link_to "Login", new_user_session_path %>
-    		<% end %>
-  		</div>
-
+		<%# render "/shared/login" %>
     </div> <!-- end of header -->
     
 <!-- NAVIGATION LINKS GO HERE -->
