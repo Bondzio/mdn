@@ -15,7 +15,10 @@
 
 		<div class="resource_wrap clearfix">
 				<div id="book_title"><h1><%= book.title.html_safe %></h1><h2><%= book.subtitle.html_safe %></h2><h3 class="subheading">by <%= book.author %></h3></div>
-				<div id="book"><p><%= book.description.html_safe %></div><div><%= link_to( image_tag(book.image_url(:thumb).to_s, :class => "shadow5"), book.url, :target => '_blank') %><%= link_to( "Buy Now and Save", book.url, :target => '_blank') %></div>
+				
+				<div id="book_img" class="pull-right"><%= link_to( image_tag(book.image_url(:thumb).to_s, :class => "shadow5"), book.url, :target => '_blank') %><%= link_to( "Buy Now", book.url, :target => '_blank') %>
+				</div>
+				<div id="book"><p><%= book.description.html_safe %></div>
 				
 		</div>
 
