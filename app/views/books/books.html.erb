@@ -1,0 +1,26 @@
+
+<div id="resources">
+	<div id="resource_header">
+		<h1>MDN's Top 25 Books for Men</h1>
+	</div>
+
+	<% if @books.empty? %>
+		<div class="resource_wrap clearfix">
+			<p>This feature is coming soon! Please come back.</p>
+		</div>
+			
+	<% else %>
+		<% @books.each do |book| %>
+
+		<div class="resource_wrap clearfix">
+				<div id="book_title"><h1><%= book.title.html_safe %></h1><h2><%= book.subtitle.html_safe %></h2></div>
+				<div id="book"><p><%= book.description.html_safe %></div><div><%= link_to( image_tag(book.image_url(:thumb).to_s, :class => "shadow5"), book.url) %></div>
+				
+		</div>
+
+		<% end %>
+	<% end %>
+	
+</div>
+<div class="pagination"<%= will_paginate @books %></div>
+
