@@ -2,6 +2,7 @@
 <div id="resources">
 	<div id="resource_header">
 		<h1>MDN's Top 25 Books for Men</h1>
+		<h2>Visit<a href="http://mdn.christianbook.com", target = '_blank' , class="margin_clear">mdn.christianbook.com </a>for other selections and SAVE!</h2>
 	</div>
 
 	<% if @books.empty? %>
@@ -13,8 +14,8 @@
 		<% @books.each do |book| %>
 
 		<div class="resource_wrap clearfix">
-				<div id="book_title"><h1><%= book.title.html_safe %></h1><h2><%= book.subtitle.html_safe %></h2></div>
-				<div id="book"><p><%= book.description.html_safe %></div><div><%= link_to( image_tag(book.image_url(:thumb).to_s, :class => "shadow5"), book.url) %></div>
+				<div id="book_title"><h1><%= book.title.html_safe %></h1><h2><%= book.subtitle.html_safe %></h2><h3 class="subheading">by <%= book.author %></h3></div>
+				<div id="book"><p><%= book.description.html_safe %></div><div><%= link_to( image_tag(book.image_url(:thumb).to_s, :class => "shadow5"), book.url, :target => '_blank') %><%= link_to( "Buy Now and Save", book.url, :target => '_blank') %></div>
 				
 		</div>
 
