@@ -5,7 +5,8 @@ class BooksController < ApplicationController
   # GET /books
   # GET /books.json
   def index
-    @books = Book.all
+  #  @books = Book.all
+  @books = Book.page(params[:page]).order('rank ASC')
 
     respond_to do |format|
       format.html # index.html.erb
