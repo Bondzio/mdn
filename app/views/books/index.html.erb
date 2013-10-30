@@ -6,6 +6,7 @@
     <th>Author</th>
     <th>Subtitle</th>
 	<th>Rank</th>
+  <th>Featured Ad?</th>
     <th></th>
     <th></th>
     <th></th>
@@ -17,6 +18,7 @@
     <td><%= book.author %></td>
     <td><%= book.subtitle %></td>
     <td><%= book.rank %></td>
+    <td><%= book.featured %></td>
     <td><%= link_to 'Show', book %></td>
     <td><%= link_to 'Edit', edit_book_path(book) %></td>
     <td><%= button_to 'Delete', { :action => "destroy", :id => book.id }, :confirm => 'Are you sure?', :method => :delete %></td>

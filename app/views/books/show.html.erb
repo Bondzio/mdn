@@ -20,6 +20,11 @@
   <%= @book.subtitle %>
 </p>
 
+<p>
+  <b>Featured book advertisement?</b>
+  <%= @book.featured %>
+</p>
+
 <% if @book.image? %>
 	<p>Thumbnail Image:<br>
 	<%= image_tag @book.image_url(:thumb).to_s %>

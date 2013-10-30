@@ -215,6 +215,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', end
 	background-color:#3D464B;
 }
 
+
 /* static.html.erb CSS goes here */
 #about_menu {
 	background:#000000;

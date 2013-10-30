@@ -1,0 +1,26 @@
+<!-- This is a cell that is used to display the list of featured books in the book ads space -->
+<!-- https://github.com/apotonick/cells -->
+<div>
+		<h2 class="book_heading">MDN Book Recommendations</h2>
+		<% if @books.empty? %>
+			<div class="resource_wrap clearfix">
+				
+			</div>
+				
+		<% else %>
+			<% @books.each do |book| %>
+
+			<div class="book_ad_wrap clearfix">
+					<div><h1><%= book.title.html_safe %></h1><h2><%= book.subtitle.html_safe %></h2><h3 class="subheading">by <%= book.author %></h3></div>
+					
+					<div class="book_ad_img" class="pull-right"><%= link_to( image_tag(book.image_url(:sm_thumb).to_s, :class => "shadow4"), book.url, :target => '_blank') %>
+						<p class="retail">$<%= book.retail_price %></p>
+						<p class="discount">$<%= book.dsc_price %></p>
+						<%= link_to( "Buy Now", book.url, :target => '_blank') %>
+					</div>
+					
+			</div>
+			<% end %>
+		<% end %>
+
+</div>
