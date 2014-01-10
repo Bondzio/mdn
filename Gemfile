@@ -9,7 +9,7 @@ gem 'sqlite3'
 gem 'rubygems-bundler'
 
 # Deploy with Capistrano
-gem 'capistrano'
+gem 'capistrano', '~> 2.15'
 
 # Bundle the extra gems:
 gem 'haml'
