@@ -1,4 +1,5 @@
 # -*- encoding: utf-8 -*-
+# stub: rack 1.4.5 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "rack"
@@ -15,7 +16,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://rack.github.com/"
   s.require_paths = ["lib"]
   s.rubyforge_project = "rack"
-  s.rubygems_version = "1.8.25"
+  s.rubygems_version = "2.1.11"
   s.summary = "a modular Ruby webserver interface"
 
   if s.respond_to? :specification_version then

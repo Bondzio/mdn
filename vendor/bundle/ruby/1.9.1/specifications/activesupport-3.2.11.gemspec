@@ -1,4 +1,5 @@
 # -*- encoding: utf-8 -*-
+# stub: activesupport 3.2.11 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "activesupport"
@@ -13,7 +14,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--encoding", "UTF-8"]
   s.require_paths = ["lib"]
   s.required_ruby_version = Gem::Requirement.new(">= 1.8.7")
-  s.rubygems_version = "1.8.25"
+  s.rubygems_version = "2.1.11"
   s.summary = "A toolkit of support libraries and Ruby core extensions extracted from the Rails framework."
 
   if s.respond_to? :specification_version then

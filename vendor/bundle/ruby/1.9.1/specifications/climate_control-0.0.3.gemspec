@@ -1,4 +1,5 @@
 # -*- encoding: utf-8 -*-
+# stub: climate_control 0.0.3 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "climate_control"
@@ -11,7 +12,7 @@ Gem::Specification.new do |s|
   s.email = ["joshua.clayton@gmail.com"]
   s.homepage = "https://github.com/thoughtbot/climate_control"
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.25"
+  s.rubygems_version = "2.1.11"
   s.summary = "Modify your ENV easily with ClimateControl"
 
   if s.respond_to? :specification_version then

@@ -2,7 +2,7 @@ checking for Ruby version >= 1.8.5... -------------------- yes
 
 --------------------
 
-find_executable: checking for /usr/local/bin/gcc-4.2... -------------------- yes
+find_executable: checking for /usr/local/opt/gcc46/bin/gcc-4.6... -------------------- yes
 
 --------------------
 
@@ -20,7 +20,7 @@ checking for HDRI disabled version of ImageMagick... -------------------- yes
 
 have_header: checking for stdint.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -28,7 +28,7 @@ checked program was:
 3: int main() {return 0;}
 /* end */
 
-"/usr/local/bin/gcc-4.2 -E -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   conftest.c -o conftest.i"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -E -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   conftest.c -o conftest.i"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -40,7 +40,7 @@ checked program was:
 
 have_header: checking for sys/types.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -E -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   conftest.c -o conftest.i"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -E -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   conftest.c -o conftest.i"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -52,7 +52,7 @@ checked program was:
 
 have_header: checking for wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -E -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   conftest.c -o conftest.i"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -E -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   conftest.c -o conftest.i"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -64,7 +64,7 @@ checked program was:
 
 have_func: checking for snprintf() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -88,7 +88,7 @@ checked program was:
 
 have_func: checking for AcquireImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -112,14 +112,9 @@ checked program was:
 
 have_func: checking for AffinityImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
-conftest.c:15:53: warning: 'AffinityImage' is deprecated [-Wdeprecated-declarations]
-int t() { void ((*volatile p)()); p = (void ((*)()))AffinityImage; return 0; }
-                                                    ^
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/deprecate.h:169:3: note: 'AffinityImage' declared here
-  AffinityImage(const QuantizeInfo *,Image *,const Image *)
-  ^
-1 warning generated.
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
+conftest.c: In function 't':
+conftest.c:15:1: warning: 'AffinityImage' is deprecated (declared at /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/deprecate.h:169) [-Wdeprecated-declarations]
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -143,14 +138,9 @@ checked program was:
 
 have_func: checking for AffinityImages() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
-conftest.c:15:53: warning: 'AffinityImages' is deprecated [-Wdeprecated-declarations]
-int t() { void ((*volatile p)()); p = (void ((*)()))AffinityImages; return 0; }
-                                                    ^
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/deprecate.h:171:3: note: 'AffinityImages' declared here
-  AffinityImages(const QuantizeInfo *,Image *,const Image *)
-  ^
-1 warning generated.
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
+conftest.c: In function 't':
+conftest.c:15:1: warning: 'AffinityImages' is deprecated (declared at /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/deprecate.h:171) [-Wdeprecated-declarations]
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -174,7 +164,7 @@ checked program was:
 
 have_func: checking for AutoGammaImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -198,7 +188,7 @@ checked program was:
 
 have_func: checking for AutoLevelImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -222,7 +212,7 @@ checked program was:
 
 have_func: checking for BlueShiftImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -246,7 +236,7 @@ checked program was:
 
 have_func: checking for ConstituteComponentTerminus() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -270,7 +260,7 @@ checked program was:
 
 have_func: checking for DeskewImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -294,7 +284,7 @@ checked program was:
 
 have_func: checking for EncipherImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -318,7 +308,7 @@ checked program was:
 
 have_func: checking for EqualizeImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -342,7 +332,7 @@ checked program was:
 
 have_func: checking for FloodfillPaintImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -366,7 +356,7 @@ checked program was:
 
 have_func: checking for FunctionImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -390,7 +380,7 @@ checked program was:
 
 have_func: checking for GetAuthenticIndexQueue() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -414,7 +404,7 @@ checked program was:
 
 have_func: checking for GetAuthenticPixels() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -438,7 +428,7 @@ checked program was:
 
 have_func: checking for GetImageAlphaChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -462,7 +452,7 @@ checked program was:
 
 have_func: checking for GetVirtualPixels() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -486,14 +476,9 @@ checked program was:
 
 have_func: checking for LevelImageColors() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
-conftest.c:15:53: warning: 'LevelImageColors' is deprecated [-Wdeprecated-declarations]
-int t() { void ((*volatile p)()); p = (void ((*)()))LevelImageColors; return 0; }
-                                                    ^
-/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/deprecate.h:196:3: note: 'LevelImageColors' declared here
-  LevelImageColors(Image *,const ChannelType,const MagickPixelPacket *,
-  ^
-1 warning generated.
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
+conftest.c: In function 't':
+conftest.c:15:1: warning: 'LevelImageColors' is deprecated (declared at /usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6/magick/deprecate.h:196) [-Wdeprecated-declarations]
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -517,7 +502,7 @@ checked program was:
 
 have_func: checking for LevelColorsImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -541,7 +526,7 @@ checked program was:
 
 have_func: checking for LevelizeImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -565,7 +550,7 @@ checked program was:
 
 have_func: checking for LiquidRescaleImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -589,7 +574,7 @@ checked program was:
 
 have_func: checking for MagickLibAddendum() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -613,7 +598,7 @@ checked program was:
 
 have_func: checking for OpaquePaintImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -637,7 +622,7 @@ checked program was:
 
 have_func: checking for QueueAuthenticPixels() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -661,7 +646,7 @@ checked program was:
 
 have_func: checking for RemapImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -685,7 +670,7 @@ checked program was:
 
 have_func: checking for RemoveImageArtifact() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -709,7 +694,7 @@ checked program was:
 
 have_func: checking for SelectiveBlurImageChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -733,7 +718,7 @@ checked program was:
 
 have_func: checking for SetImageAlphaChannel() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -757,7 +742,7 @@ checked program was:
 
 have_func: checking for SetImageArtifact() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -781,7 +766,7 @@ checked program was:
 
 have_func: checking for SetMagickMemoryMethods() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -805,7 +790,7 @@ checked program was:
 
 have_func: checking for SparseColorImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -829,7 +814,7 @@ checked program was:
 
 have_func: checking for SyncAuthenticPixels() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -853,7 +838,7 @@ checked program was:
 
 have_func: checking for TransformImageColorspace() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -877,7 +862,7 @@ checked program was:
 
 have_func: checking for TransparentPaintImage() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -901,7 +886,7 @@ checked program was:
 
 have_func: checking for TransparentPaintImageChroma() in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -925,7 +910,7 @@ checked program was:
 
 checking for QueryMagickColorname() new signature... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -958,7 +943,7 @@ checked program was:
 
 have_struct_member: checking for Image.type in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -982,7 +967,7 @@ checked program was:
 
 have_struct_member: checking for DrawInfo.kerning in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1006,7 +991,7 @@ checked program was:
 
 have_struct_member: checking for DrawInfo.interline_spacing in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1030,7 +1015,7 @@ checked program was:
 
 have_struct_member: checking for DrawInfo.interword_spacing in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1054,7 +1039,7 @@ checked program was:
 
 have_type: checking for DitherMethod in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1078,7 +1063,7 @@ checked program was:
 
 have_type: checking for MagickFunction in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1102,7 +1087,7 @@ checked program was:
 
 have_type: checking for ImageLayerMethod in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1126,7 +1111,7 @@ checked program was:
 
 have_type: checking for long double in assert.h,ctype.h,stdio.h,stdlib.h,math.h,time.h,stdint.h,sys/types.h,wand/MagickWand.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1150,7 +1135,7 @@ checked program was:
 
 have_enum_value: checking for AlphaChannelType.CopyAlphaChannel... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1175,7 +1160,7 @@ checked program was:
 
 have_enum_value: checking for AlphaChannelType.BackgroundAlphaChannel... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1200,7 +1185,7 @@ checked program was:
 
 have_enum_value: checking for CompositeOperator.BlurCompositeOp... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1225,7 +1210,7 @@ checked program was:
 
 have_enum_value: checking for CompositeOperator.DistortCompositeOp... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1250,7 +1235,7 @@ checked program was:
 
 have_enum_value: checking for CompositeOperator.LinearBurnCompositeOp... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1275,7 +1260,7 @@ checked program was:
 
 have_enum_value: checking for CompositeOperator.LinearDodgeCompositeOp... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1300,7 +1285,7 @@ checked program was:
 
 have_enum_value: checking for CompositeOperator.MathematicsCompositeOp... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1325,7 +1310,7 @@ checked program was:
 
 have_enum_value: checking for CompositeOperator.PegtopLightCompositeOp... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1350,7 +1335,7 @@ checked program was:
 
 have_enum_value: checking for CompositeOperator.PinLightCompositeOp... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1375,7 +1360,7 @@ checked program was:
 
 have_enum_value: checking for CompositeOperator.VividLightCompositeOp... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1400,7 +1385,7 @@ checked program was:
 
 have_enum_value: checking for CompressionType.DXT1Compression... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1425,7 +1410,7 @@ checked program was:
 
 have_enum_value: checking for CompressionType.DXT3Compression... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1450,7 +1435,7 @@ checked program was:
 
 have_enum_value: checking for CompressionType.DXT5Compression... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1475,7 +1460,7 @@ checked program was:
 
 have_enum_value: checking for CompressionType.ZipSCompression... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1500,7 +1485,7 @@ checked program was:
 
 have_enum_value: checking for CompressionType.PizCompression... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1525,7 +1510,7 @@ checked program was:
 
 have_enum_value: checking for CompressionType.Pxr24Compression... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1550,7 +1535,7 @@ checked program was:
 
 have_enum_value: checking for CompressionType.B44Compression... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1575,7 +1560,7 @@ checked program was:
 
 have_enum_value: checking for CompressionType.B44ACompression... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1600,7 +1585,7 @@ checked program was:
 
 have_enum_value: checking for DistortImageMethod.BarrelDistortion... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1625,7 +1610,7 @@ checked program was:
 
 have_enum_value: checking for DistortImageMethod.BarrelInverseDistortion... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1650,7 +1635,7 @@ checked program was:
 
 have_enum_value: checking for DistortImageMethod.BilinearForwardDistortion... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1675,7 +1660,7 @@ checked program was:
 
 have_enum_value: checking for DistortImageMethod.BilinearReverseDistortion... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1700,7 +1685,7 @@ checked program was:
 
 have_enum_value: checking for DistortImageMethod.DePolarDistortion... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1725,7 +1710,7 @@ checked program was:
 
 have_enum_value: checking for DistortImageMethod.PolarDistortion... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1750,7 +1735,7 @@ checked program was:
 
 have_enum_value: checking for DistortImageMethod.PolynomialDistortion... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1775,7 +1760,7 @@ checked program was:
 
 have_enum_value: checking for DistortImageMethod.ShepardsDistortion... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1800,7 +1785,7 @@ checked program was:
 
 have_enum_value: checking for DitherMethod.NoDitherMethod... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1825,7 +1810,7 @@ checked program was:
 
 have_enum_value: checking for FilterTypes.KaiserFilter... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1850,7 +1835,7 @@ checked program was:
 
 have_enum_value: checking for FilterTypes.WelshFilter... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1875,7 +1860,7 @@ checked program was:
 
 have_enum_value: checking for FilterTypes.ParzenFilter... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1900,7 +1885,7 @@ checked program was:
 
 have_enum_value: checking for FilterTypes.LagrangeFilter... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1925,7 +1910,7 @@ checked program was:
 
 have_enum_value: checking for FilterTypes.BohmanFilter... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1950,7 +1935,7 @@ checked program was:
 
 have_enum_value: checking for FilterTypes.BartlettFilter... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -1975,7 +1960,7 @@ checked program was:
 
 have_enum_value: checking for FilterTypes.SentinelFilter... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2000,7 +1985,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.PowEvaluateOperator... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2025,7 +2010,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.LogEvaluateOperator... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2050,7 +2035,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.ThresholdEvaluateOperator... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2075,7 +2060,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.ThresholdBlackEvaluateOperator... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2100,7 +2085,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.ThresholdWhiteEvaluateOperator... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2125,7 +2110,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.GaussianNoiseEvaluateOperator... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2150,7 +2135,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.ImpulseNoiseEvaluateOperator... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2175,7 +2160,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.LaplacianNoiseEvaluateOperator... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2200,7 +2185,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.MultiplicativeNoiseEvaluateOperator... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2225,7 +2210,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.PoissonNoiseEvaluateOperator... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2250,7 +2235,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.UniformNoiseEvaluateOperator... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2275,7 +2260,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.CosineEvaluateOperator... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2300,7 +2285,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.SineEvaluateOperator... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2325,7 +2310,7 @@ checked program was:
 
 have_enum_value: checking for MagickEvaluateOperator.AddModulusEvaluateOperator... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2350,7 +2335,7 @@ checked program was:
 
 have_enum_value: checking for MagickFunction.ArcsinFunction... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2375,7 +2360,7 @@ checked program was:
 
 have_enum_value: checking for MagickFunction.ArctanFunction... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2400,7 +2385,7 @@ checked program was:
 
 have_enum_value: checking for MagickFunction.PolynomialFunction... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2425,7 +2410,7 @@ checked program was:
 
 have_enum_value: checking for MagickFunction.SinusoidFunction... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2450,7 +2435,7 @@ checked program was:
 
 have_enum_value: checking for ImageLayerMethod.FlattenLayer... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2475,7 +2460,7 @@ checked program was:
 
 have_enum_value: checking for ImageLayerMethod.MergeLayer... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2500,7 +2485,7 @@ checked program was:
 
 have_enum_value: checking for ImageLayerMethod.MosaicLayer... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2525,7 +2510,7 @@ checked program was:
 
 have_enum_value: checking for ImageLayerMethod.TrimBoundsLayer... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2550,7 +2535,7 @@ checked program was:
 
 have_enum_value: checking for VirtualPixelMethod.HorizontalTileVirtualPixelMethod... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2575,7 +2560,7 @@ checked program was:
 
 have_enum_value: checking for VirtualPixelMethod.VerticalTileVirtualPixelMethod... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2600,7 +2585,7 @@ checked program was:
 
 have_enum_value: checking for VirtualPixelMethod.HorizontalTileEdgeVirtualPixelMethod... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2625,7 +2610,7 @@ checked program was:
 
 have_enum_value: checking for VirtualPixelMethod.VerticalTileEdgeVirtualPixelMethod... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2650,7 +2635,7 @@ checked program was:
 
 have_enum_value: checking for VirtualPixelMethod.CheckerTileVirtualPixelMethod... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6    -c conftest.c"
 checked program was:
 /* begin */
  1: #include "ruby.h"
@@ -2675,7 +2660,7 @@ checked program was:
 
 have_header: checking for ruby/io.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -E -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   conftest.c -o conftest.i"
+"/usr/local/opt/gcc46/bin/gcc-4.6 -E -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   conftest.c -o conftest.i"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -2687,7 +2672,7 @@ checked program was:
 
 have_func: checking for rb_frame_this_func() in ruby.h,ruby/io.h... -------------------- yes
 
-"/usr/local/bin/gcc-4.2 -o conftest -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin12.2.1 -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/usr/local/rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/usr/local/rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/rvm/usr/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby-static  -lpthread -ldl -lobjc "
+"/usr/local/opt/gcc46/bin/gcc-4.6 -o conftest -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/x86_64-darwin13.0.0 -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1/ruby/backward -I/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/include/ruby-1.9.1 -I.  -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6   -DMAGICKCORE_HDRI_ENABLE=0 -DMAGICKCORE_QUANTUM_DEPTH=16 -I/usr/local/Cellar/imagemagick/6.8.7-7/include/ImageMagick-6  conftest.c  -L. -L/Users/scervera/.rvm/rubies/ruby-1.9.3-p194/lib -L/usr/local/opt/libyaml/lib  -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16     -L/usr/local/Cellar/imagemagick/6.8.7-7/lib -lMagickCore-6.Q16   -lruby.1.9.1  -lpthread -ldl -lobjc "
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -2828,9 +2813,9 @@ extconf.h is:
 
 
 ======================================================================
-Sun 15Dec13 11:39:08
+Fri 10Jan14 12:13:40
 This installation of RMagick 2.13.2 is configured for
-Ruby 1.9.3 (x86_64-darwin12.2.1) and ImageMagick 6.8.7 Q16 
+Ruby 1.9.3 (x86_64-darwin13.0.0) and ImageMagick 6.8.7 Q16 
 ======================================================================
 
 

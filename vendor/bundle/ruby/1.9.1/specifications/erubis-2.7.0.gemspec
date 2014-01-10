@@ -1,4 +1,5 @@
 # -*- encoding: utf-8 -*-
+# stub: erubis 2.7.0 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "erubis"
@@ -14,15 +15,6 @@ Gem::Specification.new do |s|
   s.homepage = "http://www.kuwata-lab.com/erubis/"
   s.require_paths = ["lib"]
   s.rubyforge_project = "erubis"
-  s.rubygems_version = "1.8.25"
+  s.rubygems_version = "2.1.11"
   s.summary = "a fast and extensible eRuby implementation which supports multi-language"
-
-  if s.respond_to? :specification_version then
-    s.specification_version = 3
-
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-    else
-    end
-  else
-  end
 end

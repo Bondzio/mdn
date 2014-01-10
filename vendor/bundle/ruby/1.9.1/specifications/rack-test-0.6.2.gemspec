@@ -1,4 +1,5 @@
 # -*- encoding: utf-8 -*-
+# stub: rack-test 0.6.2 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "rack-test"
@@ -14,7 +15,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/brynary/rack-test"
   s.require_paths = ["lib"]
   s.rubyforge_project = "rack-test"
-  s.rubygems_version = "1.8.25"
+  s.rubygems_version = "2.1.11"
   s.summary = "Simple testing API built on Rack"
 
   if s.respond_to? :specification_version then

@@ -1,4 +1,5 @@
 # -*- encoding: utf-8 -*-
+# stub: journey 1.0.4 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "journey"
@@ -15,7 +16,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubyforge_project = "journey"
-  s.rubygems_version = "1.8.25"
+  s.rubygems_version = "2.1.11"
   s.summary = "Journey is a router"
 
   if s.respond_to? :specification_version then

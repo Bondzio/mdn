@@ -1,4 +1,5 @@
 # -*- encoding: utf-8 -*-
+# stub: builder 3.0.4 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "builder"
@@ -15,15 +16,6 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.rdoc_options = ["--title", "Builder -- Easy XML Building", "--main", "README.rdoc", "--line-numbers"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.25"
+  s.rubygems_version = "2.1.11"
   s.summary = "Builders for MarkUp."
-
-  if s.respond_to? :specification_version then
-    s.specification_version = 3
-
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-    else
-    end
-  else
-  end
 end
