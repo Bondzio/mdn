@@ -1,5 +1,6 @@
 .sass-cache/
 public/uploads
+vendor/bundle/*
 vendor/bundle/ruby/1.9.1/bundler/gems/rmagick-*
 database.yml
 .bundle
@@ -9,9 +10,7 @@ db/*.sqlite3
 log/*.log
 tmp/**/*
 .bundle\n
-<<<<<<< HEAD
 MDN Project.tmproj
 .gitignore
-=======
 MDN\ Project.tmproj
->>>>>>> IE_compatibility
+
