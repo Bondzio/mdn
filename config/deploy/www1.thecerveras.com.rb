@@ -1,0 +1,1 @@
+server "www1.thecerveras.com", :web, :app, :db, :primary => true
