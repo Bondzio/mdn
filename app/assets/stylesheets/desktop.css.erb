@@ -38,6 +38,7 @@ body {
 
 .pull-left {float: left;}
 .pull-right {float: right;}
+.clear-right {clear:right;}
 
 /* This is the main centering div */
 #container {
@@ -83,6 +84,10 @@ box-shadow:0px 10px 10px 3px #100707;
 	margin-bottom: 10px;
 }
 
+.centered {
+	margin-left: 60px;
+	clear: both;
+}
 /* The "no_side_content" selectors point to the content in the web pages (like forms) where no sidebar is desired */
 #full_width_content {
 	float: right;
@@ -940,8 +945,9 @@ background-repeat:no-repeat; z-index: 105; }
 #footer_badge_lft h2 {text-align:center;}
 #footer_badge_lft {
 	position: absolute;
-	left:100px;
-	top: 20px;
+	left:20px;
+	top: 10px;
+	text-align: center;
 	width: 166px;
 	height: auto;
 	z-index: 20;
@@ -950,26 +956,42 @@ background-repeat:no-repeat; z-index: 105; }
 }
 #facebook {
 	position: absolute;
-	top: 40px;
-	left: 350px;
+	top: 210px;
+	left: 670px;
 	width: 350px;
 	height: 23px;
 	z-index: 20;
 }
 #youtube img {
 	position: absolute;
-	top: 120px;
-	left: 430px;
+	top: 210px;
+	left: 490px;
 	width: 150px;
 	height: 33px;
 	z-index: 10;
 }
+#gold-sponsors {
+	position: absolute;
+	top: 10px;
+	left: 100px;
+	width: 850px;
+	height: 200px;
+	z-index: 20;
+}
+#gold-sponsors h2{text-align: center;}
+.partners {
+	width: 110px;
+	text-align: center;
+}
+.partners img {
+	margin-bottom: 5px;
+}
 #donate img{
 	position: absolute;
-	left:690px;
+	left:780px;
 	top: 40px;
-	width: 234px;
-	height: 124px;
+	width: 170px;
+	height: 90px;
 	z-index: 20;
 }
 #copyright-bar img {
@@ -1066,7 +1088,21 @@ ul.marquee li {
 /* END styling for the prayer marquee */
 
 /* *****************************Interior page styling*********************************************** */
-
+/*--sponsors.html.erb-- start*/
+.grid {
+	float: left;
+	width: 180px;
+	height: 150px;
+	margin: 5px 5px 5px 5px;
+/*	padding: 5px 5px 5px 5px;*/
+	border: 1px solid black;
+}
+.grid img {
+	margin-left: 10px;
+	margin-top:10px;
+}
+.grid a {margin-left: 0px;}
+/*--sponsors.html.erb-- end*/
 
 /* These nav anchor tags must be set to display:block for the menu to work properly */ 
 
@@ -2204,5 +2240,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccc9a', end
 	width: 100px;
 }
 /*--browser.html.erb-- end*/
+
 
 

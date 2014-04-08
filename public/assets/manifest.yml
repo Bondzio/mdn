@@ -109,6 +109,8 @@ Golf-Outting.jpg: Golf-Outting-f1725acdcf6cd4d85535c9ed148a9e26.jpg
 Golf-Outting/index.jpg: Golf-Outting-f1725acdcf6cd4d85535c9ed148a9e26.jpg
 MDN_LOGO_FIN_Wht.gif: MDN_LOGO_FIN_Wht-efd0b70e4abad1a9b523e441960b0b4e.gif
 MDN_LOGO_FIN_Wht/index.gif: MDN_LOGO_FIN_Wht-efd0b70e4abad1a9b523e441960b0b4e.gif
+Pastor_Refs_Mcgovern.jpg: Pastor_Refs_Mcgovern-410d078a9c59f996c43350b12903eaae.jpg
+Pastor_Refs_Mcgovern/index.jpg: Pastor_Refs_Mcgovern-410d078a9c59f996c43350b12903eaae.jpg
 about/about_top_image.jpg: about/about_top_image-74126914d6490d15095cc3fe477b6009.jpg
 about/about_top_image/index.jpg: about/about_top_image-74126914d6490d15095cc3fe477b6009.jpg
 about/mdn_system.jpg: about/mdn_system-3b88eb0ac1c7c848fc27e49c0b7c2d9b.jpg
@@ -131,6 +133,8 @@ announcements/announcements_top_image.jpg: announcements/announcements_top_image
 announcements/announcements_top_image/index.jpg: announcements/announcements_top_image-a3c675bda4ce6ca133fa8771dcf4b538.jpg
 announcements/bof_featured_graphic.gif: announcements/bof_featured_graphic-58f5fd32c625df87b30e0420ff4d2e30.gif
 announcements/bof_featured_graphic/index.gif: announcements/bof_featured_graphic-58f5fd32c625df87b30e0420ff4d2e30.gif
+announcements/dbc2014promo.jpg: announcements/dbc2014promo-f8901ab003ef193b57dd70abc38201af.jpg
+announcements/dbc2014promo/index.jpg: announcements/dbc2014promo-f8901ab003ef193b57dd70abc38201af.jpg
 announcements/march_dbc_announcement/images/march2012_dbc_bronx.jpg: announcements/march_dbc_announcement/images/march2012_dbc_bronx-da49e960d3e9247df732e0335346f20b.jpg
 announcements/march_dbc_announcement/images/march2012_dbc_bronx/index.jpg: announcements/march_dbc_announcement/images/march2012_dbc_bronx-da49e960d3e9247df732e0335346f20b.jpg
 announcements/march_dbc_announcement/images/march2012_dbc_brooklyn.jpg: announcements/march_dbc_announcement/images/march2012_dbc_brooklyn-b1c1ec58bb45dfdd17c91910f77a50fe.jpg
@@ -243,6 +247,14 @@ donate/donate-badge.gif: donate/donate-badge-a2df6f88cd521fba723ad70fc8cd2c56.gi
 donate/donate-badge/index.gif: donate/donate-badge-a2df6f88cd521fba723ad70fc8cd2c56.gif
 donate/donate_top_image.jpg: donate/donate_top_image-c247d56e49fe42295ebedeb7c9797444.jpg
 donate/donate_top_image/index.jpg: donate/donate_top_image-c247d56e49fe42295ebedeb7c9797444.jpg
+elderboard/arbernard.jpg: elderboard/arbernard-334b94ea31a56eaef73682370951b096.jpg
+elderboard/arbernard/index.jpg: elderboard/arbernard-334b94ea31a56eaef73682370951b096.jpg
+elderboard/caesar.jpg: elderboard/caesar-3156ba16f120849dc6ff3a7f3af25680.jpg
+elderboard/caesar/index.jpg: elderboard/caesar-3156ba16f120849dc6ff3a7f3af25680.jpg
+elderboard/galloway.jpg: elderboard/galloway-4f2b064b2f777bb1925a1ea54878e5b4.jpg
+elderboard/galloway/index.jpg: elderboard/galloway-4f2b064b2f777bb1925a1ea54878e5b4.jpg
+elderboard/milazzo.jpg: elderboard/milazzo-30982f191aae360bb032582ddf999674.jpg
+elderboard/milazzo/index.jpg: elderboard/milazzo-30982f191aae360bb032582ddf999674.jpg
 events/events_top_image.jpg: events/events_top_image-16d5e9c97b7e96fe84a999a163786662.jpg
 events/events_top_image/index.jpg: events/events_top_image-16d5e9c97b7e96fe84a999a163786662.jpg
 fancybox_buttons.png: fancybox_buttons-c51d8c1dbfdfdc3f4adcecd52bf0f31c.png
@@ -344,8 +356,12 @@ mdn_app/google_store.png: mdn_app/google_store-a7f1e753c55837e4044661485f22c474.
 mdn_app/google_store/index.png: mdn_app/google_store-a7f1e753c55837e4044661485f22c474.png
 mdn_app/photo.PNG: mdn_app/photo-ec1ab259b67334beda3320f95d4779cd.PNG
 mdn_app/photo/index.PNG: mdn_app/photo-ec1ab259b67334beda3320f95d4779cd.PNG
-mdn_logo.gif: mdn_logo-5f474ff80a63ad958aa9fb2a2394d6c1.gif
-mdn_logo/index.gif: mdn_logo-5f474ff80a63ad958aa9fb2a2394d6c1.gif
+mdn_favicon.png: mdn_favicon-fb7085cf2c09ac6e5256f16502950763.png
+mdn_favicon/index.png: mdn_favicon-fb7085cf2c09ac6e5256f16502950763.png
+mdn_logo small.gif: mdn_logo small-cc442b5c3221c118e1cf45dd1cf5f8a7.gif
+mdn_logo small/index.gif: mdn_logo small-cc442b5c3221c118e1cf45dd1cf5f8a7.gif
+mdn_logo.gif: mdn_logo-011723beb952729ed77b56a395a06a71.gif
+mdn_logo/index.gif: mdn_logo-011723beb952729ed77b56a395a06a71.gif
 mdn_logo.jpg.bak.jpg: mdn_logo.jpg.bak-38d7e4780e37b8e4bbef6617260e90fa.jpg
 mdn_logo/index.jpg.bak.jpg: mdn_logo.jpg.bak-38d7e4780e37b8e4bbef6617260e90fa.jpg
 mdn_logo.png: mdn_logo-c0684d438beb644561639fe15caa2f55.png
@@ -442,24 +458,14 @@ radio/radio_top_imageRevA.jpg: radio/radio_top_imageRevA-658c9331228c8bb90f48b93
 radio/radio_top_imageRevA/index.jpg: radio/radio_top_imageRevA-658c9331228c8bb90f48b93f92b51e8a.jpg
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
-references copy/Pastor_Refs_AlexKendrick.jpg: references copy/Pastor_Refs_AlexKendrick-ef73a0d456b0599d1d9688c411ebc1fc.jpg
-references copy/Pastor_Refs_AlexKendrick/index.jpg: references copy/Pastor_Refs_AlexKendrick-ef73a0d456b0599d1d9688c411ebc1fc.jpg
-references copy/Pastor_Refs_Caesar.jpg: references copy/Pastor_Refs_Caesar-4c72e1e62a208b88c947e1184e7af175.jpg
-references copy/Pastor_Refs_Caesar/index.jpg: references copy/Pastor_Refs_Caesar-4c72e1e62a208b88c947e1184e7af175.jpg
-references copy/Pastor_Refs_Cortese.jpg: references copy/Pastor_Refs_Cortese-a97c217236f8c7d98341dcf8ffa2d1bf.jpg
-references copy/Pastor_Refs_Cortese/index.jpg: references copy/Pastor_Refs_Cortese-a97c217236f8c7d98341dcf8ffa2d1bf.jpg
-references copy/Pastor_Refs_Milazzo.jpg: references copy/Pastor_Refs_Milazzo-ee9ddf994aabd0f0606b7391531e79aa.jpg
-references copy/Pastor_Refs_Milazzo/index.jpg: references copy/Pastor_Refs_Milazzo-ee9ddf994aabd0f0606b7391531e79aa.jpg
-references copy/Refs_Breen.jpg: references copy/Refs_Breen-40f104001bb304914f9543aed4a4c222.jpg
-references copy/Refs_Breen/index.jpg: references copy/Refs_Breen-40f104001bb304914f9543aed4a4c222.jpg
 references/Pastor_Refs_AlexKendrick.jpg: references/Pastor_Refs_AlexKendrick-6a85c396a63820ca208cfe4443b18a80.jpg
 references/Pastor_Refs_AlexKendrick/index.jpg: references/Pastor_Refs_AlexKendrick-6a85c396a63820ca208cfe4443b18a80.jpg
-references/Pastor_Refs_Caesar copy.jpg: references/Pastor_Refs_Caesar copy-0703c28cfc9e979d3ecf9d944a71bd68.jpg
-references/Pastor_Refs_Caesar copy/index.jpg: references/Pastor_Refs_Caesar copy-0703c28cfc9e979d3ecf9d944a71bd68.jpg
 references/Pastor_Refs_Caesar.jpg: references/Pastor_Refs_Caesar-d3dcbd1c230955a2c108179ae3635320.jpg
 references/Pastor_Refs_Caesar/index.jpg: references/Pastor_Refs_Caesar-d3dcbd1c230955a2c108179ae3635320.jpg
 references/Pastor_Refs_Cortese.jpg: references/Pastor_Refs_Cortese-dc6b1e494c0c7b448b060029afdd76e0.jpg
 references/Pastor_Refs_Cortese/index.jpg: references/Pastor_Refs_Cortese-dc6b1e494c0c7b448b060029afdd76e0.jpg
+references/Pastor_Refs_Mcgovern.jpg: references/Pastor_Refs_Mcgovern-c3f326f0f10a9ee06af28d692958586e.jpg
+references/Pastor_Refs_Mcgovern/index.jpg: references/Pastor_Refs_Mcgovern-c3f326f0f10a9ee06af28d692958586e.jpg
 references/Pastor_Refs_Milazzo.jpg: references/Pastor_Refs_Milazzo-73233640be63e29d221cf2d87724b264.jpg
 references/Pastor_Refs_Milazzo/index.jpg: references/Pastor_Refs_Milazzo-73233640be63e29d221cf2d87724b264.jpg
 references/Refs_Breen.jpg: references/Refs_Breen-40f104001bb304914f9543aed4a4c222.jpg
@@ -1704,14 +1710,14 @@ weapons_pic.jpg: weapons_pic-359781641ba4c8ad33f7d50fe34652f7.jpg
 weapons_pic/index.jpg: weapons_pic-359781641ba4c8ad33f7d50fe34652f7.jpg
 weapons_teach.jpg: weapons_teach-928f7901da28f92d1ca5a605fb653eb7.jpg
 weapons_teach/index.jpg: weapons_teach-928f7901da28f92d1ca5a605fb653eb7.jpg
-application.js: application-46cbab4c9dfc62f1d7374cab62b8f8fa.js
-application/index.js: application-46cbab4c9dfc62f1d7374cab62b8f8fa.js
+application.js: application-9d3bc95370c706751d77a48377635c59.js
+application/index.js: application-9d3bc95370c706751d77a48377635c59.js
 jquery.roundabout.bak: jquery.roundabout-bfd19f16c55bf25cc1a210bf167d4f8f.bak
 jquery/index.roundabout.bak: jquery.roundabout-bfd19f16c55bf25cc1a210bf167d4f8f.bak
 pickle.swf: pickle-c6ffa406ec51ba1a894227109b501ec6.swf
 pickle/index.swf: pickle-c6ffa406ec51ba1a894227109b501ec6.swf
-application.css: application-901f6f630a8c743a5184cef1a85e71c0.css
-application/index.css: application-901f6f630a8c743a5184cef1a85e71c0.css
+application.css: application-fd10d79710b6c28a92d5d1c81bb43645.css
+application/index.css: application-fd10d79710b6c28a92d5d1c81bb43645.css
 pickle/_PREVIEW.html: pickle/_PREVIEW-1b9d4c902a11c253667471ae35b84a03.html
 pickle/_PREVIEW/index.html: pickle/_PREVIEW-1b9d4c902a11c253667471ae35b84a03.html
 pickle/_project.xml: pickle/_project-2eb84d575ef5176c6e1290fd5c10c1f6.xml
@@ -1828,5 +1834,5 @@ jquery-ui/ui-icons_888888_256x240.png: jquery-ui/ui-icons_888888_256x240-8040cfc
 jquery-ui/ui-icons_888888_256x240/index.png: jquery-ui/ui-icons_888888_256x240-8040cfcc88792375b7788feb59189eef.png
 jquery-ui/ui-icons_cd0a0a_256x240.png: jquery-ui/ui-icons_cd0a0a_256x240-d4a62216bf6f0cd0071149890763a5ff.png
 jquery-ui/ui-icons_cd0a0a_256x240/index.png: jquery-ui/ui-icons_cd0a0a_256x240-d4a62216bf6f0cd0071149890763a5ff.png
-jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
-jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
+jquery.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map
+jquery/index.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map

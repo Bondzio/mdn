@@ -1,6 +1,6 @@
 /* 
 *= require 1reset
-*= require desktop
+*= require desktop.css.erb
 *= require jquery.fancybox.css
 *= require pushup
 *= require menu

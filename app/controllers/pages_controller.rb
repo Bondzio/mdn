@@ -57,4 +57,7 @@ class PagesController < ApplicationController
 
   def knockknock
   end
+
+  def sponsors
+  end
 end
