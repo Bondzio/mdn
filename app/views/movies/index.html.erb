@@ -1,7 +1,7 @@
 <div class="on_white">
 	<div class="pagination"<%= will_paginate @movies %> </div>
 <h1>Listing movies</h1>
-
+<%= link_to 'New Movie', new_movie_path %>
 <table>
   <tr>
     <th>Title</th>
@@ -31,5 +31,5 @@
 </table>
 	<div class="pagination"<%= will_paginate @movies %></div></br>
 
-<%= link_to 'New Movie', new_movie_path %>
+
 </div>
