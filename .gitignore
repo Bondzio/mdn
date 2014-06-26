@@ -1,7 +1,6 @@
 .sass-cache/
 public/uploads
 vendor/bundle/*
-vendor/bundle/ruby/1.9.1/bundler/gems/rmagick-*
 database.yml
 .bundle
 .DS_Store
