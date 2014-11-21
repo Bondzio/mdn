@@ -61,6 +61,6 @@ class PagesController < ApplicationController
   def sponsors
   end
 
-  def gala
-  end
+  # def gala
+  # end
 end
