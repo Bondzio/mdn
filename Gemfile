@@ -28,7 +28,7 @@ gem 'cancan'
 
 #Javascript runtime
 gem 'execjs'
-gem 'therubyracer'
+#gem 'therubyracer'
 
 group :assets do
   gem 'sass-rails', "~> 3.2.0"
