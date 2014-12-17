@@ -119,6 +119,8 @@ ads/covenanteyes.gif: ads/covenanteyes-5f6d7b466ac3c93c3aae2288d023f6a6.gif
 ads/covenanteyes/index.gif: ads/covenanteyes-5f6d7b466ac3c93c3aae2288d023f6a6.gif
 ads/covenanteyes.jpg: ads/covenanteyes-d66ac9bf38aa7882a4145031ae693221.jpg
 ads/covenanteyes/index.jpg: ads/covenanteyes-d66ac9bf38aa7882a4145031ae693221.jpg
+ads/dbc_cd_set_md.jpg: ads/dbc_cd_set_md-17bded4f48fd70e33dd2578b0f395c4a.jpg
+ads/dbc_cd_set_md/index.jpg: ads/dbc_cd_set_md-17bded4f48fd70e33dd2578b0f395c4a.jpg
 announcements/ .pxm: announcements/ -8bd91f71d2bc57b3d19cf9b20cc56818.pxm
 announcements/ /index.pxm: announcements/ -8bd91f71d2bc57b3d19cf9b20cc56818.pxm
 announcements/IMG_0447.jpg: announcements/IMG_0447-56cd58d922b80ac21ff0fa5ba4520d26.jpg
@@ -135,6 +137,8 @@ announcements/bof_featured_graphic.gif: announcements/bof_featured_graphic-58f5f
 announcements/bof_featured_graphic/index.gif: announcements/bof_featured_graphic-58f5fd32c625df87b30e0420ff4d2e30.gif
 announcements/dbc2014promo.jpg: announcements/dbc2014promo-f8901ab003ef193b57dd70abc38201af.jpg
 announcements/dbc2014promo/index.jpg: announcements/dbc2014promo-f8901ab003ef193b57dd70abc38201af.jpg
+announcements/gala_promo_2014.jpg: announcements/gala_promo_2014-1e653444e7b2a1395bf658f9343ea526.jpg
+announcements/gala_promo_2014/index.jpg: announcements/gala_promo_2014-1e653444e7b2a1395bf658f9343ea526.jpg
 announcements/march_dbc_announcement/images/march2012_dbc_bronx.jpg: announcements/march_dbc_announcement/images/march2012_dbc_bronx-da49e960d3e9247df732e0335346f20b.jpg
 announcements/march_dbc_announcement/images/march2012_dbc_bronx/index.jpg: announcements/march_dbc_announcement/images/march2012_dbc_bronx-da49e960d3e9247df732e0335346f20b.jpg
 announcements/march_dbc_announcement/images/march2012_dbc_brooklyn.jpg: announcements/march_dbc_announcement/images/march2012_dbc_brooklyn-b1c1ec58bb45dfdd17c91910f77a50fe.jpg
@@ -344,6 +348,10 @@ left_shadow-06.png: left_shadow-06-53cb867b51e6436bcdb7b5379d9ed984.png
 left_shadow-06/index.png: left_shadow-06-53cb867b51e6436bcdb7b5379d9ed984.png
 left_shadow.png: left_shadow-6ef2656721944fc524751f1bd6ca65ca.png
 left_shadow/index.png: left_shadow-6ef2656721944fc524751f1bd6ca65ca.png
+logos/mdn_logo.gif: logos/mdn_logo-f8187b7bd8ebda3238d99e6dbd7139ab.gif
+logos/mdn_logo/index.gif: logos/mdn_logo-f8187b7bd8ebda3238d99e6dbd7139ab.gif
+logos/mdn_logo_wh.png: logos/mdn_logo_wh-625be319856b72bcfaa447772dd5fc1b.png
+logos/mdn_logo_wh/index.png: logos/mdn_logo_wh-625be319856b72bcfaa447772dd5fc1b.png
 lower_nav.jpg: lower_nav-4296b5a2e730c6be74fa31ecfe2292fa.jpg
 lower_nav/index.jpg: lower_nav-4296b5a2e730c6be74fa31ecfe2292fa.jpg
 mannerisms/mannerisms_top_image.jpg: mannerisms/mannerisms_top_image-d97acc1804d6833c0deb4bc3816e4ab4.jpg
@@ -1694,76 +1702,162 @@ skins/woody/g_thinker.gif: skins/woody/g_thinker-fc9bbef8d06f0ca493099e58a4d0624
 skins/woody/g_thinker/index.gif: skins/woody/g_thinker-fc9bbef8d06f0ca493099e58a4d0624f.gif
 spacer.gif: spacer-698fe11ee301e23b16d7957efbcea81c.gif
 spacer/index.gif: spacer-698fe11ee301e23b16d7957efbcea81c.gif
-sponsors/api_lg.jpg: sponsors/api_lg-5f2540baef9d5fdced84df408328b3d7.jpg
-sponsors/api_lg/index.jpg: sponsors/api_lg-5f2540baef9d5fdced84df408328b3d7.jpg
-sponsors/api_sm.jpg: sponsors/api_sm-a4811e2771ba353cac493696cd6d8f90.jpg
-sponsors/api_sm/index.jpg: sponsors/api_sm-a4811e2771ba353cac493696cd6d8f90.jpg
-sponsors/bodybuilder_lg.jpg: sponsors/bodybuilder_lg-046c32f5f46c581c918c8256f50d3595.jpg
-sponsors/bodybuilder_lg/index.jpg: sponsors/bodybuilder_lg-046c32f5f46c581c918c8256f50d3595.jpg
-sponsors/bodybuilder_sm.jpg: sponsors/bodybuilder_sm-2b7db55ff1bed3b6117c5f14b4c6c5d4.jpg
-sponsors/bodybuilder_sm/index.jpg: sponsors/bodybuilder_sm-2b7db55ff1bed3b6117c5f14b4c6c5d4.jpg
-sponsors/boldsecure_lg.jpg: sponsors/boldsecure_lg-50241bec81838a65af6493c9d1b2589b.jpg
-sponsors/boldsecure_lg/index.jpg: sponsors/boldsecure_lg-50241bec81838a65af6493c9d1b2589b.jpg
-sponsors/boldsecure_sm.jpg: sponsors/boldsecure_sm-780f0f5f0dd0ca6b56ab04ea89e42e65.jpg
-sponsors/boldsecure_sm/index.jpg: sponsors/boldsecure_sm-780f0f5f0dd0ca6b56ab04ea89e42e65.jpg
-sponsors/bonnke_lg.jpg: sponsors/bonnke_lg-6581ce881d9350164638416985e932e6.jpg
-sponsors/bonnke_lg/index.jpg: sponsors/bonnke_lg-6581ce881d9350164638416985e932e6.jpg
-sponsors/bonnke_sm.jpg: sponsors/bonnke_sm-05a396a562651d2172ee782f6f317f6e.jpg
-sponsors/bonnke_sm/index.jpg: sponsors/bonnke_sm-05a396a562651d2172ee782f6f317f6e.jpg
-sponsors/breen_lg.jpg: sponsors/breen_lg-f20e472f96fc5a9768c417ba2a7a1524.jpg
-sponsors/breen_lg/index.jpg: sponsors/breen_lg-f20e472f96fc5a9768c417ba2a7a1524.jpg
-sponsors/breen_sm.jpg: sponsors/breen_sm-85ab1fe707cf3ef33372bf035f7bcbef.jpg
-sponsors/breen_sm/index.jpg: sponsors/breen_sm-85ab1fe707cf3ef33372bf035f7bcbef.jpg
-sponsors/buttafuoco_lg.jpg: sponsors/buttafuoco_lg-6225863675a960b52ce8e25c11c40613.jpg
-sponsors/buttafuoco_lg/index.jpg: sponsors/buttafuoco_lg-6225863675a960b52ce8e25c11c40613.jpg
-sponsors/buttafuoco_sm.jpg: sponsors/buttafuoco_sm-29ae8c169650c126726957d09f29fc28.jpg
-sponsors/buttafuoco_sm/index.jpg: sponsors/buttafuoco_sm-29ae8c169650c126726957d09f29fc28.jpg
-sponsors/ccc_lg.jpg: sponsors/ccc_lg-70be8d75934d8e94d1d99594058d441b.jpg
-sponsors/ccc_lg/index.jpg: sponsors/ccc_lg-70be8d75934d8e94d1d99594058d441b.jpg
-sponsors/ccc_sm.jpg: sponsors/ccc_sm-658c796bb531d0f2bbe020fa71babb5d.jpg
-sponsors/ccc_sm/index.jpg: sponsors/ccc_sm-658c796bb531d0f2bbe020fa71babb5d.jpg
-sponsors/convoy_of_hope_lg.jpg: sponsors/convoy_of_hope_lg-2377b107f6b547e09a3848a13cea69d6.jpg
-sponsors/convoy_of_hope_lg/index.jpg: sponsors/convoy_of_hope_lg-2377b107f6b547e09a3848a13cea69d6.jpg
-sponsors/convoy_of_hope_sm.jpg: sponsors/convoy_of_hope_sm-1cfcf9abd80e934ddb94e59d9d0660cb.jpg
-sponsors/convoy_of_hope_sm/index.jpg: sponsors/convoy_of_hope_sm-1cfcf9abd80e934ddb94e59d9d0660cb.jpg
-sponsors/frangeli_lg.jpg: sponsors/frangeli_lg-8393cdb5150760352208587c0830e253.jpg
-sponsors/frangeli_lg/index.jpg: sponsors/frangeli_lg-8393cdb5150760352208587c0830e253.jpg
-sponsors/frangeli_sm.jpg: sponsors/frangeli_sm-4762fae5eff4fb21ad1997069542095e.jpg
-sponsors/frangeli_sm/index.jpg: sponsors/frangeli_sm-4762fae5eff4fb21ad1997069542095e.jpg
-sponsors/hope_radio_lg.jpg: sponsors/hope_radio_lg-c20bb24851538176566fc9e096e44319.jpg
-sponsors/hope_radio_lg/index.jpg: sponsors/hope_radio_lg-c20bb24851538176566fc9e096e44319.jpg
-sponsors/hope_radio_sm.jpg: sponsors/hope_radio_sm-3aa3d6ba77f112c8ce46c772ed72465b.jpg
-sponsors/hope_radio_sm/index.jpg: sponsors/hope_radio_sm-3aa3d6ba77f112c8ce46c772ed72465b.jpg
-sponsors/logos_lg.jpg: sponsors/logos_lg-823b7fd9abfdfa7489104a7abe4fa795.jpg
-sponsors/logos_lg/index.jpg: sponsors/logos_lg-823b7fd9abfdfa7489104a7abe4fa795.jpg
-sponsors/logos_sm.jpg: sponsors/logos_sm-b7c8973a6fcf4df7881bdb0d9b36b4ec.jpg
-sponsors/logos_sm/index.jpg: sponsors/logos_sm-b7c8973a6fcf4df7881bdb0d9b36b4ec.jpg
-sponsors/partners_ww_lg.jpg: sponsors/partners_ww_lg-598028feacfb97714106fabe1a748468.jpg
-sponsors/partners_ww_lg/index.jpg: sponsors/partners_ww_lg-598028feacfb97714106fabe1a748468.jpg
-sponsors/partners_ww_sm.jpg: sponsors/partners_ww_sm-500ce72fe969f154010a95f766e68389.jpg
-sponsors/partners_ww_sm/index.jpg: sponsors/partners_ww_sm-500ce72fe969f154010a95f766e68389.jpg
-sponsors/print2print_lg.jpg: sponsors/print2print_lg-a45b979ee0666e022fb858aaaaa27f46.jpg
-sponsors/print2print_lg/index.jpg: sponsors/print2print_lg-a45b979ee0666e022fb858aaaaa27f46.jpg
-sponsors/print2print_sm.jpg: sponsors/print2print_sm-9e5250694145f54fa9a698158b12dbdf.jpg
-sponsors/print2print_sm/index.jpg: sponsors/print2print_sm-9e5250694145f54fa9a698158b12dbdf.jpg
-sponsors/silver/actionair_lg.jpg: sponsors/silver/actionair_lg-726f59b5bc97d720e065bad7f82d1af8.jpg
-sponsors/silver/actionair_lg/index.jpg: sponsors/silver/actionair_lg-726f59b5bc97d720e065bad7f82d1af8.jpg
-sponsors/silver/emmanuel_lutheran_lg.jpg: sponsors/silver/emmanuel_lutheran_lg-99f8afe33d1fa149f5cdb79811585d0f.jpg
-sponsors/silver/emmanuel_lutheran_lg/index.jpg: sponsors/silver/emmanuel_lutheran_lg-99f8afe33d1fa149f5cdb79811585d0f.jpg
-sponsors/silver/high_tech_hwy_lg.jpg: sponsors/silver/high_tech_hwy_lg-1aafd955d73f5b7aafce5df90da44832.jpg
-sponsors/silver/high_tech_hwy_lg/index.jpg: sponsors/silver/high_tech_hwy_lg-1aafd955d73f5b7aafce5df90da44832.jpg
-sponsors/silver/impact_sys_lg.jpg: sponsors/silver/impact_sys_lg-835ca10b03d7300e5b4b46ae27ab25ef.jpg
-sponsors/silver/impact_sys_lg/index.jpg: sponsors/silver/impact_sys_lg-835ca10b03d7300e5b4b46ae27ab25ef.jpg
-sponsors/silver/joe_tarfuro_lg.jpg: sponsors/silver/joe_tarfuro_lg-62e696d16a88a2d1fdbfb88a73861a50.jpg
-sponsors/silver/joe_tarfuro_lg/index.jpg: sponsors/silver/joe_tarfuro_lg-62e696d16a88a2d1fdbfb88a73861a50.jpg
-sponsors/silver/royal_rangers_lg.jpg: sponsors/silver/royal_rangers_lg-e190eb1b45789611e8a275925062e5e7.jpg
-sponsors/silver/royal_rangers_lg/index.jpg: sponsors/silver/royal_rangers_lg-e190eb1b45789611e8a275925062e5e7.jpg
-sponsors/silver/tristar_lg.jpg: sponsors/silver/tristar_lg-3ba273cb1b42bc5cb13ef567c8f69bac.jpg
-sponsors/silver/tristar_lg/index.jpg: sponsors/silver/tristar_lg-3ba273cb1b42bc5cb13ef567c8f69bac.jpg
-sponsors/tully_lg.jpg: sponsors/tully_lg-4f0d475ade6ee78b8e2223fb838cecee.jpg
-sponsors/tully_lg/index.jpg: sponsors/tully_lg-4f0d475ade6ee78b8e2223fb838cecee.jpg
-sponsors/tully_sm.jpg: sponsors/tully_sm-6052759db7778ee4fcb66407d35416db.jpg
-sponsors/tully_sm/index.jpg: sponsors/tully_sm-6052759db7778ee4fcb66407d35416db.jpg
+sponsors/gold/academy_mortgage_lg.jpg: sponsors/gold/academy_mortgage_lg-864aac1295a716109c6e1d84b8db1d65.jpg
+sponsors/gold/academy_mortgage_lg/index.jpg: sponsors/gold/academy_mortgage_lg-864aac1295a716109c6e1d84b8db1d65.jpg
+sponsors/gold/academy_mortgage_sm.jpg: sponsors/gold/academy_mortgage_sm-f6091fc2d8ed1700d2a0bd4480ad2516.jpg
+sponsors/gold/academy_mortgage_sm/index.jpg: sponsors/gold/academy_mortgage_sm-f6091fc2d8ed1700d2a0bd4480ad2516.jpg
+sponsors/gold/breen_electric_lg.jpg: sponsors/gold/breen_electric_lg-1d17218c233872bca08d814d3df67d24.jpg
+sponsors/gold/breen_electric_lg/index.jpg: sponsors/gold/breen_electric_lg-1d17218c233872bca08d814d3df67d24.jpg
+sponsors/gold/breen_electric_sm.jpg: sponsors/gold/breen_electric_sm-84c9b2293069091f12e7f379f4324066.jpg
+sponsors/gold/breen_electric_sm/index.jpg: sponsors/gold/breen_electric_sm-84c9b2293069091f12e7f379f4324066.jpg
+sponsors/gold/buttafuoco_lg.jpg: sponsors/gold/buttafuoco_lg-165b7fb05d533e4d0c6e9b05e0cb7247.jpg
+sponsors/gold/buttafuoco_lg/index.jpg: sponsors/gold/buttafuoco_lg-165b7fb05d533e4d0c6e9b05e0cb7247.jpg
+sponsors/gold/buttafuoco_sm.jpg: sponsors/gold/buttafuoco_sm-2359867587b8b0433e0786104fe02113.jpg
+sponsors/gold/buttafuoco_sm/index.jpg: sponsors/gold/buttafuoco_sm-2359867587b8b0433e0786104fe02113.jpg
+sponsors/gold/ccc_lg.jpg: sponsors/gold/ccc_lg-2ed6c414e17f2651fcaf324c5ad39c23.jpg
+sponsors/gold/ccc_lg/index.jpg: sponsors/gold/ccc_lg-2ed6c414e17f2651fcaf324c5ad39c23.jpg
+sponsors/gold/ccc_sm.jpg: sponsors/gold/ccc_sm-c313b8a73023f1ae0466006f7c291eea.jpg
+sponsors/gold/ccc_sm/index.jpg: sponsors/gold/ccc_sm-c313b8a73023f1ae0466006f7c291eea.jpg
+sponsors/gold/eddy_farm_lg.jpg: sponsors/gold/eddy_farm_lg-7c886647c6f9a7629fcecabbdf66dcb4.jpg
+sponsors/gold/eddy_farm_lg/index.jpg: sponsors/gold/eddy_farm_lg-7c886647c6f9a7629fcecabbdf66dcb4.jpg
+sponsors/gold/eddy_farm_sm.jpg: sponsors/gold/eddy_farm_sm-c47314062f1059fd98e52cc6c0b4798d.jpg
+sponsors/gold/eddy_farm_sm/index.jpg: sponsors/gold/eddy_farm_sm-c47314062f1059fd98e52cc6c0b4798d.jpg
+sponsors/gold/gfa_lg.jpg: sponsors/gold/gfa_lg-c26369d70fa6b5669043c7f7c88b8c1d.jpg
+sponsors/gold/gfa_lg/index.jpg: sponsors/gold/gfa_lg-c26369d70fa6b5669043c7f7c88b8c1d.jpg
+sponsors/gold/gfa_sm.jpg: sponsors/gold/gfa_sm-27dc1e1dc19e1c90d18e2f7393d7a2d3.jpg
+sponsors/gold/gfa_sm/index.jpg: sponsors/gold/gfa_sm-27dc1e1dc19e1c90d18e2f7393d7a2d3.jpg
+sponsors/gold/impact_systems_lg.jpg: sponsors/gold/impact_systems_lg-0aa1c9fd5a35f0f3c1b93463825ae3e4.jpg
+sponsors/gold/impact_systems_lg/index.jpg: sponsors/gold/impact_systems_lg-0aa1c9fd5a35f0f3c1b93463825ae3e4.jpg
+sponsors/gold/impact_systems_sm.jpg: sponsors/gold/impact_systems_sm-90d7d4e23f004092c3fa039c82b968a9.jpg
+sponsors/gold/impact_systems_sm/index.jpg: sponsors/gold/impact_systems_sm-90d7d4e23f004092c3fa039c82b968a9.jpg
+sponsors/gold/kamel_family_lg.jpg: sponsors/gold/kamel_family_lg-e26693bb118c836da9d02dfeebd9d62b.jpg
+sponsors/gold/kamel_family_lg/index.jpg: sponsors/gold/kamel_family_lg-e26693bb118c836da9d02dfeebd9d62b.jpg
+sponsors/gold/kamel_family_sm.jpg: sponsors/gold/kamel_family_sm-b2f13ec58760db0673587f3d32785850.jpg
+sponsors/gold/kamel_family_sm/index.jpg: sponsors/gold/kamel_family_sm-b2f13ec58760db0673587f3d32785850.jpg
+sponsors/gold/klove_lg.jpg: sponsors/gold/klove_lg-aa320349ded322131db2c9c0ff7bd633.jpg
+sponsors/gold/klove_lg/index.jpg: sponsors/gold/klove_lg-aa320349ded322131db2c9c0ff7bd633.jpg
+sponsors/gold/klove_sm.jpg: sponsors/gold/klove_sm-7e77bf2c23dfdc6cf5327b160180d0d4.jpg
+sponsors/gold/klove_sm/index.jpg: sponsors/gold/klove_sm-7e77bf2c23dfdc6cf5327b160180d0d4.jpg
+sponsors/gold/lighthouse_lg.jpg: sponsors/gold/lighthouse_lg-0f630e5b8642317161c600a816407c63.jpg
+sponsors/gold/lighthouse_lg/index.jpg: sponsors/gold/lighthouse_lg-0f630e5b8642317161c600a816407c63.jpg
+sponsors/gold/lighthouse_sm.jpg: sponsors/gold/lighthouse_sm-0b738294195952b0166e552af932757c.jpg
+sponsors/gold/lighthouse_sm/index.jpg: sponsors/gold/lighthouse_sm-0b738294195952b0166e552af932757c.jpg
+sponsors/gold/popkin_electric_lg.jpg: sponsors/gold/popkin_electric_lg-248082f6c3edb13a94e05d87d96a6444.jpg
+sponsors/gold/popkin_electric_lg/index.jpg: sponsors/gold/popkin_electric_lg-248082f6c3edb13a94e05d87d96a6444.jpg
+sponsors/gold/popkin_electric_sm.jpg: sponsors/gold/popkin_electric_sm-21a31fa94ca067773f373339b7fe9d8a.jpg
+sponsors/gold/popkin_electric_sm/index.jpg: sponsors/gold/popkin_electric_sm-21a31fa94ca067773f373339b7fe9d8a.jpg
+sponsors/old logos/Eddy Farm Logo.jpg: sponsors/old logos/Eddy Farm Logo-78dd5d5d23214f3c8c3b0d5052f36598.jpg
+sponsors/old logos/Eddy Farm Logo/index.jpg: sponsors/old logos/Eddy Farm Logo-78dd5d5d23214f3c8c3b0d5052f36598.jpg
+sponsors/old logos/api_lg.jpg: sponsors/old logos/api_lg-5f2540baef9d5fdced84df408328b3d7.jpg
+sponsors/old logos/api_lg/index.jpg: sponsors/old logos/api_lg-5f2540baef9d5fdced84df408328b3d7.jpg
+sponsors/old logos/api_sm.jpg: sponsors/old logos/api_sm-a4811e2771ba353cac493696cd6d8f90.jpg
+sponsors/old logos/api_sm/index.jpg: sponsors/old logos/api_sm-a4811e2771ba353cac493696cd6d8f90.jpg
+sponsors/old logos/bethlehem.jpg: sponsors/old logos/bethlehem-974259dbcb3eefd273930b6dc9b99eb0.jpg
+sponsors/old logos/bethlehem/index.jpg: sponsors/old logos/bethlehem-974259dbcb3eefd273930b6dc9b99eb0.jpg
+sponsors/old logos/bethlehem_lg.jpg: sponsors/old logos/bethlehem_lg-0518b8b4dc6c16f2e28a3bad8b21685f.jpg
+sponsors/old logos/bethlehem_lg/index.jpg: sponsors/old logos/bethlehem_lg-0518b8b4dc6c16f2e28a3bad8b21685f.jpg
+sponsors/old logos/bethlehem_sm.jpg: sponsors/old logos/bethlehem_sm-4376417cc8a7535a16f58d48f54e925e.jpg
+sponsors/old logos/bethlehem_sm/index.jpg: sponsors/old logos/bethlehem_sm-4376417cc8a7535a16f58d48f54e925e.jpg
+sponsors/old logos/bodybuilder_lg.jpg: sponsors/old logos/bodybuilder_lg-046c32f5f46c581c918c8256f50d3595.jpg
+sponsors/old logos/bodybuilder_lg/index.jpg: sponsors/old logos/bodybuilder_lg-046c32f5f46c581c918c8256f50d3595.jpg
+sponsors/old logos/bodybuilder_sm.jpg: sponsors/old logos/bodybuilder_sm-2b7db55ff1bed3b6117c5f14b4c6c5d4.jpg
+sponsors/old logos/bodybuilder_sm/index.jpg: sponsors/old logos/bodybuilder_sm-2b7db55ff1bed3b6117c5f14b4c6c5d4.jpg
+sponsors/old logos/boldsecure_lg.jpg: sponsors/old logos/boldsecure_lg-50241bec81838a65af6493c9d1b2589b.jpg
+sponsors/old logos/boldsecure_lg/index.jpg: sponsors/old logos/boldsecure_lg-50241bec81838a65af6493c9d1b2589b.jpg
+sponsors/old logos/boldsecure_sm.jpg: sponsors/old logos/boldsecure_sm-780f0f5f0dd0ca6b56ab04ea89e42e65.jpg
+sponsors/old logos/boldsecure_sm/index.jpg: sponsors/old logos/boldsecure_sm-780f0f5f0dd0ca6b56ab04ea89e42e65.jpg
+sponsors/old logos/bonnke_lg.jpg: sponsors/old logos/bonnke_lg-6581ce881d9350164638416985e932e6.jpg
+sponsors/old logos/bonnke_lg/index.jpg: sponsors/old logos/bonnke_lg-6581ce881d9350164638416985e932e6.jpg
+sponsors/old logos/bonnke_sm.jpg: sponsors/old logos/bonnke_sm-05a396a562651d2172ee782f6f317f6e.jpg
+sponsors/old logos/bonnke_sm/index.jpg: sponsors/old logos/bonnke_sm-05a396a562651d2172ee782f6f317f6e.jpg
+sponsors/old logos/breen_lg.jpg: sponsors/old logos/breen_lg-f20e472f96fc5a9768c417ba2a7a1524.jpg
+sponsors/old logos/breen_lg/index.jpg: sponsors/old logos/breen_lg-f20e472f96fc5a9768c417ba2a7a1524.jpg
+sponsors/old logos/breen_sm.jpg: sponsors/old logos/breen_sm-85ab1fe707cf3ef33372bf035f7bcbef.jpg
+sponsors/old logos/breen_sm/index.jpg: sponsors/old logos/breen_sm-85ab1fe707cf3ef33372bf035f7bcbef.jpg
+sponsors/old logos/buttafuoco_lg.jpg: sponsors/old logos/buttafuoco_lg-6225863675a960b52ce8e25c11c40613.jpg
+sponsors/old logos/buttafuoco_lg/index.jpg: sponsors/old logos/buttafuoco_lg-6225863675a960b52ce8e25c11c40613.jpg
+sponsors/old logos/buttafuoco_sm.jpg: sponsors/old logos/buttafuoco_sm-29ae8c169650c126726957d09f29fc28.jpg
+sponsors/old logos/buttafuoco_sm/index.jpg: sponsors/old logos/buttafuoco_sm-29ae8c169650c126726957d09f29fc28.jpg
+sponsors/old logos/ccc_lg.jpg: sponsors/old logos/ccc_lg-70be8d75934d8e94d1d99594058d441b.jpg
+sponsors/old logos/ccc_lg/index.jpg: sponsors/old logos/ccc_lg-70be8d75934d8e94d1d99594058d441b.jpg
+sponsors/old logos/ccc_sm.jpg: sponsors/old logos/ccc_sm-658c796bb531d0f2bbe020fa71babb5d.jpg
+sponsors/old logos/ccc_sm/index.jpg: sponsors/old logos/ccc_sm-658c796bb531d0f2bbe020fa71babb5d.jpg
+sponsors/old logos/convoy_of_hope_lg.jpg: sponsors/old logos/convoy_of_hope_lg-2377b107f6b547e09a3848a13cea69d6.jpg
+sponsors/old logos/convoy_of_hope_lg/index.jpg: sponsors/old logos/convoy_of_hope_lg-2377b107f6b547e09a3848a13cea69d6.jpg
+sponsors/old logos/convoy_of_hope_sm.jpg: sponsors/old logos/convoy_of_hope_sm-1cfcf9abd80e934ddb94e59d9d0660cb.jpg
+sponsors/old logos/convoy_of_hope_sm/index.jpg: sponsors/old logos/convoy_of_hope_sm-1cfcf9abd80e934ddb94e59d9d0660cb.jpg
+sponsors/old logos/eddy_farm_lg.jpg: sponsors/old logos/eddy_farm_lg-d44bad5501428acaa72d2bcaa59df523.jpg
+sponsors/old logos/eddy_farm_lg/index.jpg: sponsors/old logos/eddy_farm_lg-d44bad5501428acaa72d2bcaa59df523.jpg
+sponsors/old logos/eddy_farm_sm.jpg: sponsors/old logos/eddy_farm_sm-d44bad5501428acaa72d2bcaa59df523.jpg
+sponsors/old logos/eddy_farm_sm/index.jpg: sponsors/old logos/eddy_farm_sm-d44bad5501428acaa72d2bcaa59df523.jpg
+sponsors/old logos/emmanuel_lutheran_lg.jpg: sponsors/old logos/emmanuel_lutheran_lg-99f8afe33d1fa149f5cdb79811585d0f.jpg
+sponsors/old logos/emmanuel_lutheran_lg/index.jpg: sponsors/old logos/emmanuel_lutheran_lg-99f8afe33d1fa149f5cdb79811585d0f.jpg
+sponsors/old logos/frangeli_lg.jpg: sponsors/old logos/frangeli_lg-8393cdb5150760352208587c0830e253.jpg
+sponsors/old logos/frangeli_lg/index.jpg: sponsors/old logos/frangeli_lg-8393cdb5150760352208587c0830e253.jpg
+sponsors/old logos/frangeli_sm.jpg: sponsors/old logos/frangeli_sm-4762fae5eff4fb21ad1997069542095e.jpg
+sponsors/old logos/frangeli_sm/index.jpg: sponsors/old logos/frangeli_sm-4762fae5eff4fb21ad1997069542095e.jpg
+sponsors/old logos/gfa_sm.jpg: sponsors/old logos/gfa_sm-654f34df92df567296495915be537120.jpg
+sponsors/old logos/gfa_sm/index.jpg: sponsors/old logos/gfa_sm-654f34df92df567296495915be537120.jpg
+sponsors/old logos/high_tech_hwy_lg.jpg: sponsors/old logos/high_tech_hwy_lg-1aafd955d73f5b7aafce5df90da44832.jpg
+sponsors/old logos/high_tech_hwy_lg/index.jpg: sponsors/old logos/high_tech_hwy_lg-1aafd955d73f5b7aafce5df90da44832.jpg
+sponsors/old logos/hope_radio_lg.jpg: sponsors/old logos/hope_radio_lg-c20bb24851538176566fc9e096e44319.jpg
+sponsors/old logos/hope_radio_lg/index.jpg: sponsors/old logos/hope_radio_lg-c20bb24851538176566fc9e096e44319.jpg
+sponsors/old logos/hope_radio_sm.jpg: sponsors/old logos/hope_radio_sm-3aa3d6ba77f112c8ce46c772ed72465b.jpg
+sponsors/old logos/hope_radio_sm/index.jpg: sponsors/old logos/hope_radio_sm-3aa3d6ba77f112c8ce46c772ed72465b.jpg
+sponsors/old logos/impact_sys_lg.jpg: sponsors/old logos/impact_sys_lg-835ca10b03d7300e5b4b46ae27ab25ef.jpg
+sponsors/old logos/impact_sys_lg/index.jpg: sponsors/old logos/impact_sys_lg-835ca10b03d7300e5b4b46ae27ab25ef.jpg
+sponsors/old logos/joe_tarfuro_lg.jpg: sponsors/old logos/joe_tarfuro_lg-62e696d16a88a2d1fdbfb88a73861a50.jpg
+sponsors/old logos/joe_tarfuro_lg/index.jpg: sponsors/old logos/joe_tarfuro_lg-62e696d16a88a2d1fdbfb88a73861a50.jpg
+sponsors/old logos/kamel_family_sm.jpg: sponsors/old logos/kamel_family_sm-6950f2a48775e74989e3cde4429aa77c.jpg
+sponsors/old logos/kamel_family_sm/index.jpg: sponsors/old logos/kamel_family_sm-6950f2a48775e74989e3cde4429aa77c.jpg
+sponsors/old logos/logos_lg.jpg: sponsors/old logos/logos_lg-823b7fd9abfdfa7489104a7abe4fa795.jpg
+sponsors/old logos/logos_lg/index.jpg: sponsors/old logos/logos_lg-823b7fd9abfdfa7489104a7abe4fa795.jpg
+sponsors/old logos/logos_sm.jpg: sponsors/old logos/logos_sm-b7c8973a6fcf4df7881bdb0d9b36b4ec.jpg
+sponsors/old logos/logos_sm/index.jpg: sponsors/old logos/logos_sm-b7c8973a6fcf4df7881bdb0d9b36b4ec.jpg
+sponsors/old logos/partners_ww_lg.jpg: sponsors/old logos/partners_ww_lg-598028feacfb97714106fabe1a748468.jpg
+sponsors/old logos/partners_ww_lg/index.jpg: sponsors/old logos/partners_ww_lg-598028feacfb97714106fabe1a748468.jpg
+sponsors/old logos/partners_ww_sm.jpg: sponsors/old logos/partners_ww_sm-500ce72fe969f154010a95f766e68389.jpg
+sponsors/old logos/partners_ww_sm/index.jpg: sponsors/old logos/partners_ww_sm-500ce72fe969f154010a95f766e68389.jpg
+sponsors/old logos/print2print_lg.jpg: sponsors/old logos/print2print_lg-a45b979ee0666e022fb858aaaaa27f46.jpg
+sponsors/old logos/print2print_lg/index.jpg: sponsors/old logos/print2print_lg-a45b979ee0666e022fb858aaaaa27f46.jpg
+sponsors/old logos/print2print_sm.jpg: sponsors/old logos/print2print_sm-9e5250694145f54fa9a698158b12dbdf.jpg
+sponsors/old logos/print2print_sm/index.jpg: sponsors/old logos/print2print_sm-9e5250694145f54fa9a698158b12dbdf.jpg
+sponsors/old logos/royal_rangers_lg.jpg: sponsors/old logos/royal_rangers_lg-e190eb1b45789611e8a275925062e5e7.jpg
+sponsors/old logos/royal_rangers_lg/index.jpg: sponsors/old logos/royal_rangers_lg-e190eb1b45789611e8a275925062e5e7.jpg
+sponsors/old logos/tristar_lg.jpg: sponsors/old logos/tristar_lg-3ba273cb1b42bc5cb13ef567c8f69bac.jpg
+sponsors/old logos/tristar_lg/index.jpg: sponsors/old logos/tristar_lg-3ba273cb1b42bc5cb13ef567c8f69bac.jpg
+sponsors/old logos/tully_lg.jpg: sponsors/old logos/tully_lg-4f0d475ade6ee78b8e2223fb838cecee.jpg
+sponsors/old logos/tully_lg/index.jpg: sponsors/old logos/tully_lg-4f0d475ade6ee78b8e2223fb838cecee.jpg
+sponsors/old logos/tully_sm.jpg: sponsors/old logos/tully_sm-6052759db7778ee4fcb66407d35416db.jpg
+sponsors/old logos/tully_sm/index.jpg: sponsors/old logos/tully_sm-6052759db7778ee4fcb66407d35416db.jpg
+sponsors/silver/aog_lg.jpg: sponsors/silver/aog_lg-24bca108f3a3b526364bb14e2b423996.jpg
+sponsors/silver/aog_lg/index.jpg: sponsors/silver/aog_lg-24bca108f3a3b526364bb14e2b423996.jpg
+sponsors/silver/avgroup_lg.jpg: sponsors/silver/avgroup_lg-23973d949cbf673af282cb32c111680a.jpg
+sponsors/silver/avgroup_lg/index.jpg: sponsors/silver/avgroup_lg-23973d949cbf673af282cb32c111680a.jpg
+sponsors/silver/boldsecure_lg.jpg: sponsors/silver/boldsecure_lg-50241bec81838a65af6493c9d1b2589b.jpg
+sponsors/silver/boldsecure_lg/index.jpg: sponsors/silver/boldsecure_lg-50241bec81838a65af6493c9d1b2589b.jpg
+sponsors/silver/bsi_lg.jpg: sponsors/silver/bsi_lg-7faf509e9e873c1b2ec484c3e45d153e.jpg
+sponsors/silver/bsi_lg/index.jpg: sponsors/silver/bsi_lg-7faf509e9e873c1b2ec484c3e45d153e.jpg
+sponsors/silver/church_nazarene_lg.jpg: sponsors/silver/church_nazarene_lg-a218b45d87db0ed34e3fb83ad921cf82.jpg
+sponsors/silver/church_nazarene_lg/index.jpg: sponsors/silver/church_nazarene_lg-a218b45d87db0ed34e3fb83ad921cf82.jpg
+sponsors/silver/church_of_god_lg.jpg: sponsors/silver/church_of_god_lg-c1471f0820daa3cb536fb1e84d5f6a0b.jpg
+sponsors/silver/church_of_god_lg/index.jpg: sponsors/silver/church_of_god_lg-c1471f0820daa3cb536fb1e84d5f6a0b.jpg
+sponsors/silver/convoy_of_hope_lg.jpg: sponsors/silver/convoy_of_hope_lg-d9ebe6498de15bc805d06e970976478f.jpg
+sponsors/silver/convoy_of_hope_lg/index.jpg: sponsors/silver/convoy_of_hope_lg-d9ebe6498de15bc805d06e970976478f.jpg
+sponsors/silver/dr_sirlin_lg.jpg: sponsors/silver/dr_sirlin_lg-b9b0afdbb3bfc340eddf3a2d34c4d3e2.jpg
+sponsors/silver/dr_sirlin_lg/index.jpg: sponsors/silver/dr_sirlin_lg-b9b0afdbb3bfc340eddf3a2d34c4d3e2.jpg
+sponsors/silver/jobs_lg.jpg: sponsors/silver/jobs_lg-eab0da7fc441835be7a4479d0e428bce.jpg
+sponsors/silver/jobs_lg/index.jpg: sponsors/silver/jobs_lg-eab0da7fc441835be7a4479d0e428bce.jpg
+sponsors/silver/joe_tafuro_lg.jpg: sponsors/silver/joe_tafuro_lg-2adb82365203a9497b88fa71ad0d28dd.jpg
+sponsors/silver/joe_tafuro_lg/index.jpg: sponsors/silver/joe_tafuro_lg-2adb82365203a9497b88fa71ad0d28dd.jpg
+sponsors/silver/kingorourke_lg.jpg: sponsors/silver/kingorourke_lg-4ade58daa819d1200581453e2199fd33.jpg
+sponsors/silver/kingorourke_lg/index.jpg: sponsors/silver/kingorourke_lg-4ade58daa819d1200581453e2199fd33.jpg
+sponsors/silver/neighborhood_ag_lg.jpg: sponsors/silver/neighborhood_ag_lg-41ce4b84144af541372da13981f293cf.jpg
+sponsors/silver/neighborhood_ag_lg/index.jpg: sponsors/silver/neighborhood_ag_lg-41ce4b84144af541372da13981f293cf.jpg
+sponsors/silver/renaissance_lg.jpg: sponsors/silver/renaissance_lg-2610a4e4ecb74f0f1c5f74761e44a904.jpg
+sponsors/silver/renaissance_lg/index.jpg: sponsors/silver/renaissance_lg-2610a4e4ecb74f0f1c5f74761e44a904.jpg
+sponsors/silver/tully_lg.jpg: sponsors/silver/tully_lg-b75098657c035b8ab39af29ef62a1482.jpg
+sponsors/silver/tully_lg/index.jpg: sponsors/silver/tully_lg-b75098657c035b8ab39af29ef62a1482.jpg
 system/system_top_image.jpg: system/system_top_image-87f2706365512c20f97c70f3b3408b7b.jpg
 system/system_top_image/index.jpg: system/system_top_image-87f2706365512c20f97c70f3b3408b7b.jpg
 top_nav.jpg: top_nav-67cce5b218e380a164e1344d819537c5.jpg
@@ -1790,8 +1884,8 @@ jquery.roundabout.bak: jquery.roundabout-bfd19f16c55bf25cc1a210bf167d4f8f.bak
 jquery/index.roundabout.bak: jquery.roundabout-bfd19f16c55bf25cc1a210bf167d4f8f.bak
 pickle.swf: pickle-c6ffa406ec51ba1a894227109b501ec6.swf
 pickle/index.swf: pickle-c6ffa406ec51ba1a894227109b501ec6.swf
-application.css: application-85a35257fb457d1df6c41102cfb40eb4.css
-application/index.css: application-85a35257fb457d1df6c41102cfb40eb4.css
+application.css: application-e3768fed658a14e7de9dbc904d9f4d51.css
+application/index.css: application-e3768fed658a14e7de9dbc904d9f4d51.css
 pickle/_PREVIEW.html: pickle/_PREVIEW-1b9d4c902a11c253667471ae35b84a03.html
 pickle/_PREVIEW/index.html: pickle/_PREVIEW-1b9d4c902a11c253667471ae35b84a03.html
 pickle/_project.xml: pickle/_project-2eb84d575ef5176c6e1290fd5c10c1f6.xml
