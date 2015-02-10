@@ -4,10 +4,15 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
   </head>
   <body>
-    <h2>Thank you for requesting an MDN Coach!</h2>
-    <p><%= @request.first_name %>, a key part of Mens Discipleship Network's Four Phase system of discipleship is assisting pastors and men's leaders at the local church. Depending upon availability, MDN can supply a certified Coach to train your men's leader to minister to your men.<br/></p>
-    <p>Please give us 48 hours to contact you to explore how we can work together to "transform families one man at a time". You provided the following contact info: <br />
+    <h2>We have received your request for an MDN Discipleship Boot Camp promotional pack!</h2>
+    <p>Thank you, <%= @request.first_name %>. Your request for an MDN Discipleship Boot Camp promotional pack has been received. We will send it out right away so you can begin to tell your men about this exciting and life changing event.<p></br>
+  
+    <p>Here is a summary of the contact information you provided.</p><br />
      <%= @request.first_name %> <%= @request.last_name %><br />
+     <%= @request.church %><br />
+     <%= @request.address1 %><br />
+     <%= @request.address2 %><br />
+     <%= @request.city %><%= @request.state %><%= @request.zip %><br />
      <%= @request.email %><br />
      <%= @request.phone %><br />
     </p>
