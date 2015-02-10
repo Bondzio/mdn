@@ -12,15 +12,15 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :first_name %><br />
+    <%= f.label :first_Name %><br />
     <%= f.text_field :first_name %>
   </div>
   <div class="field">
-    <%= f.label :last_name %><br />
+    <%= f.label :last_Name %><br />
     <%= f.text_field :last_name %>
   </div>
   <div class="field">
-    <%= f.label :email_address %><br />
+    <%= f.label :email_Address %><br />
     <%= f.text_field :email %>
   </div>
   <div class="field">
@@ -28,7 +28,7 @@
     <%= f.text_field :phone %>
   </div>
   <div class="field">
-    <%= f.label :church %><br />
+    <%= f.label :church_Name %><br />
     <%= f.text_field :church %>
   </div>
   <div class="field">
@@ -51,11 +51,12 @@
     <%= f.label :zip %><br />
     <%= f.text_field :zip %>
   </div>
-<br/>
-  <p>Please briefly describe how you would like an MDN Coach to participate at your church.</p>
-  <div class="field" id="request_detail">
-    <%= f.text_area :request %>
+  <div class="field" >
+    <%= f.label :number_of_regular_church_attenders %><br />
+    <%= f.text_field :size %>
   </div>
+<br/>
+
   <div class="actions">
     <%= f.submit %>
   </div>
