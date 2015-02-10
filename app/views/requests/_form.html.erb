@@ -44,8 +44,8 @@
     <%= f.text_field :city %>
   </div>
   <div class="field">
-    <%= f.label :state %><br />
-    <%= select_tag :state, options_for_select(us_states) %>
+    <%= f.label :state %>
+    <%= f.select :state, options_for_select(us_states) %>
   </div>
   <div class="field" id="state">
     <%= f.label :zip %><br />
