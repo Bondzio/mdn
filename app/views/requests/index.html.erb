@@ -5,10 +5,12 @@
     <th>First name</th>
     <th>Last name</th>
     <th>Church</th>
+    <th>Men's Leader?</th>
     <th>City</th>
     <th>State</th>
     <th>Church Size</th>
     <th>Date Received</th>
+    <th>Request Fulfilled</th>
     <th></th>
     <th></th>
     <th></th>
@@ -19,10 +21,12 @@
     <td><%= request.first_name %></td>
     <td><%= request.last_name %></td>
     <td><%= request.church %></td>
+    <td><%= request.leader %></td>    
     <td><%= request.city %></td>
     <td><%= request.state %></td>
     <td><%= request.size %></td>
     <td><%= request.created_at %></td>
+    <td><%= request.completed? %></td>
     <td><%= link_to 'Show', request %></td>
     <td><%= link_to 'Edit', edit_request_path(request) %></td>
     <td><%= link_to 'Destroy', request, :confirm => 'Are you sure?', :method => :delete %></td>

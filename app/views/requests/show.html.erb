@@ -57,11 +57,12 @@
   <%= @request.size %>
 </p>
 
-<p>
-  <b>Request:</b>
-  <%= @request.request %>
-</p>
 </br>
 <p>
-<%= link_to 'Home', root_path %>
+<%= link_to 'Home', root_path %> 
 </p>
+<% if user_signed_in? %>
+  <p>
+    <%= link_to 'List of Requests', requests_path %>
+  </p>
+<% end %>
