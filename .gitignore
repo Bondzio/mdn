@@ -1,5 +1,6 @@
 .sass-cache/
 public/uploads
+.ruby-version
 vendor/bundle/*
 database.yml
 .bundle
