@@ -22,9 +22,9 @@ class PagesController < ApplicationController
   def curriculum
   end
 
-  def bootcamp
+  def breakouts
   end
-  
+
   def news
   end
 

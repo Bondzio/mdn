@@ -1,0 +1,80 @@
+<div id="top-image">
+</br>
+	<div class="center"><%=image_tag("bootcamp/dbc_2015.jpg", :alt => "Discipleship Boot Camp will be held at the Christian Cultural Center in Brooklyn NY on May 30, 2015. Call 631-753-1244 for more details.") %>
+	</div>
+</div>
+<div class="interior_content clearfix">
+	
+	<div id="dbc">
+	<h1>Register for Discipleship Boot Camp<sup>&#174;</sup></h1></br>
+	<h2>Step 1</h2>
+	<p>Purchase a ticket to the event. If you have not done this yet, please stop and <a href="/pages/bootcamp" class="spaceless_a"><strong>purchase your ticket now.</strong></a></p>
+
+	<h2>Step 2</h2>
+	<p>If you have <a href="/pages/bootcamp" class="spaceless_a">purchased a ticket</a> to the May 30th Discipleship Boot Camp, your <strong>next step is to register</strong> for one of the limited seating breakout sessions. We have great line up of speakers to lead these engaging and interactive sessions. All the sessions will be running at the concurrently, during a single period in the agenda, so you will only be able to attend one breakout session. Please <strong>only register for one session</strong> by clicking the button next to the session of your choice.</p>
+	</br>
+<div class="white_data">
+	<table>
+		<col width="200">
+		<col width="75">
+		<col width="350">
+		<col width="40">
+	  <thead>
+	    <tr>
+	      <th>Title</th>
+	      <th>Speaker</th>
+	      <th>Description</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+		  <tr>
+		    <td><strong>Singled out for Success (Young Men)</strong></td>
+		    <td><a id="" href="#durso" class="spaceless_a inline">Pastor Adam Durso</a></td>
+		    <td class="left_align">Growing in mature manhood for a young man is one of the hardest tasks in today's culture.
+	Pastor Adam and you will walk through relatable struggles as well as practical answers that you can apply Tuesday at 2pm when life seems not to agree with Sunday morning's truth. The culture’s assault on young men resulting in entitlement, passivity and confused sexual identity will be engaged with the power and grace of the Gospel of Christ just for young men. (Recommended: young men, single men)</td>
+		    <td><button onclick="window.location='http://eventbrite.com';">Register</button></td>
+		  </tr>
+          <!-- Fancybox for Durso -->
+          <div style="display:none" class="speaker_block">
+          	<div id="durso" class="speaker_bio">
+          		<h2>Pastor Adam Durso</h2>
+          		<p><%= image_tag("speakers/durso.jpg", :alt => 'Pastor Adam Durso')%> <p>Adam Durso is the Executive Pastor of Christ Tabernacle church, based in Glendale, Queens, NY,  After living a reckless life at college, separated from church and his family, he found himself spiritually lost and financially broken.  In 1996, God called Adam to begin a youth ministry at the church and Youth Explosion was born. Since then, the ministry has welcomed 500 young people every Friday night at their service. Youth Explosion has been featured on the 700 Club, BET Nightly News, CBS News, the NY Times, VIBE Magazine and more. Adam’s vision now has a global scope as shown by his newest venture, Faith Breathes LLC, which partners with churches worldwide that are focused on training, strengthening, and empowering youth pastors. Faith Breathes is an extension to Adam’s mission to encourage people everywhere to put their faith in God and in His Son Jesus Christ.</p>
+            </div>
+          </div>
+
+		  <tr>
+		    <td><strong>Sexual Integrity: Seriously?</strong></td>
+		    <td><a id="" href="#lloyd" class="spaceless_a inline">Pastor Bobby Lloyd</a></td>
+		    <td class="left_align">A sexual revolution has taken place both within and outside the church today.
+As men everywhere are bombarded with not only temptation to think and act outside of the moral box,
+but we are tempted to think its the new normal. Most men struggle with thoughts that are contrary
+to God’s truth. Sexual thoughts tend to hold men captive. It is a plague. Whats a man to do? Pastor Lloyd will address the tough questions men ask as well as the biblical answers that set men free.</td>
+            <td><button onclick="window.location='http://eventbrite.com';">Register</button></td>
+		  </tr>
+		  <tr>
+		    <td>Title</td>
+		    <td>Speaker</td>
+		    <td>Description</td>
+		  </tr>
+          <!-- Fancybox for Lloyd -->
+          <div style="display:none" class="speaker_block">
+          	<div id="lloyd" class="speaker_bio">
+          		<h2>Pastor Bobby Lloyd</h2>
+          		<p><%= image_tag("speakers/lloyd.jpg", :alt => 'Pastor Bobby Lloyd')%> <p>Pastor Robert (Bobby) Lloyd's humor and relaxed style coupled with his vast experience enables him to challenge the lies men believe then live. He is one of New York’s foremost speakers in challenging men to walk in integrity and stop falling prey to the lusts and promises of this world that never deliver. Many leave Pastor Lloyd’s seminars set free from shame, guilt and plain old stinking thinking.</p>
+            </div>
+          </div>
+
+	  </tbody>
+	</table>
+</div>
+
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		
+		$("a.inline").fancybox({
+			'hideOnContentClick': true
+		});
+		
+	});
+</script>
