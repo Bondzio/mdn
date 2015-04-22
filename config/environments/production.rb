@@ -53,10 +53,10 @@ DBC::Application.configure do
   config.action_mailer.delivery_method = :smtp
   #  config.action_mailer.raise_delivery_errors = true
   config.action_mailer.smtp_settings = {
-    :address              => "smtp.mensdiscipleshipnetwork.com",
+    :address              => "discipleshipbootc2.yourwebhosting.com",
     :domain               => 'mensdiscipleshipnetwork.com',
     :user_name            => 'info@mensdiscipleshipnetwork.com',
-    :password             => 'john1010',
+    :password             => 'John1010',
     :port                 => 587,
     :authentication       => 'login',
   #    :openssl_verify_mode => 'none',
