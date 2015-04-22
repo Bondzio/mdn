@@ -1,6 +1,7 @@
 module RequestsHelper
 	def us_states
     [
+      ['New York', 'NY'],
       ['Alabama', 'AL'],
       ['Alaska', 'AK'],
       ['Arizona', 'AZ'],
@@ -33,7 +34,6 @@ module RequestsHelper
       ['New Hampshire', 'NH'],
       ['New Jersey', 'NJ'],
       ['New Mexico', 'NM'],
-      ['New York', 'NY'],
       ['North Carolina', 'NC'],
       ['North Dakota', 'ND'],
       ['Ohio', 'OH'],

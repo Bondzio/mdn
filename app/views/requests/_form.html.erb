@@ -32,19 +32,15 @@
     <%= f.text_field :cellphone %>
   </div>
   <div class="field">
-    <%= f.label :church_Name %><br />
-    <%= f.text_field :church %>
-  </div>
-  <div class="field">
     <%= f.label :Are_you_a_mens_leader_or_pastor? %><br />
     <%= f.check_box :leader, :value => true  %>
   </div>
   <div class="field">
-    <%= f.label :address1 %><br />
+    <%= f.label :mailing_address %><br />
     <%= f.text_field :address1 %>
   </div>
   <div class="field">
-    <%= f.label :address2 %><br />
+    <%= f.label :apt %><br />
     <%= f.text_field :address2 %>
   </div>
   <div class="field">
@@ -53,14 +49,18 @@
   </div>
   <div class="field">
     <%= f.label :state %>
-    <%= f.select :state, options_for_select(us_states) %>
+    <%= f.select :state, options_for_select(us_states), selected: "New York" %>
   </div>
   <div class="field" id="state">
     <%= f.label :zip %><br />
     <%= f.text_field :zip, size: 10 %>
   </div>
+  <div class="field">
+    <%= f.label :church_Name %><br />
+    <%= f.text_field :church %>
+  </div>
   <div class="field" >
-    <%= f.label :number_of_regular_church_attenders %><br />
+    <%= f.label :number_of_regular_church_attendees %><br />
     <%= f.text_field :size, size: 5 %>
   </div>
   <% if user_signed_in? %>
