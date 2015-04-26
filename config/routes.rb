@@ -74,6 +74,9 @@ DBC::Application.routes.draw do
   get "pages/browserupdate"
 
   get "pages/sponsors"
+
+  match "bootcamp" => "pages#bootcamp"
+  match "breakouts" => "pages#breakouts"
   
 
 
