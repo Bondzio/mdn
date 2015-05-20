@@ -1,0 +1,56 @@
+<div id="top-image">
+</br>
+	<div class="center"><%=image_tag("audio_card.jpg", :alt => "Discipleship Boot Camp will be held at the Christian Cultural Center in Brooklyn NY on May 30, 2015. Call 631-753-1244 for details.") %>
+	</div>
+</div>
+<div class="interior_content clearfix">
+	<% if time_to_display %>
+		<div>
+			<p style="font: Audiowide; font-size: 18px;">If you purchased an audio access card at the 2015 Men's Discipleship Bootcamp, please refer to the back of the card for the access code and enter it in the location below to begin downloading the audio of the event. Thank you for supporting MDN. We pray that God impacted you through the work of the ministry.</p></br>
+		
+			<div style="text-align:center">
+				<iframe src="http://www.dropcards.com/download/profilewidget/?ArtistID=35908" width="500" height="305" scrolling="no" frameborder="0" allowtransparency="true" style='width: 400px; height:205px; background= none;'></iframe>
+			</div>
+			</br>
+	    </div>
+	<% else %>
+	   <div id="watch"><h1>You may begin downloading the event audio with your Access Card in...</h1></div></br></br>
+	   <div><span id="countdown"></span></div>
+		
+	<% end %>
+</div>
+
+<script type="text/javascript">
+	// set the date we're counting down to
+	var target_date = new Date("Jun 3, 2015").getTime();
+	 
+	// variables for time units
+	var days, hours, minutes, seconds;
+	 
+	// get tag element
+	var countdown = document.getElementById("countdown");
+	 
+	// update the tag with id "countdown" every 1 second
+	setInterval(function () {
+	 
+	    // find the amount of "seconds" between now and target
+	    var current_date = new Date().getTime();
+	    var seconds_left = (target_date - current_date) / 1000;
+	 
+	    // do some time calculations
+	    days = parseInt(seconds_left / 86400);
+	    seconds_left = seconds_left % 86400;
+	     
+	    hours = parseInt(seconds_left / 3600);
+	    seconds_left = seconds_left % 3600;
+	     
+	    minutes = parseInt(seconds_left / 60);
+	    seconds = parseInt(seconds_left % 60);
+	     
+	    // format countdown string + set tag value
+	    countdown.innerHTML = days + "days, " + hours + "hours, "
+	    + minutes + "m, " + seconds + "s";  
+	 
+	}, 1000);
+
+</script>

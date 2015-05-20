@@ -19,11 +19,13 @@ default_run_options[:pty] = true
 ssh_options[:port] = 22
 set :user, "ubuntu"
 set :group, "ubuntu"
-set :deploy_to, "/var/mdnapp"
-set :use_sudo, true
+set :deploy_to, "/var/www/mdnapp"
+#set :use_sudo, true
+set :use_sudo, false
 set :deploy_via, :copy
 # In most cases you want to use this option, otherwise each deploy will do a full repository clone every time.
-#set :deploy_via, :remote_cache
+# set :deploy_via, :remote_cache
+# set :copy_exclude, [ '.git' ]
 #set :copy_strategy, :export
 set :shared_children, shared_children + %w{public/uploads}
 

@@ -61,6 +61,9 @@ class PagesController < ApplicationController
   def sponsors
   end
 
+  def dbc2015
+  end
+
   # def gala
   # end
 end
