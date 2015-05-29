@@ -1,5 +1,5 @@
 require 'bundler/capistrano'
-set :stages, %w(beta web dev www1 www2 www.thecerveras.com www1.thecerveras.com sandbox)
+set :stages, %w(beta web dev www1 www2 www.thecerveras.com www1.thecerveras.com amazon1 amazon2)
 set :default_stage, "beta"
 require 'capistrano/ext/multistage'
 
@@ -7,17 +7,25 @@ set :application, "mdnapp"
 set :scm, :git
 set :repository,  "git://github.com/scervera/mdn.git"
 # server "localhost", :web, :app, :db, :primary => true
+####
 
-set :ssh_options, { :forward_agent => true }
+ssh_options[:keys] = %w("~/.ssh/amazon_ec2_key.pem")
+ssh_options[:auth_methods] = %w(publickey password)
+####
+
+
+set :ssh_options, { :forward_agent => true } #, verbose: :debug 
 default_run_options[:pty] = true
 ssh_options[:port] = 22
-set :user, "adm1n"
-set :group, "adm1n"
+set :user, "ubuntu"
+set :group, "ubuntu"
 set :deploy_to, "/var/www/mdnapp"
+#set :use_sudo, true
 set :use_sudo, false
 set :deploy_via, :copy
 # In most cases you want to use this option, otherwise each deploy will do a full repository clone every time.
-#set :deploy_via, :remote_cache
+# set :deploy_via, :remote_cache
+# set :copy_exclude, [ '.git' ]
 #set :copy_strategy, :export
 set :shared_children, shared_children + %w{public/uploads}
 
