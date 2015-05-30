@@ -13,7 +13,7 @@ default_run_options[:pty] = true
 ssh_options[:port] = 22
 set :user, "adm1n"
 set :group, "adm1n"
-set :deploy_to, "/var/www/mdnapp"
+set :deploy_to, "/var/mdnapp"
 set :use_sudo, false
 set :deploy_via, :copy
 # In most cases you want to use this option, otherwise each deploy will do a full repository clone every time.
