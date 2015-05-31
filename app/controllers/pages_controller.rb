@@ -22,8 +22,8 @@ class PagesController < ApplicationController
   def curriculum
   end
 
-  def breakouts
-  end
+  # def breakouts
+  # end
 
   def news
   end

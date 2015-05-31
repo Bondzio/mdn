@@ -76,7 +76,7 @@ DBC::Application.routes.draw do
   get "pages/sponsors"
 
   match "bootcamp" => "pages#bootcamp"
-  match "breakouts" => "pages#breakouts"
+  #match "breakouts" => "pages#breakouts"
   match "dbc2015" => "pages#dbc2015"
   
 
