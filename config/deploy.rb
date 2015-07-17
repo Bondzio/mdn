@@ -1,5 +1,5 @@
 require 'bundler/capistrano'
-set :stages, %w(beta web dev www1 www2 www.thecerveras.com www1.thecerveras.com sandbox)
+set :stages, %w(beta web dev www1 www2 www.thecerveras.com www1.thecerveras.com sandbox amazon2)
 set :default_stage, "beta"
 require 'capistrano/ext/multistage'
 
