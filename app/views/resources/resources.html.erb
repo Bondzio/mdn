@@ -1,36 +1,27 @@
+<h1>Listing resources</h1>
 
-<div id="resources">
-	<div id="resource_header">
-		<h1>Men's Ministry Resources</h1>
-	</div>
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Subtitle</th>
+    <th>Description</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
 
-	<% if @resources.empty? %>
-		<div class="resource_wrap clearfix">
-			<p>There are no resources available at this time.</p>
-		</div>
-			
-	<% else %>
-		<% @resources.each do |resource| %>
+<% @resources.each do |resource| %>
+  <tr>
+    <td><%= resource.title %></td>
+    <td><%= resource.subtitle %></td>
+    <td><%= resource.description %></td>
+    <td><%= link_to 'Show', resource %></td>
+    <td><%= link_to 'Edit', edit_resource_path(resource) %></td>
+    <td><%= button_to 'Delete', { :action => "destroy", :id => resource.id }, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
 
-		<div class="resource_wrap clearfix">
-				<h1><%= resource.title.html_safe %></h1><h2><%= resource.subtitle.html_safe %></h2>
-			<p><%= image_tag resource.image_url(:wallet).to_s %><%= resource.description.html_safe %></p>
-		
-			<div id="attachments">
-				<% if resource.document? %>
-					<p>Get the resource:<%= link_to 'Download File', :action => 'download_file', :id => resource.id %></p>
-				<% end %>
-				<% if resource.video? %>
-					<p>Download the video:<%= link_to 'Download Video', :action => 'download_video', :id => resource.id %></p>
-				<% end %>
-				<% if resource.audio? %>
-					<p>Get the audio:<%= link_to 'Download Audio', :action => 'download_audio', :id => resource.id %></p>
-				<% end %>
-			</div>
-		</div>
-		<% end %>
-	<% end %>
-	
-</div>
-<div class="pagination"<%= will_paginate @prayers %></div>
+<br />
 
+<%= link_to 'New Resource', new_resource_path %>

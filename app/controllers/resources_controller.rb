@@ -1,10 +1,30 @@
 class ResourcesController < ApplicationController
 #  before_filter :authenticate_admin!, :only => [:edit, :update, :new, :index, :destroy, :show]
-  load_and_authorize_resource :only => [:edit, :update, :new, :index, :destroy]
+  load_and_authorize_resource :only => [:edit, :update, :new, :resources, :destroy]
   layout "no_side", :only => [:edit, :new, :create, :index, :resources]
   # GET /resources
   # GET /resources.json
-  def index
+  # def index
+  #   @resources = Resource.all
+
+  #   respond_to do |format|
+  #     format.html # index.html.erb
+  #     format.json { render json: @resources }
+  #   end
+  # end
+
+  # def resources
+  #   @resources = Resource.page(params[:page]).order('created_at DESC').limit(3)
+    
+  #   respond_to do |format|
+  #     format.html # index.html.erb
+  #     format.xml  { render :xml => @resources }
+  #   end
+  # end
+
+    # GET /resources
+  # GET /resources.json
+  def resources
     @resources = Resource.all
 
     respond_to do |format|
@@ -13,7 +33,7 @@ class ResourcesController < ApplicationController
     end
   end
 
-  def resources
+  def index
     @resources = Resource.page(params[:page]).order('created_at DESC').limit(3)
     
     respond_to do |format|

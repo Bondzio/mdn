@@ -35,9 +35,11 @@ DBC::Application.routes.draw do
   
   resources :assets
   
-  resources :resources do
-    get 'resources', :on => :collection
-  end
+  # resources :resources do
+  #   get 'resources', :on => :collection
+  # end
+
+  match "resources" => "pages#resources"
   
   resources :books do
     get 'books', :on => :collection
