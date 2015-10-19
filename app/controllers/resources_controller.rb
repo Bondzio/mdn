@@ -1,6 +1,6 @@
 class ResourcesController < ApplicationController
 #  before_filter :authenticate_admin!, :only => [:edit, :update, :new, :index, :destroy, :show]
-  load_and_authorize_resource :only => [:edit, :update, :new, :resources, :destroy]
+  load_and_authorize_resource :only => [:edit, :update, :new, :destroy]
   layout "no_side", :only => [:edit, :new, :create, :index, :resources]
   # GET /resources
   # GET /resources.json
