@@ -68,6 +68,7 @@ DBC::Application.routes.draw do
   get "pages/multimedia"
 
   get "pages/curriculum"
+  match "weapons" => "pages#curriculum"
 
   get "pages/biblestudy"
 
