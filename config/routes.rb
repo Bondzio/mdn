@@ -91,6 +91,7 @@ DBC::Application.routes.draw do
   match "browser" => "movies#browser"
   match "review/:id" => "prayer#review"
   match "theater/:id" => "movie#theater"
+  match "bootcamp" => "pages#bootcamp"
 
   resources :articles
   
