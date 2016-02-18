@@ -64,6 +64,9 @@ class PagesController < ApplicationController
   def dbc2015
   end
 
+  def dbc2016
+  end
+
   def resources
   end
 
