@@ -82,6 +82,7 @@ DBC::Application.routes.draw do
   #match "breakouts" => "pages#breakouts"
   match "dbc2015" => "pages#dbc2015"
   match "dbc2016" => "pages#dbc2016"
+  match "DBC2016" => "pages#dbc2016"
   
 
 
