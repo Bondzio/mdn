@@ -70,6 +70,9 @@ class PagesController < ApplicationController
   def resources
   end
 
+  def moty
+  end
+
   # def gala
   # end
 end
